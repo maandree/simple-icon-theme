@@ -1886,7 +1886,7 @@ simple.theme: Makefile
 
 install: simple.theme $(ALL_PNG_ICONS)
 	mkdir -p -- "$(DESTDIR)$(ICONPREFIX)"
-	sed -e;\
+	set -e;\
 	for d in $(DIRS); do\
 		for s in $(SIZES); do\
 			mkdir -p -- "$(DESTDIR)$(ICONPREFIX)/simple/$${s}x$${s}/$${d}";\
@@ -1896,9 +1896,9 @@ install: simple.theme $(ALL_PNG_ICONS)
 	set -e;\
 	for i in $(ICONS); do\
 		for s in $(SIZES); do\
-			cp -- "$${s}x$${s}/$${i}.png" "$(DESTDIR)$(ICONPREFIX)/simple/$${s}x$${s}/$${i}.png";\
+			cp -P -- "$${s}x$${s}/$${i}.png" "$(DESTDIR)$(ICONPREFIX)/simple/$${s}x$${s}/$${i}.png";\
 		done;\
-		cp -- "scalable/$${i}.svg" "$(DESTDIR)$(ICONPREFIX)/simple/scalable/$${i}.svg";\
+		cp -P -- "scalable/$${i}.svg" "$(DESTDIR)$(ICONPREFIX)/simple/scalable/$${i}.svg";\
 	done
 	cp -- simple.theme "$(DESTDIR)$(ICONPREFIX)/simple/simple.theme"
 
