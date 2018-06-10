@@ -1774,9 +1774,9 @@ ICONS =\
 
 ALL_PNG_ICONS = $(foreach S,$(SIZES),$(foreach I,$(ICONS),$(S)x$(S)/$(I).png))
 
-all: simple.theme $(ALL_PNG_ICONS)
+all: index.theme $(ALL_PNG_ICONS)
 
-simple.theme: Makefile
+index.theme: Makefile
 	set -e;\
 	printf '%s\n' \
 		'[Icon Theme]'\
@@ -1800,26 +1800,26 @@ simple.theme: Makefile
 		'PanelDefault=32'\
 		'PanelSizes='$$(printf ',%s' $(SIZES) | sed 's/^,//')\
 		''\
-		> simple.theme
-	printf 'Directories=' >> simple.theme
+		> index.theme
+	printf 'Directories=' >> index.theme
 	set -e;\
 	for s in $(SIZES); do\
 		for d in $(DIRS); do\
 			printf ',%sx%s/%s' $$s $$s $$d;\
 		done;\
-	done | sed 's/^,//' >> simple.theme
+	done | sed 's/^,//' >> index.theme
 	set -e;\
 	for d in $(DIRS); do\
 		printf ',scalable/%s' $$d;\
-	done | sed 's/^,//' >> simple.theme
-	printf '\n' >> simple.theme
+	done | sed 's/^,//' >> index.theme
+	printf '\n' >> index.theme
 	set -e;\
 	for s in $(SIZES) scalable; do\
 		for d in $(DIRS); do\
 			printf '\n';\
 			./make-dir-info $$s $$d;\
 		done;\
-	done >> simple.theme
+	done >> index.theme
 
 8x8/%.png: scalable/%.svg
 	mkdir -p -- $(@D)
@@ -1884,7 +1884,7 @@ simple.theme: Makefile
 		rsvg-convert -w $$s -h $$s -f png $< > $@;\
 	fi
 
-install: simple.theme $(ALL_PNG_ICONS)
+install: index.theme $(ALL_PNG_ICONS)
 	mkdir -p -- "$(DESTDIR)$(ICONPREFIX)"
 	set -e;\
 	for d in $(DIRS); do\
@@ -1900,13 +1900,13 @@ install: simple.theme $(ALL_PNG_ICONS)
 		done;\
 		cp -P -- "scalable/$${i}.svg" "$(DESTDIR)$(ICONPREFIX)/simple/scalable/$${i}.svg";\
 	done
-	cp -- simple.theme "$(DESTDIR)$(ICONPREFIX)/simple/simple.theme"
+	cp -- index.theme "$(DESTDIR)$(ICONPREFIX)/simple/index.theme"
 
 uninstall:
 	rm -rf -- "$(DESTDIR)$(ICONPREFIX)/simple"
 
 clean:
-	-rm -f -- simple.theme
+	-rm -f -- index.theme
 	-rm -f -- $(foreach S,$(SIZES),$(foreach I,$(ICONS),$(S)x$(S)/$(I).png))
 	-rmdir -- $(foreach S,$(SIZES),$(foreach D,$(DIRS),$(S)x$(S)/$(D)) $(S)x$(S))
 
