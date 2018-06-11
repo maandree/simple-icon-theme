@@ -24,30 +24,42 @@ ICONS =\
 			categories/xfce4-settings\
 		categories/gtk-preferences\
 		categories/redhat-preferences\
+		categories/applications-interfacedesign\
+		categories/configuration_section\
 		apps/dconf-editor\
 	categories/applications-internet\
 		categories/gnome-globe\
 		categories/package_network\
 		categories/redhat-internet\
 		categories/stock_internet\
+		categories/applications-geography\
+		categories/applications-webbrowsers\
+		categories/xfce-internet\
 	categories/applications-development\
 		categories/gnome-devel\
 		categories/package_development\
 		categories/redhat-programming\
+		categories/xfce-devel\
 	categories/applications-system\
 		categories/gnome-system\
 		categories/package_system\
 		categories/redhat-system_tools\
+		categories/system_section\
+		categories/xfce-system\
 	categories/applications-graphics\
 		categories/gnome-graphics\
 		categories/package_graphics\
 		categories/redhat-graphics\
 		categories/xfce-graphics\
+		categories/applications-painting\
 	categories/applications-games\
 		categories/gnome-joystick\
 		categories/packages_games\
 		categories/redhat-games\
 		categories/xfce-games\
+		categories/package_games\
+			categories/applications-arcade\
+		categories/applications-simulation\
 		devices/input-gaming\
 			devices/joystick\
 			devices/yast_joystick\
@@ -56,6 +68,9 @@ ICONS =\
 		categories/redhat-system_settings\
 		categories/xfce-system-settings\
 		categories/administration\
+		actions/view-media-equalizer\
+			actions/xn-equalizer\
+			actions/media-eq\
 	categories/preferences-other\
 		categories/applications-other\
 			categories/gnome-other\
@@ -65,25 +80,28 @@ ICONS =\
 		categories/redhat-sound_video\
 		categories/xfce-multimedia\
 	categories/applications-engineering\
+		actions/configure\
+			actions/preferences-media-playback-amarok\
 	categories/applications-utilities\
 		categories/applications-accessories\
 			categories/gnome-util\
 			categories/package_utilities\
 			categories/redhat-accessories\
 			categories/xfce-utils\
+			actions/preferences-activities\
+		categories/applications-education-miscellaneous\
 	categories/system-help\
 	categories/applications-science\
+		categories/applications-education-science\
+		categories/applications-physics\
 	categories/preferences-desktop-personal\
 	categories/preferences-system-network\
+		categories/preferences-system-network-proxy\
 	categories/applications-office\
 		categories/gnome-applications\
 		categories/package_office\
 		categories/redhat-office\
 		categories/xfce-office\
-	apps/brasero\
-		actions/brasero-disc-100\
-		apps/isomaster\
-		apps/grip\
 	apps/mail-client\
 		apps/claws-mail\
 			apps/claws-mail_logo\
@@ -93,6 +111,12 @@ ICONS =\
 		apps/style\
 		apps/gnome-settings-theme\
 		mimetypes/application-x-theme\
+			mimetypes/application-x-gnome-theme-package\
+			mimetypes/gnome-mime-application-x-desktop\
+			mimetypes/gnome-mime-application-x-gnome-app-info\
+			mimetypes/gnome-mime-application-x-gnome-theme-package\
+			mimetypes/gnome-mime-application-x-theme\
+			mimetypes/gnome-mime-text-x-gtkrc\
 	apps/preferences-desktop-keyboard\
 		apps/system-config-keyboard\
 	apps/wireshark\
@@ -112,6 +136,9 @@ ICONS =\
 		apps/gnome-settings-accessibility-technologies\
 	apps/preferences-desktop-locale\
 		apps/config-language\
+			actions/amarok_change_language\
+			categories/applications-education-language\
+				categories/applications-development-translation\
 		apps/locale\
 	apps/power-manager\
 		apps/gnome-power-manager\
@@ -119,13 +146,17 @@ ICONS =\
 		apps/gnome-calculator\
 	apps/preferences-color\
 		apps/colors\
+			status/adjust-colors\
 		apps/kipi\
 		apps/gpick\
+			actions/gtk-color-picker\
 		apps/gnome-color-browser\
 			apps/gnome-color-chooser\
 		apps/mate-color-select\
 		actions/fill-color\
 			actions/color-line\
+				actions/gtk-select-color\
+				actions/palette\
 			actions/format-fill-color\
 	apps/help-faq\
 		actions/help-faq\
@@ -135,6 +166,7 @@ ICONS =\
 		apps/gnome-character-map\
 		apps/gucharmap\
 		apps/kcharselect\
+		actions/character-set\
 	apps/multimedia-volume-control\
 		apps/arts\
 		apps/gnome-mixer\
@@ -142,6 +174,7 @@ ICONS =\
 		apps/multimedia\
 		apps/volume-knob\
 		apps/xfce4-mixer\
+		actions/volume_icon\
 	apps/accessories-dictionary\
 	apps/utilities-system-monitor\
 		apps/gnome-monitor\
@@ -150,6 +183,7 @@ ICONS =\
 		apps/utilities_system_monitor\
 	apps/mate-panel-launcher\
 		apps/gnome-panel-launcher\
+			actions/fork\
 	apps/system-software-install\
 	apps/system-software-update\
 		apps/update-manager\
@@ -178,10 +212,12 @@ ICONS =\
 		apps/kfm\
 		apps/caja\
 		apps/thunar\
+		status/system-file-manager-panel\
 	apps/preferences-system-search\
 	apps/preferences-desktop-default-applications\
 	apps/applets-screenshooter\
 	apps/user-info\
+		actions/user-properties\
 	apps/steam\
 	apps/python\
 		mimetypes/application-x-python-bytecode\
@@ -189,8 +225,15 @@ ICONS =\
 	apps/kega-fusion\
 	apps/dosbox\
 		mimetypes/application-x-ms-dos-executable\
+			mimetypes/application-x-msdownload\
+				mimetypes/gnome-exe-thumbnailer-generic\
+				mimetypes/gnome-exe-thumbnailer-template\
+			mimetypes/gnome-exe-thumbnailer-generic-x\
 	apps/system-users\
 		apps/config-users\
+			actions/view-process-users\
+			actions/resource-group\
+			actions/user-group-properties\
 		apps/kuser\
 		apps/system-config-users\
 	apps/preferences-desktop-screensaver\
@@ -204,6 +247,9 @@ ICONS =\
 		apps/mate-notification-properties\
 	apps/preferences-desktop-remote-desktop\
 		apps/gnome-remote-desktop\
+			mimetypes/application-x-remote-connection\
+				mimetypes/gnome-mime-application-x-remote-connection\
+				mimetypes/application-x-vnc\
 		apps/krfb\
 	apps/preferences-system-sharing\
 	apps/preferences-system-network-proxy\
@@ -243,6 +289,8 @@ ICONS =\
 		apps/gnome-panel\
 	apps/mate-panel-window-list\
 		apps/gnome-panel-window-list\
+			actions/view-presentation\
+			actions/remmina-switch-page\
 	apps/mate-panel-window-menu\
 		apps/gnome-panel-window-menu\
 	apps/mate-panel-workspace-switcher\
@@ -253,6 +301,7 @@ ICONS =\
 		apps/gnome-panel-separator\
 	apps/mate-panel-notification-area\
 		apps/gnome-panel-notification-area\
+			actions/preferences-indicator-amarok\
 	apps/dooble\
 		apps/dooble-qt4\
 	apps/vlc\
@@ -267,6 +316,9 @@ ICONS =\
 		mimetypes/image-x-xcf\
 			mimetypes/image-x-compressed-xcf\
 			mimetypes/image-x-psd\
+				mimetypes/gnome-mime-image-vnd.adobe.photoshop\
+				mimetypes/gnome-mime-image-x-psd\
+				mimetypes/image-x-psdimage-x-psd\
 	apps/inkscape\
 	apps/utilities-file-archiver\
 		apps/utilities-archiver\
@@ -277,12 +329,14 @@ ICONS =\
 	apps/eom\
 		apps/eog\
 			apps/gnome-eog\
+			actions/photos-amarok\
 	apps/xmonad\
 	apps/emacs\
 		apps/emacs23\
 	apps/flash-player-properties\
 		apps/flash\
 		mimetypes/application-x-flash-video\
+			mimetypes/application-x-shockwave-flash\
 	apps/steam\
 	apps/goa-panel\
 	apps/qv4l2\
@@ -297,7 +351,9 @@ ICONS =\
 			actions/help\
 			actions/gtk-help\
 			actions/stock_help\
+			categories/documentation_section\
 	apps/web-browser\
+		actions/internet-amarok\
 	apps/classic_invaders\
 	apps/accessories-text-editor\
 		apps/kedit\
@@ -305,6 +361,7 @@ ICONS =\
 		apps/gedit\
 			apps/gedit-logo\
 			apps/gedit-icon\
+			categories/preferences-composer\
 	apps/help-browser\
 		apps/gnome-help\
 		apps/khelpcenter\
@@ -317,6 +374,7 @@ ICONS =\
 	apps/force-exit\
 		apps/mate-panel-force-quit\
 			apps/gnome-panel-force-quit\
+				actions/window-suppressed\
 	apps/mate-panel-fish\
 		apps/gnome-panel-fish\
 	apps/mate-panel-drawer\
@@ -331,6 +389,9 @@ ICONS =\
 	status/mail-signed-verified\
 	status/mail-unread\
 		status/stock_mail-unread\
+		status/indicator-messages\
+			status/indicator-message\
+				status/xfce-newmail\
 	status/content-loading\
 		status/image-loading\
 			status/gnome-fs-loading-icon\
@@ -346,13 +407,30 @@ ICONS =\
 	status/audio-volume-high\
 		status/stock_volume-max\
 		status/stock_volume\
+		status/notification-audio-volume-high\
+		status/sonata-stock_volume-max\
+		status/xfce4-mixer-no-muted\
+		status/xfce4-mixer-volume-high\
+		actions/audio-volume-high-amarok\
 	status/audio-volume-low\
 		status/stock_volume-0\
 		status/stock_volume-min\
+		status/notification-audio-volume-low\
+		status/sonata-stock_volume-min\
+		status/xfce4-mixer-volume-low-medium\
+		actions/audio-volume-low-amarok\
 	status/audio-volume-medium\
 		status/stock_volume-med\
+		status/notification-audio-volume-medium\
+		status/sonata-stock_volume-med\
+		status/xfce4-mixer-volume-medium\
+		actions/audio-volume-medium-amarok\
 	status/audio-volume-muted\
 		status/stock_volume-mute\
+		status/notification-audio-volume-muted\
+		status/sonata-stock_volume-mute\
+		status/xfce4-mixer-volume-muted\
+		actions/audio-volume-muted-amarok\
 	status/avatar-default\
 	status/battery-caution-charging\
 	status/battery-caution\
@@ -367,6 +445,7 @@ ICONS =\
 	status/battery-low\
 	status/battery-missing\
 	status/bluetooth-active\
+		status/blueman-tray\
 	status/bluetooth-disabled\
 	status/call-missed\
 	status/changes-allow\
@@ -378,11 +457,17 @@ ICONS =\
 	status/checkbox\
 	status/computer-fail\
 	status/user-available\
+		status/user-available-panel\
 	status/user-away\
+		status/user-away-panel\
 	status/user-busy\
+		status/user-busy-panel\
 	status/user-idle\
+		status/user-idle-panel\
 	status/user-invisible\
+		status/user-invisible-panel\
 	status/user-offline\
+		status/user-offline-panel\
 	status/user-status-pending\
 	status/terminal-bell\
 	status/folder-open\
@@ -394,9 +479,11 @@ ICONS =\
 		status/gnome-fs-directory-visiting\
 	status/dialog-warning\
 		status/gtk-dialog-warning\
+			status/gtk-dialog-warning-panel\
 		status/important\
 		status/messagebox_warning\
 		status/stock_dialog-warning\
+		status/gtk-caps-lock-warning\
 	status/dialog-error\
 		status/error\
 		status/gtk-dialog-error\
@@ -404,6 +491,7 @@ ICONS =\
 		status/stock_dialog-error\
 	status/dialog-question\
 		status/gtk-dialog-question\
+			status/gtk-help\
 		status/stock_dialog-question\
 	status/dialog-information\
 		status/gtk-dialog-info\
@@ -412,7 +500,10 @@ ICONS =\
 		status/info\
 	status/dialog-password\
 		status/gtk-dialog-authentication\
+			status/gtk-dialog-authentication-panel\
+			status/krb-valid-ticket\
 	status/display-brightness\
+		status/xfpm-brightness-lcd\
 	status/keyboard-brightness\
 	status/user-trash-full\
 		status/edittrash\
@@ -427,6 +518,9 @@ ICONS =\
 		status/connect_no\
 		status/gnome-netstatus-disconn\
 		status/nm-no-connection\
+		status/offline\
+		actions/gtk-disconnect\
+			status/stock_disconnect\
 	status/network-idle\
 		status/gnome-netstatus-idle\
 	status/network-receive\
@@ -435,12 +529,18 @@ ICONS =\
 		status/gnome-netstatus-tx\
 	status/network-transmit-receive\
 		status/gnome-netstatus-txrx\
+		status/online\
+		status/nm-device-wired-autoip\
+		actions/gtk-connect\
 	status/network-no-route\
 	status/network-wired\
 		status/connect_established\
 		status/nm-device-wired\
 	status/network-wired-acquiring\
 		status/connect_creating\
+		status/tray-connecting\
+			status/user-connecting\
+			status/empathy-pending\
 	status/network-wired-no-route\
 	status/network-wired-disconnected\
 	status/network-wired-offline\
@@ -494,8 +594,11 @@ ICONS =\
 		devices/network-vpn\
 	status/non-starred\
 	status/printer-error\
+		actions/gtk-print-error\
+		status/notification-printer-error\
 	status/printer-printing\
 	status/printer-warning\
+		actions/gtk-print-warning\
 	status/radio-checked\
 	status/radio-mixed\
 	status/radio\
@@ -624,7 +727,17 @@ ICONS =\
 	status/orientation-portrait-inverse\
 	status/image-missing\
 		status/gtk-missing-image\
+		actions/gtk-missing-image\
 	actions/info\
+		actions/gtk-dialog-info\
+		actions/gnome-info\
+		actions/gnome-status\
+		actions/gnome-tourist-info\
+		actions/help-info\
+		actions/info-amarok\
+		actions/info_general\
+		actions/notification-properties\
+		actions/system-about\
 	actions/insert-horizontal-rule\
 	actions/jockey-disabled\
 	actions/jockey-enabled\
@@ -632,10 +745,20 @@ ICONS =\
 	actions/mail-move\
 	actions/mail-mark-read\
 	actions/mail-inbox\
+		actions/stock_inbox\
+		actions/mail-receive\
 	actions/mail-outbox\
 	actions/webcamreceive\
 	actions/webcamsend\
 	actions/media-optical-blank\
+	actions/media-optical-burn\
+		actions/tools-media-optical-burn\
+		actions/media-write-cd\
+		actions/iso-image-burn\
+		apps/brasero\
+			actions/brasero-disc-100\
+		apps/isomaster\
+		apps/grip\
 	actions/brasero-disc-00\
 	actions/brasero-disc-05\
 	actions/brasero-disc-10\
@@ -662,24 +785,37 @@ ICONS =\
 	actions/terminator_receive_off\
 	actions/terminator_receive_on\
 	actions/align-horizontal-center\
+		actions/object-align-horizontal-center-calligra\
+		status/align-horizon\
 	actions/align-horizontal-left\
+		actions/object-align-horizontal-left-calligra\
 	actions/align-horizontal-left-out\
 	actions/align-horizontal-right\
+		actions/object-align-horizontal-right-calligra\
 	actions/align-horizontal-right-out\
 	actions/align-vertical-bottom\
+		actions/object-align-vertical-bottom-calligra\
 	actions/align-vertical-bottom-out\
+		actions/object-align-vertical-bottom-top-calligra\
 	actions/align-vertical-center\
+		actions/object-align-vertical-center-calligra\
 	actions/align-vertical-top\
+		actions/object-align-vertical-top-calligra\
 	actions/align-vertical-top-out\
 	actions/format-connect-node\
+		actions/pitivi-relink\
 	actions/format-disconnect-node\
+		actions/pitivi-unlink\
 	actions/go-first-view-page\
 	actions/go-last-view-page\
 	actions/go-next-view-page\
 	actions/go-previous-view-page\
 	actions/add-files-to-archive\
+		actions/archive-insert\
 	actions/add-folder-to-archive\
+		actions/archive-insert-directory\
 	actions/gtk-dnd\
+		actions/gtk-file\
 	actions/mail-forward\
 		actions/gnome-stock-mail-fwd\
 		actions/mail_forward\
@@ -699,6 +835,7 @@ ICONS =\
 	actions/mail-reply-sender\
 		actions/gnome-stock-mail-rpl\
 		actions/mail_reply\
+			actions/mail-replied\
 		actions/stock_mail-reply\
 	actions/mail-reply-sender-rtl\
 		actions/gnome-stock-mail-rpl-rtl\
@@ -707,10 +844,16 @@ ICONS =\
 	actions/document-export\
 	actions/document-import\
 	actions/extract-archive\
+		actions/cab_extract\
 	actions/mail-send\
 		actions/gnome-stock-mail-snd\
 		actions/mail_send\
 		actions/stock_mail-send\
+		actions/stock_sent-mail\
+		actions/mail-folder-sent\
+		mimetypes/message\
+			mimetypes/message-rfc822\
+			mimetypes/application-mbox\
 	actions/mail-send-receive\
 		actions/stock_mail-send-receive\
 	actions/mail-mark-important\
@@ -718,6 +861,9 @@ ICONS =\
 	actions/edit-bomb\
 	actions/edit-rename\
 	actions/object-crop\
+		actions/tool-crop\
+		actions/transform-crop-and-resize\
+			status/crop\
 	actions/view-calendar-day\
 	actions/view-calendar-list\
 	actions/view-calendar-week\
@@ -726,8 +872,13 @@ ICONS =\
 	actions/view-treemap\
 	actions/view-ringschart\
 	actions/view-list-column\
+		actions/view-column\
+		actions/view-file-columns\
 	actions/view-list-filter\
+		actions/view-filter\
 	actions/view-list-tree\
+		actions/view-choose\
+			actions/view-group\
 	actions/view-left-close\
 	actions/view-left-new\
 	actions/view-right-close\
@@ -748,6 +899,7 @@ ICONS =\
 	actions/document-open-recent\
 		actions/view-history\
 	actions/document-print-preview\
+		actions/gtk-print-setup\
 		actions/filequickprint\
 		actions/gtk-print-preview\
 		actions/stock_print-preview\
@@ -757,8 +909,10 @@ ICONS =\
 		actions/stock_print\
 	actions/document-properties\
 		actions/gtk-properties\
+			actions/gtk-print-report\
 		actions/stock_file-properites\
 		actions/stock_properties\
+		actions/gtk-info\
 	actions/document-revert\
 		actions/gtk-revert-to-saved-ltr\
 		actions/gtk-revert-to-saved-rtl\
@@ -772,21 +926,25 @@ ICONS =\
 		actions/filesave\
 		actions/gtk-save\
 		actions/stock_save\
+		actions/gtk-floppy\
 	actions/selection-end\
 	actions/selection-end-rtl\
 	actions/selection-start\
 	actions/selection-start-rtl\
 	actions/appointment-new\
-		actions/appointment\
 		actions/stock_new-appointment\
+	actions/appointment\
+		categories/preferences-system-time\
 	actions/bookmark-add\
 		actions/bookmark_add\
+			actions/notebook-new\
 		actions/bookmark-new\
 		actions/bookmarks_list_add\
 		actions/stock_add-bookmark\
 		actions/stock_help-add-bookmark\
 	actions/edit-cut\
 		actions/editcut\
+			actions/pitivi-split\
 		actions/gtk-cut\
 		actions/stock_cut\
 	actions/edit-delete\
@@ -802,9 +960,15 @@ ICONS =\
 			actions/kfind\
 			actions/gnome-searchtool\
 			actions/search\
+				actions/gtk-search\
+					actions/page-zoom\
+				actions/file-search\
+			actions/remmina-scale\
+			actions/newstyle-edit-find\
 	actions/edit-find-replace\
 		actions/gtk-find-and-replace\
 		actions/stock_search-and-replace\
+		actions/newstyle-edit-find-replace\
 	actions/edit-paste\
 		actions/editpaste\
 		actions/gtk-paste\
@@ -813,12 +977,20 @@ ICONS =\
 		actions/stock_new-tab\
 		actions/tab_new\
 	actions/tab-close\
+		actions/dust-tab-close-active-hover\
+		actions/dust-tab-close-active\
+		actions/dust-tab-close-inactive-hover\
+		actions/dust-tab-close-inactive\
+	actions/format-text-normal\
+		actions/filename-initial-amarok\
 	actions/format-text-bold\
 		actions/gtk-bold\
 		actions/stock_text_bold\
 		actions/text_bold\
 	actions/document-edit\
 		actions/gtk-edit\
+		actions/media-track-edit-amarok\
+		actions/stock_edit\
 	actions/format-text-direction-ltr\
 	actions/format-text-direction-rtl\
 	actions/format-text-italic\
@@ -838,17 +1010,24 @@ ICONS =\
 		actions/gtk-spell-check\
 	actions/system-run\
 		actions/gnome-run\
+			status/application-running\
 		actions/gtk-execute\
 	actions/edit-undo\
 		actions/edit-redo-rtl\
+			actions/gtk-redo-rtl\
 		actions/gtk-undo-ltr\
 		actions/stock_undo\
 		actions/undo\
+			actions/stock_undelete\
+		actions/edit-undo-amarok\
 	actions/edit-redo\
 		actions/edit-undo-rtl\
+			actions/gtk-undo-rtl\
 		actions/gtk-redo-ltr\
 		actions/redo\
 		actions/stock_redo\
+		actions/gtk-undelete-rtl\
+		actions/edit-redo-amarok\
 	actions/application-exit\
 		actions/exit\
 		actions/gtk-quit\
@@ -856,6 +1035,7 @@ ICONS =\
 	actions/contact-new\
 		actions/stock_new-bcard\
 		actions/user-new\
+			actions/list-add-user\
 	actions/contact-delete\
 		actions/user-delete\
 			actions/list-remove-user\
@@ -880,9 +1060,14 @@ ICONS =\
 		actions/stock_stop\
 		actions/stop\
 	actions/object-flip-horizontal\
+		actions/tool-mirror\
 	actions/object-flip-vertical\
+		actions/tool-flip\
 	actions/object-rotate-left\
+		actions/tool-rotate-270\
 	actions/object-rotate-right\
+		actions/tool-rotate-90\
+		actions/rotate\
 	actions/object-select\
 	actions/open-menu\
 	actions/pan-down\
@@ -899,10 +1084,13 @@ ICONS =\
 		actions/gtk-fullscreen\
 		actions/stock_fullscreen\
 		actions/window_fullscreen\
+		actions/remmina-scrolled-fullscreen\
+		actions/remmina-viewport-fullscreen\
 	actions/view-mirror\
 	actions/view-pin\
 	actions/view-grid\
 		actions/view-list-icons\
+		actions/xn-grid\
 	actions/view-list\
 		actions/view-list-details\
 	actions/view-more\
@@ -911,6 +1099,7 @@ ICONS =\
 		actions/gtk-leave-fullscreen\
 		actions/stock_leave-fullscreen\
 		actions/window_nofullscreen\
+		actions/remmina-leave-fullscreen\
 	actions/view-sort-ascending\
 		actions/gtk-sort-ascending\
 	actions/view-sort-descending\
@@ -926,6 +1115,8 @@ ICONS =\
 		actions/stock_close\
 		actions/dialog-no\
 			actions/gtk-no\
+				actions/stock_no\
+				actions/stock_not\
 	actions/dialog-apply\
 		actions/gtk-apply\
 		actions/stock_calc-accept\
@@ -939,6 +1130,7 @@ ICONS =\
 		actions/dialog-ok-apply\
 		actions/games-endturn\
 		actions/stock_mark\
+		status/account-logged-in\
 	actions/window-maximize\
 	actions/window-minimize\
 	actions/window-restore\
@@ -946,12 +1138,15 @@ ICONS =\
 		actions/gtk-zoom-fit\
 		actions/zoom-fit-page\
 			actions/stock_zoom-page\
+			actions/remmina-fit-window\
 		actions/viewmagfit\
 		actions/zoom-best-fit\
 	actions/zoom-in\
 		actions/gtk-zoom-in\
 		actions/stock_zoom-in\
 		actions/viewmag+\
+		actions/zoom\
+		status/view-near\
 	actions/zoom-original\
 		actions/gtk-zoom-100\
 		actions/stock_zoom-1\
@@ -960,14 +1155,20 @@ ICONS =\
 		actions/gtk-zoom-out\
 		actions/stock_zoom-out\
 		actions/viewmag-\
+		status/view-far\
 	actions/zoom-fit-width\
+		actions/stock_zoom-page-width\
 	actions/zoom-fit-height\
+		actions/stock_zoom-page-height\
 	actions/help-about\
 		actions/gtk-about\
 		actions/stock_about\
+		actions/gnome-stock-about\
+		actions/stock_menu_about\
 	actions/content-loading\
 	actions/document-new\
 		actions/filenew\
+			actions/file_new\
 		actions/gtk-new\
 		actions/stock_new-text\
 	actions/document-open\
@@ -978,6 +1179,7 @@ ICONS =\
 	actions/edit-clear-all\
 		actions/editclear\
 		actions/gtk-clear\
+			actions/locationbar-erase\
 		actions/edit-clear\
 	actions/edit-clear-all-rtl\
 		actions/edit-clear-rtl\
@@ -1012,6 +1214,7 @@ ICONS =\
 		actions/gtk-indent-ltr\
 		actions/gtk-unindent-rtl\
 		actions/stock_text_indent\
+		actions/gtk-indent\
 	actions/format-justify-center\
 		actions/centrejust\
 		actions/gtk-justify-center\
@@ -1019,6 +1222,7 @@ ICONS =\
 	actions/format-justify-fill\
 		actions/gtk-justify-fill\
 		actions/stock_text_justify\
+		actions/gtk-index\
 	actions/format-justify-left\
 		actions/gtk-justify-left\
 		actions/leftjust\
@@ -1044,23 +1248,31 @@ ICONS =\
 	actions/list-remove\
 		actions/gtk-remove\
 		actions/remove\
+			actions/minus\
+			actions/remove-amarok\
 	actions/mark-location\
 		apps/google-local\
 	actions/media-eject\
 		actions/player_eject\
+		status/notification-device-eject\
 	actions/media-playback-pause\
 		actions/gtk-media-pause\
 		actions/player_pause\
 		actions/stock_media-pause\
+		actions/insert-pause\
+		actions/slideshow-pause\
+		status/notification-audio-pause\
 	actions/media-playback-start-rtl\
 	actions/media-playback-start\
 		actions/gtk-media-play-ltr\
 		actions/player_play\
 		actions/stock_media-play\
+		status/notification-audio-play\
 	actions/media-playback-stop\
 		actions/gtk-media-stop\
 		actions/player_stop\
 		actions/stock_media-stop\
+		status/notification-audio-stop\
 	actions/media-record\
 		actions/gtk-media-record\
 		actions/player_record\
@@ -1071,24 +1283,28 @@ ICONS =\
 		actions/media-seek-foreward-rtl\
 		actions/player_rew\
 		actions/stock_media-rew\
+		actions/media-seek-forward-rtl\
 	actions/media-seek-forward\
 		actions/gtk-media-forward-ltr\
 		actions/gtk-media-rewind-rtl\
 		actions/media-seek-backward-rtl\
 		actions/player_fwd\
 		actions/stock_media-fwd\
+		actions/media-skip-forward-rtl\
 	actions/media-skip-backward\
 		actions/gtk-media-next-rtl\
 		actions/gtk-media-previous-ltr\
 		actions/media-skip-foreward-rtl\
 		actions/player_start\
 		actions/stock_media-prev\
+		status/notification-audio-previous\
 	actions/media-skip-forward\
 		actions/gtk-media-next-ltr\
 		actions/gtk-media-previous-rtl\
 		actions/media-skip-backward-rtl\
 		actions/player_end\
 		actions/stock_media-next\
+		status/notification-audio-next\
 	actions/media-view-subtitles\
 	actions/address-book-new\
 		actions/stock_new-address-book\
@@ -1100,26 +1316,35 @@ ICONS =\
 		actions/reload_page\
 		actions/reload\
 		actions/stock_refresh\
+		actions/amarok_playlist_refresh\
+			actions/collection-refresh-amarok\
 	actions/go-bottom\
 		actions/bottom\
 		actions/gtk-goto-bottom\
 		actions/stock_bottom\
+		actions/arrow-down-double\
 	actions/go-down\
 		actions/down\
 		actions/gtk-go-down\
 		actions/stock_down\
+		actions/arrow-down\
 	actions/go-first\
 		actions/gtk-goto-first-ltr\
 		actions/gtk-goto-last-rtl\
 		actions/start\
 		actions/stock_first\
 		actions/go-last-rtl\
+		actions/arrow-left-double\
+		actions/first-page\
+			actions/stock_first-page\
 	actions/go-last\
 		actions/finish\
 		actions/gtk-goto-first-rtl\
 		actions/gtk-goto-last-ltr\
 		actions/stock_last\
 		actions/go-first-rtl\
+		actions/last-page\
+		actions/arrow-left-double\
 	actions/go-next\
 		actions/forward\
 		actions/gtk-go-back-rtl\
@@ -1127,6 +1352,8 @@ ICONS =\
 		actions/next\
 		actions/stock_right\
 		actions/go-previous-rtl\
+		actions/go-right\
+			actions/arrow-right\
 	actions/go-previous\
 		actions/back\
 		actions/gtk-go-back-ltr\
@@ -1134,18 +1361,23 @@ ICONS =\
 		actions/previous\
 		actions/stock_left\
 		actions/go-next-rtl\
+		actions/go-left\
+			actions/arrow-left\
 	actions/go-top\
 		actions/gtk-goto-top\
 		actions/stock_top\
 		actions/top\
+		actions/arrow-up-double\
 	actions/go-up\
 		actions/gtk-go-up\
 		actions/stock_up\
 		actions/up\
+		actions/arrow-up\
 	actions/touchpad-disabled\
 	actions/touchpad-enabled\
 	actions/error-correct\
 	actions/document-send\
+		actions/blueman-send-file\
 	actions/send-to\
 	actions/dnd-multiple\
 		actions/gtk-dnd-multiple\
@@ -1154,10 +1386,15 @@ ICONS =\
 		actions/gnome-shutdown\
 	actions/system-log-out\
 		actions/gnome-logout\
+			actions/gnome-log-out\
+			actions/lxde-logout\
 	actions/system-lock-screen\
 		actions/gnome-lockscreen\
 		actions/lock\
 		actions/xfce-system-lock\
+	actions/share\
+	actions/edit-link\
+	actions/sticky-notes\
 	devices/ac-adapter\
 	devices/audio-card\
 		devices/yast_soundcard\
@@ -1167,6 +1404,7 @@ ICONS =\
 	devices/audio-input-microphone\
 		devices/gnome-stock-mic\
 		devices/stock_mic\
+		actions/gnome-stock-mic\
 	devices/audio-speakers\
 	devices/battery\
 		devices/gnome-dev-battery\
@@ -1174,6 +1412,7 @@ ICONS =\
 		devices/camera\
 		devices/camera_unmount\
 		devices/blueman-camera\
+		actions/view-list-images\
 	devices/camera-video\
 	devices/camera-web\
 	devices/colorimeter-colorhug\
@@ -1192,6 +1431,7 @@ ICONS =\
 		devices/gnome-dev-removable\
 		devices/gnome-dev-removable-usb\
 		devices/usbpendrive_unmount\
+			status/notification-device-usb\
 	devices/input-dialpad\
 	devices/input-mouse\
 		devices/gnome-dev-mouse-ball\
@@ -1208,6 +1448,7 @@ ICONS =\
 	devices/input-keyboard\
 		devices/gnome-dev-keyboard\
 		devices/keyboard\
+			status/ibus-keyboard\
 		devices/kxkb\
 		devices/xfce4-keyboard\
 		devices/blueman-keyboard\
@@ -1219,11 +1460,16 @@ ICONS =\
 	devices/media-floppy\
 		devices/3floppy_unmount\
 		devices/gnome-dev-floppy\
+		devices/gnome-dev-jazdisk\
+		devices/gnome-dev-zipdisk\
 		devices/gtk-floppy\
 		devices/media-zip\
 		devices/system-floppy\
 	devices/media-optical-cd-audio\
 		devices/media-optical-audio\
+			actions/media-album-cover\
+			actions/media-album-cover-manager-amarok\
+				actions/filename-album-amarok\
 		devices/media-cdrom-audio\
 		devices/gnome-dev-cdrom-audio\
 	devices/media-optical\
@@ -1236,6 +1482,7 @@ ICONS =\
 				devices/gnome-dev-disc-cdrw\
 			devices/gtk-cdrom\
 			devices/media-cdrom\
+			actions/collection-amarok\
 		devices/cdrom_unmount\
 			devices/cdwriter_unmount\
 			devices/dvd_unmount\
@@ -1254,6 +1501,9 @@ ICONS =\
 				devices/media-dvdrw\
 				devices/gnome-dev-disc-dvdrw\
 		mimetypes/application-x-cd-image\
+			mimetypes/application-x-cue\
+			mimetypes/gnome-mime-application-x-cd-image\
+			mimetypes/application-x-k3b\
 	devices/media-removable\
 	devices/media-tape\
 	devices/modem\
@@ -1263,9 +1513,27 @@ ICONS =\
 		devices/ipod\
 			devices/gnome-dev-ipod\
 			devices/ipod_mount\
+			devices/multimedia-player-ipod-mini-blue\
+			devices/multimedia-player-ipod-mini-gold\
+			devices/multimedia-player-ipod-mini-green\
+			devices/multimedia-player-ipod-mini-pink\
+			devices/multimedia-player-ipod-mini-silver\
+			devices/multimedia-player-ipod-nano-black\
+			devices/multimedia-player-ipod-nano-white\
+			devices/multimedia-player-ipod-shuffle\
+			devices/multimedia-player-ipod-standard-color\
+			devices/multimedia-player-ipod-standard-monochrome\
+			devices/multimedia-player-ipod-U2-color\
+			devices/multimedia-player-ipod-U2-monochrome\
+			devices/multimedia-player-ipod-video-black\
+			devices/multimedia-player-ipod-video-white\
+			devices/multimedia-player-apple-ipod\
+			devices/multimedia-player-ipod\
 		apps/gmtpicon\
+		actions/preferences-multimedia-player-amarok\
 	devices/network-wired\
 		devices/gnome-dev-ethernet\
+		status/notification-network-ethernet-connected\
 	devices/network-wireless\
 		devices/gnome-dev-wavelan\
 	devices/pda\
@@ -1275,11 +1543,13 @@ ICONS =\
 		devices/blueman-phone\
 		devices/blueman-cellular\
 		devices/phone-manager\
+		devices/blueman-handheld\
 	devices/printer-network\
 		devices/network-printer\
 		devices/stock_network-printer\
 	devices/printer\
 		devices/gnome-dev-printer\
+			devices/gnome-dev-printer-network\
 		devices/kjobviewer\
 		devices/printer1\
 		devices/printer-remote\
@@ -1287,11 +1557,14 @@ ICONS =\
 		devices/stock_printers\
 		devices/xfce-printer\
 		devices/yast_printer\
+		status/notification-printer\
 	devices/scanner\
 		devices/blueman-scanner\
 	devices/tv\
 		mimetypes/application-x-pitivi\
 		apps/tv-player\
+			apps/minitube\
+				devices/totem-tv\
 	devices/uninterruptible-power-supply\
 	devices/video-display\
 		devices/chardevice\
@@ -1314,12 +1587,14 @@ ICONS =\
 		devices/gtk-harddisk\
 		devices/harddrive\
 			devices/block-device\
+			status/notification-device\
 		devices/hdd_unmount\
 		devices/yast_HD\
 		devices/yast_idetude\
 		devices/drive-harddisk-system\
 		devices/drive-harddisk-ieee1394\
 			devices/gnome-dev-harddisk-1394\
+			status/notification-device-firewire\
 		devices/drive-harddisk-usb\
 			devices/gnome-dev-harddisk-usb\
 	devices/drive-harddisk-solidstate\
@@ -1329,14 +1604,18 @@ ICONS =\
 	places/user-home\
 		places/folder_home\
 		places/gnome-fs-home\
+		places/folder-home\
 	places/folder-saved-search\
 		places/application-x-gnome-saved-search\
 	places/folder\
 		places/gnome-fs-directory\
 		places/stock_folder\
 		places/inode-directory\
+			mimetypes/inodes-directory\
 		places/gtk-directory\
 		mimetypes/inode-directory\
+		places/folder-visiting\
+		places/gnome-folder\
 	places/folder-remote\
 		places/gnome-fs-ftp\
 		places/gnome-fs-nfs\
@@ -1346,22 +1625,44 @@ ICONS =\
 		places/gnome-fs-ssh\
 		places/network\
 	places/folder-documents\
+		places/folder_documents\
+		places/folder-document\
+		places/folders-documents\
+		places/folder-txt\
 	places/folder-download\
 	places/folder-music\
+		places/folders-music\
+		places/folder-sound\
 	places/folder-pictures\
+		places/folder_pictures\
+		places/user-pictures\
 	places/folder-publicshare\
+		places/folders-publicshare\
 	places/folder-templates\
 	places/folder-videos\
+		places/folder-video\
+		places/folder-movies\
 	places/user-bookmarks\
+		actions/bookmarks-organize\
+			actions/bookmarks\
+				actions/notebook\
+			actions/bookmark-toolbar\
+		actions/stock_bookmark\
+			actions/gtk-stock-book\
 	places/user-desktop\
 		places/desktop\
+			actions/dashboard-show\
 		places/gnome-fs-desktop\
+		places/other-desktop\
+		places/gnome-ccdesktop\
 	places/user-trash\
 		mimetypes/application-x-trash\
+			mimetypes/text-x-bak\
 	places/emptytrash\
 		places/gnome-fs-trash-empty\
 		places/gnome-stock-trash\
 		places/trashcan_empty\
+			actions/trash-empty\
 		places/xfce-trash_empty\
 	places/network-server\
 		places/gnome-fs-server\
@@ -1369,11 +1670,14 @@ ICONS =\
 		places/gnome-mime-x-directory-smb-server\
 		places/redhat-network-server\
 		places/server\
+			places/blueman-server\
 	places/network-workgroup\
 		places/gnome-fs-network\
 		places/gnome-mime-x-directory-smb-workgroup\
 		places/gtk-network\
 		places/network_local\
+		places/gnome-fs-dav\
+		places/gnome-fs-web\
 	emotes/emote-love\
 	emotes/face-angel\
 		emotes/stock_smiley-18\
@@ -1447,8 +1751,12 @@ ICONS =\
 	emblems/emblem-downloads\
 	emblems/emblem-symbolic-link\
 	mimetypes/application-x-bittorrent\
+		mimetypes/gnome-mime-application-x-bittorrent\
+		mimetypes/application-x-kgetlist\
+		mimetypes/application-x-nzb\
 	mimetypes/application-certificate\
 		mimetypes/stock_certificate\
+		actions/jockey-certified\
 	mimetypes/application-rss+xml\
 		apps/internet-feed-reader\
 			apps/internet-news-reader\
@@ -1458,6 +1766,9 @@ ICONS =\
 			apps/news-feed\
 			apps/pan\
 			apps/rss\
+		mimetypes/application-atom+xml\
+		mimetypes/gnome-mime-application-atom+xml\
+		mimetypes/gnome-mime-application-rss+xml\
 	mimetypes/application-x-appliance\
 	mimetypes/application-x-executable\
 		mimetypes/binary\
@@ -1466,19 +1777,68 @@ ICONS =\
 		mimetypes/gnome-mime-application-x-executable\
 		mimetypes/gnome-mime-application-x-ms-dos-executable\
 	mimetypes/audio-x-generic\
+		mimetypes/media-audio\
 		mimetypes/gnome-mime-application-ogg\
 		mimetypes/gnome-mime-audio\
 		mimetypes/sound\
 		mimetypes/audio\
+			mimetypes/audio-x-flac+ogg\
+				mimetypes/audio-x-vorbis+ogg\
+					mimetypes/application-ogg\
+			mimetypes/audio-aac\
+			mimetypes/audio-ac3\
+			mimetypes/audio-basic\
+				mimetypes/text-vnd.abc\
+			mimetypes/audio-midi\
+			mimetypes/audio-mp4\
+			mimetypes/audio-prs.sid\
+			mimetypes/audio-vnd.rn-realaudio\
+				mimetypes/audio-x-pn-realaudio-plugin\
+			mimetypes/audio-x-adpcm\
+			mimetypes/audio-x-aiff\
+			mimetypes/audio-x-flac\
+			mimetypes/audio-x-matroska\
+			mimetypes/audio-x-midi\
+			mimetypes/audio-x-mod\
+			mimetypes/audio-x-monkey\
+			mimetypes/audio-x-mp2\
+			mimetypes/audio-x-ms-wma\
+			mimetypes/audio-x-musepack\
+			mimetypes/audio-x-scpls\
+			mimetypes/audio-x-wav\
+			actions/filename-filetype-amarok\
 		mimetypes/audio-mp3\
+			mimetypes/audio-mpeg\
 		mimetypes/audio-x-speex+org\
 	mimetypes/image-x-generic\
 		mimetypes/gnome-mime-application-x-killustrator\
 		mimetypes/gnome-mime-image\
 		mimetypes/image\
+			mimetypes/image-bmp\
+				mimetypes/image-x-portable-bitmap\
+				mimetypes/gnome-mime-image-x-portable-bitmap\
+				mimetypes/gnome-mime-image-bmp\
+				mimetypes/image-x-win-bitmap\
+			mimetypes/image-gif\
+				mimetypes/gnome-mime-image-gif\
+			mimetypes/image-png\
+				mimetypes/gnome-mime-image-png\
+			mimetypes/image-tiff\
+				mimetypes/gnome-mime-image-tiff\
+			mimetypes/image-jpeg\
+				mimetypes/image-jpg\
+				mimetypes/image-jpeg2000\
+				mimetypes/gnome-mime-image-jpeg\
+				mimetypes/jpeg\
+				mimetypes/jpg\
 		mimetypes/image-x-eps\
+		mimetypes/gnome-mime-image-x-cmu-raster\
+		mimetypes/gnome-mime-image-x-xpixmap\
+		mimetypes/image-x-tga\
+		mimetypes/media-image\
 	mimetypes/package-x-generic\
 		mimetypes/deb\
+			mimetypes/application-x-deb\
 		mimetypes/folder_tar\
 		mimetypes/gnome-mime-application-x-7z-compressed\
 		mimetypes/gnome-mime-application-x-archive\
@@ -1487,55 +1847,103 @@ ICONS =\
 		mimetypes/gnome-mime-application-x-bzip-compressed-tar\
 		mimetypes/gnome-mime-application-x-compress\
 		mimetypes/gnome-mime-application-x-compressed-tar\
+			mimetypes/application-x-tar\
 		mimetypes/gnome-mime-application-x-cpio\
 		mimetypes/gnome-mime-application-x-cpio-compressed\
 		mimetypes/gnome-mime-application-x-deb\
 		mimetypes/gnome-mime-application-x-gzip\
+			mimetypes/application-x-compressed-tar\
+			mimetypes/application-x-gzip\
 		mimetypes/gnome-mime-application-x-jar\
 			mimetypes/application-x-java-archive\
 		mimetypes/gnome-mime-application-x-lha\
+			mimetypes/application-x-lha\
 		mimetypes/gnome-mime-application-x-lhz\
+			mimetypes/application-x-lhz\
 		mimetypes/gnome-mime-application-x-lzma\
 		mimetypes/gnome-mime-application-x-lzma-compressed-tar\
 		mimetypes/gnome-mime-application-x-rar\
 		mimetypes/rpm\
+			mimetypes/application-x-rpm\
 			mimetypes/gnome-mime-application-x-rpm\
 		mimetypes/gnome-mime-application-x-stuffit\
 		mimetypes/gnome-mime-application-x-tar\
 		mimetypes/tar\
 			mimetypes/gnome-mime-application-x-tarz\
+				mimetypes/application-x-tarz\
 		mimetypes/zip\
 			mimetypes/gnome-mime-application-zip\
+				mimetypes/application-x-zip\
+					mimetypes/application-zip\
+					mimetypes/gnome-mime-application-x-zip\
 		mimetypes/gnome-package\
 		mimetypes/package\
 		mimetypes/tgz\
+		mimetypes/application-x-ace\
+			mimetypes/gnome-mime-application-x-ace\
+		mimetypes/application-x-archive\
+			mimetypes/application-x-arc\
+			mimetypes/application-x-compress\
+		mimetypes/application-x-pak\
 	mimetypes/text-x-generic\
+		mimetypes/application-x-srtrip\
+		mimetypes/application-x-srt\
+		mimetypes/application-x-subrip\
+		mimetypes/openofficeorg23-oasis-text\
+		mimetypes/openofficeorg23-oasis-text-template\
+		mimetypes/openofficeorg23-text\
+		mimetypes/openofficeorg23-text-template\
+		mimetypes/stock_new-text\
 		mimetypes/gtk-file\
 			mimetypes/gnome-fs-regular\
 		mimetypes/application-x-tex\
+			mimetypes/tex\
+				mimetypes/text-x-bibtex\
+				mimetypes/text-x-tex\
 		mimetypes/ascii\
 			mimetypes/mime_ascii\
 		mimetypes/empty\
 		mimetypes/gnome-mime-text\
 		mimetypes/misc\
 			mimetypes/unknown\
+				mimetypes/none\
 		mimetypes/package_editors\
 		mimetypes/txt\
 		mimetypes/txt2\
 		mimetypes/libreoffice-master-document\
 			mimetypes/libreoffice-oasis-master-document\
+				mimetypes/libreoffice34-oasis-master-document\
+				mimetypes/libreoffice3-oasis-master-document\
+			mimetypes/libreoffice34-master-document\
+			mimetypes/libreoffice3-master-document\
 			apps/libreoffice-main\
 				apps/libreoffice-startcenter\
 		mimetypes/text-x-boo\
 		mimetypes/text-x-changelog\
+			mimetypes/gnome-mime-text-x-changelog\
 		mimetypes/text-x-copying\
+			mimetypes/gnome-mime-text-x-copying\
 		mimetypes/text-x-install\
+			mimetypes/gnome-mime-x-install\
 		mimetypes/text-x-java\
+			mimetypes/application-x-class-file\
+			mimetypes/application-x-java\
+			mimetypes/gnome-mime-application-x-class-file\
+			mimetypes/gnome-mime-application-x-java\
+			mimetypes/gnome-mime-text-x-java-source\
+			mimetypes/gnome-mime-text-x-java\
+			mimetypes/text-x-java-source\
 		mimetypes/text-x-log\
 		mimetypes/text-x-makefile\
+			mimetypes/gnome-mime-text-x-makefile\
 		mimetypes/text-x-authors\
 		mimetypes/text-xml\
+			mimetypes/application-xml\
+			mimetypes/gnome-mime-application-xml\
+			mimetypes/gnome-mime-text-xml\
 		mimetypes/text-css\
+			mimetypes/text-x-css\
+			mimetypes/gnome-mime-text-css\
 		mimetypes/text-html\
 			mimetypes/gnome-mime-application-vnd.oasis.opendocument.text-web\
 			mimetypes/gnome-mime-application-xhtml+xml\
@@ -1544,18 +1952,30 @@ ICONS =\
 			mimetypes/gnome-mime-text-vnd.wap.wml\
 			mimetypes/html\
 			mimetypes/www\
+			mimetypes/application-vnd.oasis.opendocument.text-web\
+			mimetypes/text-mht\
 		mimetypes/text-x-opml+xml\
 		mimetypes/text-x-patch\
 		mimetypes/text-x-readme\
+			mimetypes/gnome-mime-text-x-readme\
 		mimetypes/text-x-src\
+			mimetypes/text-x-source\
+				mimetypes/gnome-mime-text-x-source\
 			mimetypes/text-x-csharp\
+				mimetypes/gnome-mime-text-x-csharp\
 			mimetypes/text-x-c++src\
 				mimetypes/text-x-c++\
+				mimetypes/gnome-mime-text-x-c++src\
+				mimetypes/gnome-mime-text-x-c++\
 			mimetypes/text-x-csrc\
 				mimetypes/text-x-c\
+				mimetypes/gnome-mime-text-x-csrc\
+				mimetypes/gnome-mime-text-x-c\
 			mimetypes/text-x-hdr\
 				mimetypes/text-x-c++hdr\
+					mimetypes/gnome-mime-text-x-c++hdr\
 				mimetypes/text-x-chdr\
+					mimetypes/gnome-mime-text-x-chdr\
 		mimetypes/text-x-apport\
 		mimetypes/application-x-desktop\
 		mimetypes/application-x-package-list\
@@ -1564,10 +1984,16 @@ ICONS =\
 		mimetypes/text-x-script\
 			mimetypes/application-x-javascript\
 				mimetypes/text-x-javascript\
+					mimetypes/application-javascript\
+					mimetypes/gnome-mime-application-javascript\
+					mimetypes/gnome-mime-application-x-javascript\
+					mimetypes/gnome-mime-text-x-javascript\
 			mimetypes/application-x-ruby\
+				mimetypes/gnome-mime-application-x-ruby\
 			mimetypes/application-x-perl\
 				mimetypes/gnome-mime-application-x-perl\
 			mimetypes/text-x-python\
+				mimetypes/gnome-mime-application-x-python\
 				mimetypes/gnome-mime-text-x-python\
 			mimetypes/gnome-mime-application-x-shellscript\
 				mimetypes/gnome-mime-text-x-csh\
@@ -1575,17 +2001,20 @@ ICONS =\
 				mimetypes/gnome-mime-text-x-zsh\
 				mimetypes/shellscript\
 			mimetypes/stock_script\
+			mimetypes/gnome-mime-text-x-install\
 		mimetypes/emacs-document\
 			mimetypes/emacs-document23\
 		mimetypes/application-x-mono-develop-xib\
 	mimetypes/application-x-addon\
 		mimetypes/extension\
+			mimetypes/opera-extension\
 		mimetypes/plugin\
 			mimetypes/pluma-plugin\
 	mimetypes/application-x-firmware\
 		mimetypes/x-firmware\
 	mimetypes/application-x-keepass\
 		mimetypes/application-pgp-encrypted\
+			mimetypes/encrypted\
 			mimetypes/multipart-encrypted\
 	mimetypes/font-x-generic\
 		mimetypes/font-bitmap\
@@ -1600,8 +2029,22 @@ ICONS =\
 			mimetypes/gnome-mime-x-font-afm\
 		mimetypes/gnome-mime-application-x-font-sunos-news\
 		mimetypes/gnome-mime-application-x-font-ttf\
+		mimetypes/application-x-font-afm\
+		mimetypes/application-x-font-bdf\
+		mimetypes/application-x-font-otf\
+		mimetypes/application-x-font-pcf\
+		mimetypes/application-x-font-snf\
+		mimetypes/application-x-font-ttf\
+		mimetypes/application-x-font-type1\
+			mimetypes/application-x-font-type\
+		mimetypes/font-truetype\
+		mimetypes/font-type1\
+			mimetypes/font_type\
+			mimetypes/font-type\
 	mimetypes/x-office-extension\
 		mimetypes/libreoffice-extension\
+			mimetypes/libreoffice34-extension\
+			mimetypes/libreoffice3-extension\
 		mimetypes/application-vnd.openofficeorg.extension\
 			mimetypes/openofficeorg3-extension\
 			mimetypes/openofficeorg-extension\
@@ -1612,6 +2055,15 @@ ICONS =\
 		mimetypes/gnome-mime-application-x-shockwave-flash\
 		mimetypes/gnome-mime-video\
 		mimetypes/video\
+		mimetypes/application-vnd.rn-realmedia\
+		mimetypes/application-x-matroska\
+		mimetypes/gnome-mime-video-x-ms-asf\
+		mimetypes/gnome-mime-video-x-ms-wmv\
+		mimetypes/media-video\
+		actions/view-list-video\
+		actions/pitivi-video\
+			actions/videoclip-amarok\
+			actions/tool-animator\
 	mimetypes/x-office-address-book\
 		mimetypes/contents2\
 		mimetypes/stock_addressbook\
@@ -1620,13 +2072,25 @@ ICONS =\
 	mimetypes/x-office-calendar\
 		mimetypes/vcalendar\
 			mimetypes/gnome-mime-text-x-vcalendar\
+			actions/view-calendar\
 		mimetypes/plan\
 		mimetypes/stock_calendar\
 	mimetypes/x-office-database\
 		apps/libreoffice-base\
 		mimetypes/libreoffice-database\
+			mimetypes/libreoffice34-database\
+			mimetypes/libreoffice3-database\
 		mimetypes/libreoffice-oasis-database\
+			mimetypes/libreoffice34-oasis-database\
+			mimetypes/libreoffice3-oasis-database\
 		mimetypes/openofficeorg23-database\
+			mimetypes/application-vnd.oasis.opendocument.database\
+			mimetypes/text-x-sql\
+				mimetypes/application-x-sqlite2\
+				mimetypes/application-x-sqlite3\
+				mimetypes/openofficeorg3-database\
+				mimetypes/openofficeorg3-oasis-database\
+			mimetypes/openofficeorg23-oasis-database\
 	mimetypes/x-office-document\
 		apps/libreoffice-writer\
 		mimetypes/application-vnd.ms-word.document.macroEnabled.12\
@@ -1647,24 +2111,54 @@ ICONS =\
 		mimetypes/gnome-mime-application-x-scribus\
 		mimetypes/gnome-mime-application-x-tex\
 		mimetypes/libreoffice-oasis-text\
+			mimetypes/libreoffice34-oasis-text\
+			mimetypes/libreoffice3-oasis-text\
+			mimetypes/libreoffice34-oasis-text-template\
+			mimetypes/libreoffice3-oasis-text-template\
 		mimetypes/libreoffice-text\
+			mimetypes/libreoffice34-text\
+			mimetypes/libreoffice34-text-template\
+			mimetypes/libreoffice3-text\
+			mimetypes/libreoffice3-text-template\
 		mimetypes/openofficeorg3-oasis-text\
 		mimetypes/openofficeorg3-text\
 		mimetypes/openofficeorg-oasis-text\
 		mimetypes/openofficeorg-text\
 		mimetypes/package_wordprocessing\
 		mimetypes/wordprocessing\
+			mimetypes/application-msword\
+				mimetypes/gnome-mime-application-vnd.openxmlformats-officedocument.wordprocessingml.document\
+		mimetypes/application-vnd.oasis.opendocument.text\
+		mimetypes/application-vnd.sun.xml.writer\
+			mimetypes/application-vnd.scribus\
+				mimetypes/gnome-mime-application-vnd.scribus\
+				mimetypes/application-x-scribus\
+					mimetypes/application-x-zim-notebook\
+						mimetypes/gnome-mime-application-x-zim-notebook\
+		mimetypes/application-vnd.wordperfect\
+		mimetypes/office-document\
 	mimetypes/x-office-drawing\
 		apps/libreoffice-draw\
 		mimetypes/gnome-mime-application-vnd.oasis.opendocument.graphics\
 		mimetypes/gnome-mime-application-vnd.oasis.opendocument.image\
 		mimetypes/gnome-mime-application-vnd.sun.xml.draw\
 		mimetypes/libreoffice-drawing\
+			mimetypes/libreoffice34-drawing\
+			mimetypes/libreoffice3-drawing\
 		mimetypes/libreoffice-oasis-drawing\
+			mimetypes/libreoffice34-oasis-drawing\
+			mimetypes/libreoffice3-oasis-drawing\
 		mimetypes/openofficeorg3-drawing\
 		mimetypes/openofficeorg3-oasis-drawing\
 		mimetypes/openofficeorg-drawing\
 		mimetypes/openofficeorg-oasis-drawing\
+		mimetypes/application-illustrator\
+		mimetypes/application-vnd.oasis.opendocument.graphics\
+		mimetypes/application-vnd.sun.xml.draw\
+		mimetypes/image-svg+xml\
+		mimetypes/office-illustration\
+		mimetypes/svg\
+		mimetypes/vnd.oasis.opendocument.drawing\
 	mimetypes/x-office-presentation\
 		apps/libreoffice-impress\
 		mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12\
@@ -1678,7 +2172,13 @@ ICONS =\
 		mimetypes/kpresenter_kpr\
 			apps/kpresenter\
 		mimetypes/libreoffice-oasis-presentation\
+			mimetypes/libreoffice34-oasis-presentation\
+			mimetypes/libreoffice3-oasis-presentation\
 		mimetypes/libreoffice-presentation\
+			mimetypes/libreoffice34-presentation\
+			mimetypes/libreoffice34-presentation-template\
+			mimetypes/libreoffice3-presentation\
+			mimetypes/libreoffice3-presentation-template\
 		mimetypes/openofficeorg3-oasis-presentation\
 		mimetypes/openofficeorg3-presentation\
 		mimetypes/openofficeorg-oasis-presentation\
@@ -1698,13 +2198,24 @@ ICONS =\
 		mimetypes/gnome-mime-application-x-gnumeric\
 		mimetypes/gnome-mime-application-x-kspread\
 		mimetypes/libreoffice-oasis-spreadsheet\
+			mimetypes/libreoffice34-oasis-spreadsheet\
+			mimetypes/libreoffice3-oasis-spreadsheet\
 		mimetypes/libreoffice-spreadsheet\
+			mimetypes/libreoffice34-spreadsheet\
+			mimetypes/libreoffice34-spreadsheet-template\
+			mimetypes/libreoffice3-spreadsheet\
+			mimetypes/libreoffice3-spreadsheet-template\
 		mimetypes/openofficeorg3-oasis-spreadsheet\
 		mimetypes/openofficeorg3-spreadsheet\
 		mimetypes/openofficeorg-oasis-spreadsheet\
 		mimetypes/openofficeorg-spreadsheet\
 		mimetypes/spreadsheet\
 		mimetypes/text-csv\
+		mimetypes/application-vnd.oasis.opendocument.spreadsheet\
+		mimetypes/office-spreadsheet\
+		mimetypes/text-spreadsheet\
+		mimetypes/application-vnd.sun.xml.calc\
+		mimetypes/application-x-gnumeric\
 	mimetypes/application-pdf\
 		mimetypes/gnome-mime-application-pdf\
 		mimetypes/pdf\
@@ -1728,14 +2239,22 @@ ICONS =\
 		mimetypes/gnome-mime-application-vnd.oasis.opendocument.graphics-template\
 		mimetypes/gnome-mime-application-vnd.sun.xml.draw.template\
 		mimetypes/libreoffice-drawing-template\
+			mimetypes/libreoffice34-drawing-template\
+			mimetypes/libreoffice3-drawing-template\
 		mimetypes/libreoffice-oasis-drawing-template\
+			mimetypes/libreoffice34-oasis-drawing-template\
+			mimetypes/libreoffice3-oasis-drawing-template\
 		mimetypes/openofficeorg3-drawing-template\
 		mimetypes/openofficeorg3-oasis-drawing-template\
 		mimetypes/openofficeorg-drawing-template\
 		mimetypes/openofficeorg-oasis-drawing-template\
 	mimetypes/x-office-formula\
 		mimetypes/libreoffice-formula\
+			mimetypes/libreoffice34-formula\
+			mimetypes/libreoffice3-formula\
 		mimetypes/libreoffice-oasis-formula\
+			mimetypes/libreoffice34-oasis-formula\
+			mimetypes/libreoffice3-oasis-formula\
 		apps/libreoffice-math\
 	mimetypes/x-office-formula-template\
 	mimetypes/x-office-spreadsheet-template\
@@ -1743,6 +2262,8 @@ ICONS =\
 		mimetypes/gnome-mime-application-vnd.oasis.opendocument.spreadsheet-template\
 		mimetypes/gnome-mime-application-vnd.sun.xml.calc.template\
 		mimetypes/libreoffice-oasis-spreadsheet-template\
+			mimetypes/libreoffice34-oasis-spreadsheet-template\
+			mimetypes/libreoffice3-oasis-spreadsheet-template\
 		mimetypes/libreoffice-spreadsheet-template\
 		mimetypes/openofficeorg3-oasis-spreadsheet-template\
 		mimetypes/openofficeorg3-spreadsheet-template\
@@ -1756,6 +2277,8 @@ ICONS =\
 		mimetypes/openofficeorg3-oasis-presentation-template\
 		mimetypes/libreoffice-presentation-template\
 		mimetypes/libreoffice-oasis-presentation-template\
+			mimetypes/libreoffice34-oasis-presentation-template\
+			mimetypes/libreoffice3-oasis-presentation-template\
 		mimetypes/openofficeorg-presentation-template\
 		mimetypes/openofficeorg-oasis-presentation-template
 
