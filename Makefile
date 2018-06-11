@@ -717,6 +717,13 @@ ICONS =\
 	status/weather-few-clouds-night-350\
 	status/weather-windy\
 	status/user-not-tracked\
+		status/password-hidden\
+			actions/hide-password\
+				actions/password-hide\
+	status/user-tracked\
+		status/password-shown\
+			actions/show-password\
+				actions/password-show\
 	status/thunderbolt-acquiring\
 	status/night-light\
 	status/daytime-sunrise\
