@@ -32,6 +32,7 @@ ICONS =\
 				apps/gkdebconf\
 					apps/gkdebconf-icon\
 				apps/grub-customizer\
+					apps/kgrubeditor\
 		apps/gnome-control-centre\
 		apps/gnome-desktop-config\
 	categories/applications-internet\
@@ -48,6 +49,7 @@ ICONS =\
 		categories/redhat-programming\
 		categories/xfce-devel\
 		apps/code-context\
+		apps/kuiviewer\
 	categories/applications-system\
 		categories/gnome-system\
 		categories/package_system\
@@ -55,6 +57,7 @@ ICONS =\
 		categories/system_section\
 		categories/xfce-system\
 		apps/gksu\
+			apps/kommander\
 	categories/applications-graphics\
 		categories/gnome-graphics\
 		categories/package_graphics\
@@ -62,6 +65,7 @@ ICONS =\
 		categories/xfce-graphics\
 		categories/applications-painting\
 		apps/graphics-image-editor\
+		apps/kolourpaint\
 	categories/applications-games\
 		categories/gnome-joystick\
 		categories/packages_games\
@@ -103,6 +107,7 @@ ICONS =\
 			actions/preferences-activities\
 		categories/applications-education-miscellaneous\
 	categories/system-help\
+		apps/yelp-icon-big\
 	categories/applications-science\
 		categories/applications-education-science\
 		categories/applications-physics\
@@ -135,10 +140,14 @@ ICONS =\
 	apps/preferences-desktop-keyboard\
 		apps/system-config-keyboard\
 	apps/wireshark\
+		apps/hi48-app-wireshark\
 	apps/nuvolaplayer\
 	apps/pacman\
 		apps/alunn-pacman-24\
+		apps/kapman\
 	apps/mplayer\
+		apps/kmplayer\
+		apps/kplayer\
 	apps/audacity\
 		apps/gnome-mime-application-x-audacity-project\
 	apps/emu-snes\
@@ -156,6 +165,7 @@ ICONS =\
 			categories/applications-education-language\
 				categories/applications-development-translation\
 		apps/locale\
+			apps/kverbos\
 		apps/gnome-translate\
 		apps/gtranslator\
 	apps/power-manager\
@@ -164,12 +174,14 @@ ICONS =\
 		apps/gnome-calculator\
 		apps/calc\
 		apps/galculator\
+		apps/kcalc\
 	apps/preferences-color\
 		apps/colors\
 			status/adjust-colors\
 		apps/kipi\
 		apps/gpick\
 			actions/gtk-color-picker\
+				apps/kcolorchooser\
 		apps/gnome-color-browser\
 			apps/gnome-color-chooser\
 		apps/mate-color-select\
@@ -207,6 +219,7 @@ ICONS =\
 		apps/documentation\
 		apps/gnome-dictionary\
 		apps/goldendict\
+		apps/kthesaurus\
 	apps/utilities-system-monitor\
 		apps/gnome-monitor\
 		apps/ksysguard\
@@ -215,6 +228,7 @@ ICONS =\
 		apps/gnome-system-monitor\
 	apps/mate-panel-launcher\
 		apps/gnome-panel-launcher\
+			apps/launcher-program\
 			apps/gimmie\
 			apps/gnome-desktop-item-edit\
 			actions/fork\
@@ -259,10 +273,14 @@ ICONS =\
 	apps/preferences-desktop-default-applications\
 	apps/applets-screenshooter\
 		apps/gnome-screenshot\
+			apps/kgrab\
+			apps/ksnapshot\
+		apps/istanbul\
 	apps/user-info\
 		actions/user-properties\
 	apps/steam\
 	apps/python\
+		apps/ipython\
 		mimetypes/application-x-python-bytecode\
 			mimetypes/gnome-mime-application-x-python-bytecode\
 	apps/kega-fusion\
@@ -290,10 +308,12 @@ ICONS =\
 		apps/mate-notification-properties\
 	apps/preferences-desktop-remote-desktop\
 		apps/gnome-remote-desktop\
+			apps/krdc\
+			apps/kppp\
+			apps/distccmon-gnome-icon\
 			mimetypes/application-x-remote-connection\
 				mimetypes/gnome-mime-application-x-remote-connection\
 				mimetypes/application-x-vnc\
-			apps/distccmon-gnome-icon\
 		apps/krfb\
 	apps/preferences-system-sharing\
 	apps/preferences-system-network-proxy\
@@ -319,6 +339,7 @@ ICONS =\
 	apps/mate\
 	apps/pidgin\
 		apps/gaim\
+		apps/kopete\
 	apps/preferences-desktop-font\
 		apps/fonts\
 		apps/gnome-settings-font\
@@ -331,6 +352,7 @@ ICONS =\
 			apps/distributor-logo\
 		mimetypes/vmlinuz\
 	apps/baobab\
+		apps/kdf\
 	apps/gnome-disks\
 	apps/gnome-disks-state-standby\
 	apps/mate-panel\
@@ -385,6 +407,8 @@ ICONS =\
 			apps/gpicview\
 			apps/gqview\
 			apps/gthumb\
+			apps/image-viewer\
+				apps/kuickshow\
 			actions/photos-amarok\
 	apps/xmonad\
 	apps/emacs\
@@ -405,6 +429,7 @@ ICONS =\
 	apps/preferences-desktop-keyboard-shortcuts\
 		apps/gnome-settings-keybindings\
 		apps/key_bindings\
+		apps/ktouch\
 	apps/help-contents\
 		actions/help-contents\
 			actions/help\
@@ -414,6 +439,7 @@ ICONS =\
 			apps/gnochm\
 	apps/web-browser\
 		actions/internet-amarok\
+		apps/internet-web-browser\
 		apps/gnome-web-browser\
 		apps/browser\
 			apps/epiphany-gecko\
@@ -426,6 +452,9 @@ ICONS =\
 			apps/gedit-logo\
 			apps/gedit-icon\
 			apps/gnome-word\
+			apps/leafpad\
+			apps/kate\
+				apps/kwrite\
 			categories/preferences-composer\
 	apps/help-browser\
 		apps/browser-help\
@@ -433,6 +462,7 @@ ICONS =\
 		apps/khelpcenter\
 		apps/susehelpcenter\
 		apps/gtk-help\
+		apps/help\
 	apps/mate-typing-monitor\
 	apps/phonon-gstreamer\
 	apps/preferences-desktop-display\
@@ -468,6 +498,8 @@ ICONS =\
 		apps/alarm\
 			apps/alarm-clock\
 			apps/alarm-timer\
+				apps/ktimer\
+			apps/kalarm\
 	status/appointment-missed\
 		status/stock_appointment-reminder-excl\
 	status/appointment-soon\
@@ -567,6 +599,7 @@ ICONS =\
 		status/stock_dialog-info\
 		status/messagebox_info\
 		status/info\
+		apps/hook-notifier\
 	status/dialog-password\
 		status/gtk-dialog-authentication\
 			status/gtk-dialog-authentication-panel\
@@ -816,6 +849,7 @@ ICONS =\
 		actions/system-about\
 		apps/gnome-about-logo\
 		apps/gnome-info\
+		apps/indicator-applet\
 	actions/insert-horizontal-rule\
 	actions/jockey-disabled\
 	actions/jockey-enabled\
@@ -837,6 +871,7 @@ ICONS =\
 			apps/burner\
 				apps/graveman\
 					apps/graveman48\
+				apps/k3b\
 			actions/brasero-disc-100\
 		apps/isomaster\
 		apps/grip\
@@ -940,6 +975,8 @@ ICONS =\
 		actions/stock_mail-send-receive\
 	actions/mail-mark-important\
 	actions/calibrate\
+		apps/kig\
+		apps/kruler\
 	actions/edit-bomb\
 	actions/edit-rename\
 	actions/object-crop\
@@ -1022,6 +1059,7 @@ ICONS =\
 			apps/gcrontab\
 			apps/gnome-set-time\
 			apps/gtubeclock\
+			apps/ktimetracker\
 	actions/bookmark-add\
 		actions/bookmark_add\
 			actions/notebook-new\
@@ -1487,6 +1525,9 @@ ICONS =\
 		actions/gnome-lockscreen\
 		actions/lock\
 		actions/xfce-system-lock\
+		apps/ike\
+			apps/ikea\
+			apps/ike-qtgui\
 	actions/share\
 	actions/edit-link\
 	actions/sticky-notes\
@@ -1541,6 +1582,7 @@ ICONS =\
 			apps/gnome-mouse\
 				apps/gnome-mouse-properties\
 				apps/gnome-settings-mouse\
+			apps/kmousetool\
 		devices/xfce4-mouse\
 		devices/yast_mouse\
 		devices/blueman-mouse\
@@ -1578,6 +1620,8 @@ ICONS =\
 			actions/media-album-cover\
 			actions/media-album-cover-manager-amarok\
 				actions/filename-album-amarok\
+			apps/kscd\
+				apps/kscd-dock\
 		devices/media-cdrom-audio\
 		devices/gnome-dev-cdrom-audio\
 	devices/media-optical\
@@ -1675,6 +1719,7 @@ ICONS =\
 		apps/gnome-cups-manager\
 			apps/gtklp\
 				apps/gtklpq\
+		apps/kdeprint_printer\
 	devices/scanner\
 		devices/blueman-scanner\
 		apps/flegita\
@@ -1683,6 +1728,7 @@ ICONS =\
 		apps/tv-player\
 			apps/minitube\
 				devices/totem-tv\
+			apps/hongere\
 	devices/uninterruptible-power-supply\
 	devices/video-display\
 		devices/chardevice\
@@ -1887,6 +1933,8 @@ ICONS =\
 			apps/internet-news-reader\
 			apps/liferea\
 			apps/lottanzb\
+				apps/knewsticker\
+				apps/knode\
 			apps/greader\
 				apps/google-reader\
 			apps/news-feed\
@@ -2291,6 +2339,7 @@ ICONS =\
 		mimetypes/vnd.oasis.opendocument.drawing\
 	mimetypes/x-office-presentation\
 		apps/libreoffice-impress\
+			apps/impress\
 		mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12\
 		mimetypes/application-vnd.openxmlformats-officedocument.presentationml.presentation\
 		mimetypes/gnome-mime-application-magicpoint\
