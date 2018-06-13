@@ -848,6 +848,56 @@ ICONS =\
 		status/gpm-battery-missing\
 			status/xfpm-battery-missing\
 		status/battery_empty\
+	status/gpm-keyboard-charged\
+	status/gpm-keyboard-100-charging\
+	status/gpm-keyboard-080-charging\
+	status/gpm-keyboard-060-charging\
+	status/gpm-keyboard-040-charging\
+	status/gpm-keyboard-020-charging\
+	status/gpm-keyboard-000-charging\
+	status/gpm-keyboard-100\
+		status/notification-gpm-keyboard-100\
+		status/xfpm-keyboard-100\
+	status/gpm-keyboard-080\
+		status/notification-gpm-keyboard-080\
+		status/xfpm-keyboard-080\
+	status/gpm-keyboard-060\
+		status/notification-gpm-keyboard-060\
+		status/xfpm-keyboard-060\
+	status/gpm-keyboard-040\
+		status/notification-gpm-keyboard-040\
+		status/xfpm-keyboard-040\
+	status/gpm-keyboard-020\
+		status/notification-gpm-keyboard-020\
+		status/xfpm-keyboard-020\
+	status/gpm-keyboard-000\
+		status/notification-gpm-keyboard-000\
+		status/xfpm-keyboard-000\
+	status/gpm-mouse-charged\
+	status/gpm-mouse-100-charging\
+	status/gpm-mouse-080-charging\
+	status/gpm-mouse-060-charging\
+	status/gpm-mouse-040-charging\
+	status/gpm-mouse-020-charging\
+	status/gpm-mouse-000-charging\
+	status/gpm-mouse-100\
+		status/notification-gpm-mouse-100\
+		status/xfpm-mouse-100\
+	status/gpm-mouse-080\
+		status/notification-gpm-mouse-080\
+		status/xfpm-mouse-080\
+	status/gpm-mouse-060\
+		status/notification-gpm-mouse-060\
+		status/xfpm-mouse-060\
+	status/gpm-mouse-040\
+		status/notification-gpm-mouse-040\
+		status/xfpm-mouse-040\
+	status/gpm-mouse-020\
+		status/notification-gpm-mouse-020\
+		status/xfpm-mouse-020\
+	status/gpm-mouse-000\
+		status/notification-gpm-mouse-000\
+		status/xfpm-mouse-000\
 	status/bluetooth-active\
 		status/blueman-tray\
 	status/bluetooth-disabled\
