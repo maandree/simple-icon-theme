@@ -898,6 +898,32 @@ ICONS =\
 	status/gpm-mouse-000\
 		status/notification-gpm-mouse-000\
 		status/xfpm-mouse-000\
+	status/gpm-phone-charged\
+	status/gpm-phone-100-charging\
+	status/gpm-phone-080-charging\
+	status/gpm-phone-060-charging\
+	status/gpm-phone-040-charging\
+	status/gpm-phone-020-charging\
+	status/gpm-phone-000-charging\
+	status/gpm-phone-100\
+		status/notification-gpm-phone-100\
+		status/xfpm-phone-100\
+	status/gpm-phone-080\
+		status/notification-gpm-phone-080\
+		status/xfpm-phone-080\
+	status/gpm-phone-060\
+		status/notification-gpm-phone-060\
+		status/xfpm-phone-060\
+	status/gpm-phone-040\
+		status/notification-gpm-phone-040\
+		status/xfpm-phone-040\
+			status/xfpm-phone-030\
+	status/gpm-phone-020\
+		status/notification-gpm-phone-020\
+		status/xfpm-phone-020\
+	status/gpm-phone-000\
+		status/notification-gpm-phone-000\
+		status/xfpm-phone-000\
 	status/bluetooth-active\
 		status/blueman-tray\
 	status/bluetooth-disabled\
