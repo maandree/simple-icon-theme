@@ -2072,6 +2072,10 @@ ICONS =\
 		places/gnome-folder\
 	places/folder-remote\
 		places/folder-remote-ftp\
+			places/folder-remote-nfs\
+			places/folder-remote-smb\
+			places/folder-remote-ssh\
+			places/user-share\
 		places/gnome-fs-ftp\
 		places/gnome-fs-nfs\
 		places/gnome-fs-share\
@@ -2087,11 +2091,16 @@ ICONS =\
 		places/folder-txt\
 	places/folder-download\
 		places/folder-downloads\
+			places/folders-downloads\
+			places/folder_download\
 	places/folder-music\
 		places/folders-music\
 		places/folder-sound\
 	places/folder-pictures\
 		places/folder-images\
+			places/user-images\
+			places/folder_images\
+			places/folder-image\
 		places/folder-photos\
 		places/folder-wallpapers\
 		places/folder_pictures\
@@ -2104,6 +2113,8 @@ ICONS =\
 		places/folder-movies\
 	places/user-bookmarks\
 		places/folder-bookmarks\
+			places/folder-bookmark\
+			places/folder-favorites\
 		actions/bookmarks-organize\
 			actions/bookmarks\
 				actions/notebook\
