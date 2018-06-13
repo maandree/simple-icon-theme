@@ -588,6 +588,43 @@ ICONS =\
 			apps/ppracer\
 	apps/mate-panel-drawer\
 		apps/gnome-panel-drawer\
+	status/notification-display-brightness-full\
+		status/notification-gpm-brightness-lcd\
+	status/notification-display-brightness-high\
+	status/notification-display-brightness-medium\
+	status/notification-display-brightness-low\
+	status/notification-display-brightness-off\
+		status/notification-gpm-brightness-lcd-disabled\
+	status/gsm-3g-full-secure\
+	status/gsm-3g-high-secure\
+	status/gsm-3g-medium-secure\
+	status/gsm-3g-low-secure\
+	status/gsm-3g-none-secure\
+	status/gsm-3g-full\
+		status/notification-gsm-3g-full\
+			status/notification-gsm-edge-full\
+			status/notification-gsm-h-full\
+		status/notification-gsm-full\
+	status/gsm-3g-high\
+		status/notification-gsm-3g-high\
+			status/notification-gsm-edge-high\
+			status/notification-gsm-h-high\
+		status/notification-gsm-high\
+	status/gsm-3g-medium\
+		status/notification-gsm-3g-medium\
+			status/notification-gsm-edge-medium\
+			status/notification-gsm-h-medium\
+		status/notification-gsm-medium\
+	status/gsm-3g-low\
+		status/notification-gsm-3g-low\
+			status/notification-gsm-edge-low\
+			status/notification-gsm-h-low\
+		status/notification-gsm-low\
+	status/gsm-3g-none\
+		status/notification-gsm-3g-none\
+			status/notification-gsm-edge-none\
+			status/notification-gsm-h-none\
+		status/notification-gsm-none\
 	status/mail-read\
 		status/stock_mail-open\
 	status/mail-replied\
@@ -647,19 +684,27 @@ ICONS =\
 	status/battery-caution\
 	status/battery-empty-charging\
 		status/gpm-battery-000-charging\
+			status/xfpm-battery-000-charging\
 			status/notification-gpm-battery-000-charging\
 			status/notification-battery-000-plugged\
 			status/gpm-primary-000-charging\
+				status/xfpm-primary-000-charging\
 			status/battery-000-charging\
 				status/gpm-ups-000-charging\
+					status/xfpm-ups-000-charging\
+					status/notification-gpm-ups-000-charging\
 	status/battery-empty\
 		status/gpm-battery-000\
+			status/xfpm-battery-000\
 			status/notification-gpm-battery-000\
 			status/notification-battery-empty\
 			status/notification-battery-000\
 			status/gpm-primary-000\
+				status/xfpm-primary-000\
 			status/battery-000\
 				status/gpm-ups-000\
+					status/xfpm-ups-000\
+					status/notification-gpm-ups-000\
 	status/battery-full-charged\
 	status/battery-full-charging\
 	status/battery-full\
@@ -669,88 +714,139 @@ ICONS =\
 	status/battery-low\
 	status/battery-missing\
 	status/gpm-ac-adapter\
+		status/xfpm-ac-adapter\
 		status/notification-gpm-ac-adapter\
 		status/battery_plugged\
 	status/gpm-battery-020\
+		status/xfpm-battery-020\
 		status/notification-gpm-battery-020\
 		status/notification-battery-low\
 		status/notification-battery-010\
 		status/notification-battery-020\
 		status/gpm-primary-020\
+			status/xfpm-primary-020\
 		status/battery-020\
 			status/gpm-ups-020\
+				status/xfpm-ups-020\
+				status/notification-gpm-ups-020\
 	status/gpm-battery-020-charging\
+		status/xfpm-battery-020-charging\
 		status/notification-gpm-battery-020-charging\
 		status/notification-battery-010-plugged\
 		status/notification-battery-020-plugged\
 		status/gpm-primary-020-charging\
+			status/xfpm-primary-020-charging\
 		status/battery-020-charging\
 			status/gpm-ups-020-charging\
+				status/xfpm-ups-020-charging\
+				status/notification-gpm-ups-020-charging\
 	status/gpm-battery-040\
+		status/xfpm-battery-040\
 		status/notification-gpm-battery-040\
 		status/notification-battery-030\
 		status/notification-battery-040\
 		status/gpm-primary-040\
+			status/xfpm-primary-040\
 		status/battery-040\
 			status/gpm-ups-040\
+				status/xfpm-ups-040\
+				status/notification-gpm-ups-040\
 	status/gpm-battery-040-charging\
+		status/xfpm-battery-040-charging\
 		status/notification-gpm-battery-040-charging\
 		status/notification-battery-030-plugged\
 		status/notification-battery-040-plugged\
 		status/gpm-primary-040-charging\
+			status/xfpm-primary-040-charging\
 		status/battery-040-charging\
 			status/gpm-ups-040-charging\
+				status/xfpm-ups-040-charging\
+				status/notification-gpm-ups-040-charging\
 	status/gpm-battery-060\
+		status/xfpm-battery-060\
 		status/notification-gpm-battery-060\
 		status/notification-battery-050\
 		status/notification-battery-060\
 		status/gpm-primary-060\
+			status/xfpm-primary-060\
 		status/battery-060\
 			status/gpm-ups-060\
+				status/xfpm-ups-060\
+				status/notification-gpm-ups-060\
 	status/gpm-battery-060-charging\
+		status/xfpm-battery-060-charging\
 		status/notification-gpm-battery-060-charging\
 		status/notification-battery-050-plugged\
 		status/notification-battery-060-plugged\
 		status/gpm-primary-060-charging\
+			status/xfpm-primary-060-charging\
 		status/battery-060-charging\
 			status/gpm-ups-060-charging\
+				status/xfpm-ups-060-charging\
+				status/notification-gpm-ups-060-charging\
 	status/gpm-battery-080\
+		status/xfpm-battery-080\
 		status/notification-gpm-battery-080\
 		status/notification-battery-070\
 		status/notification-battery-080\
 		status/gpm-primary-080\
+			status/xfpm-primary-080\
 		status/battery-080\
 			status/gpm-ups-080\
+				status/xfpm-ups-080\
+				status/notification-gpm-ups-080\
 	status/gpm-battery-080-charging\
+		status/xfpm-battery-080-charging\
 		status/notification-gpm-battery-080-charging\
 		status/notification-battery-070-plugged\
 		status/notification-battery-080-plugged\
 		status/gpm-primary-080-charging\
+			status/xfpm-primary-080-charging\
 		status/battery-080-charging\
 			status/gpm-ups-080-charging\
+				status/xfpm-ups-080-charging\
+				status/notification-gpm-ups-080-charging\
 	status/gpm-battery-100\
+		status/xfpm-battery-100\
 		status/notification-gpm-battery-100\
 		status/notification-battery-090\
 		status/notification-battery-100\
 		status/gpm-primary-100\
+			status/xfpm-primary-100\
 		status/battery-100\
 			status/gpm-ups-100\
+				status/xfpm-ups-100-charging\
+				status/notification-gpm-ups-100\
 			status/battery_full\
 	status/gpm-battery-100-charging\
+		status/xfpm-battery-100-charging\
+		status/xfpm-ups-charged\
 		status/notification-gpm-battery-100-charging\
 		status/notification-battery-090-plugged\
 		status/notification-battery-100-plugged\
 		status/gpm-primary-100-charging\
+			status/xfpm-primary-100-charging\
 		status/gpm-battery-charged\
+			status/xfpm-battery-charged\
 			status/notification-gpm-battery-charged\
 			status/gpm-primary-charged\
+				status/xfpm-primary-charged\
 		status/battery-100-charging\
 			status/gpm-ups-100-charging\
+				status/xfpm-ups-100-charging\
+				status/notification-gpm-ups-100-charging\
 		status/battery_charged\
 		status/battery-charged\
 	status/gpm-battery-empty\
+		status/notification-gpm-battery-empty\
+		status/notification-power-disconnected\
+		status/xfpm-primary-missing\
+		status/xfpm-battery-empty\
 		status/gpm-ups-missing\
+			status/xfpm-ups-missing\
+			status/notification-gpm-ups-missing\
 		status/gpm-battery-missing\
+			status/xfpm-battery-missing\
 		status/battery_empty\
 	status/bluetooth-active\
 		status/blueman-tray\
@@ -867,22 +963,30 @@ ICONS =\
 	status/network-wireless-signal-excellent\
 		status/nm-device-wireless\
 		status/nm-signal-100\
+			status/notification-network-wireless-full\
 			status/gnome-netstatus-75-100\
 	status/network-wireless-signal-good\
 		status/nm-signal-75\
+			status/notification-network-wireless-high\
 			status/gnome-netstatus-50-74\
 	status/network-wireless-signal-none\
 		status/nm-signal-00\
+			status/nm-signal-0\
+			status/notification-network-wireless-none\
 	status/network-wireless-signal-ok\
 		status/nm-signal-50\
+			status/notification-network-wireless-medium\
 			status/gnome-netstatus-25-49\
 	status/network-wireless-signal-weak\
 		status/nm-signal-25\
+			status/notification-network-wireless-low\
 			status/gnome-netstatus-0-24\
 	status/network-wireless-not-encrypted\
 	status/network-wireless-encrypted\
 		status/gnome-dev-wavelan-encrypted\
 		status/nm-secure-lock\
+			status/nm-vpn-active-lock\
+			status/nm-vpn-lock\
 		status/system-lock-screen\
 	status/nm-signal-00-secure\
 	status/nm-signal-25-secure\
