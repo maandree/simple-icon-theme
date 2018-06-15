@@ -146,6 +146,7 @@ ICONS =\
 		categories/redhat-office\
 		categories/xfce-office\
 	apps/mail-client\
+		apps/evolution\
 		apps/claws-mail\
 			apps/claws-mail_logo\
 	apps/ufraw\
@@ -306,6 +307,7 @@ ICONS =\
 		apps/openterm\
 		apps/lxterminal\
 		apps/terminal\
+			apps/guake\
 			apps/Terminal\
 			apps/bash\
 			apps/tilda\
@@ -488,6 +490,22 @@ ICONS =\
 				mimetypes/gnome-mime-image-x-psd\
 				mimetypes/image-x-psdimage-x-psd\
 	apps/inkscape\
+	apps/application-community\
+	apps/gnome-gnect\
+	apps/gnome-iagno\
+	apps/gnome-samegnome\
+	apps/google-drive\
+	apps/google-play\
+	apps/ktip\
+	apps/LimeWire\
+	apps/marble\
+	apps/redshift\
+		apps/blueshift\
+		apps/redshift-status-on\
+			apps/blueshift-on\
+	apps/vbox\
+	apps/vmware-workstation\
+	apps/x\
 	apps/utilities-file-archiver\
 		apps/utilities-archiver\
 		apps/utilities_file_archiver\
@@ -589,6 +607,8 @@ ICONS =\
 			apps/ppracer\
 	apps/mate-panel-drawer\
 		apps/gnome-panel-drawer\
+	status/redshift-status-off\
+		status/blueshift-off\
 	status/notification-display-brightness-full\
 		status/notification-gpm-brightness-lcd\
 	status/notification-display-brightness-high\
