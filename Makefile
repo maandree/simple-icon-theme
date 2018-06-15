@@ -3020,7 +3020,7 @@ index.theme: Makefile
 	set -e;\
 	for d in $(DIRS); do\
 		printf ',scalable/%s' $$d;\
-	done | sed 's/^,//' >> index.theme
+	done >> index.theme
 	printf '\n' >> index.theme
 	set -e;\
 	for s in $(SIZES) scalable; do\
