@@ -496,6 +496,7 @@ ICONS =\
 		apps/p7zip\
 		apps/ark\
 	apps/eom\
+		apps/feh\
 		apps/eog\
 			apps/gnome-eog\
 			apps/geeqie\
