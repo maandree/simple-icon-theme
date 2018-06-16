@@ -1462,6 +1462,7 @@ ICONS =\
 	actions/call-start\
 		apps/linphone\
 	actions/color-select\
+		actions/color-picker\
 	actions/document-open-recent\
 		actions/view-history\
 	actions/document-print-preview\
