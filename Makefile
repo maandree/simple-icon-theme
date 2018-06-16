@@ -490,6 +490,7 @@ ICONS =\
 				mimetypes/gnome-mime-image-x-psd\
 				mimetypes/image-x-psdimage-x-psd\
 	apps/inkscape\
+		apps/inkscape-logo\
 	apps/application-community\
 	apps/gnome-gnect\
 	apps/gnome-iagno\
@@ -501,8 +502,8 @@ ICONS =\
 	apps/marble\
 	apps/redshift\
 		apps/blueshift\
-		apps/redshift-status-on\
-			apps/blueshift-on\
+		status/redshift-status-on\
+			status/blueshift-on\
 	apps/vbox\
 	apps/vmware-workstation\
 	apps/x\
@@ -1362,8 +1363,10 @@ ICONS =\
 		actions/object-align-vertical-top-calligra\
 	actions/align-vertical-top-out\
 	actions/format-connect-node\
+		actions/node-join-segment\
 		actions/pitivi-relink\
 	actions/format-disconnect-node\
+		actions/node-delete-segment\
 		actions/pitivi-unlink\
 	actions/go-first-view-page\
 	actions/go-last-view-page\
@@ -1716,6 +1719,34 @@ ICONS =\
 		actions/games-endturn\
 		actions/stock_mark\
 		status/account-logged-in\
+	actions/boundingbox_bottom_left\
+	actions/boundingbox_bottom_right\
+	actions/boundingbox_bottom\
+	actions/boundingbox_center\
+	actions/boundingbox_left\
+	actions/boundingbox_right\
+	actions/boundingbox_top_left\
+	actions/boundingbox_top_right\
+	actions/boundingbox_top\
+	actions/draw-ellipse\
+	actions/draw-rectangle\
+	actions/draw-spiral\
+	actions/fill-rule-even-odd\
+	actions/fill-rule-nonzero\
+	actions/node-break\
+	actions/node-join\
+	actions/object-tweak-attract\
+	actions/object-tweak-push\
+	actions/object-tweak-randomize\
+	actions/object-tweak-shrink\
+	actions/path-break-apart\
+	actions/path-combine\
+	actions/path-cut\
+	actions/path-difference\
+	actions/path-division\
+	actions/path-exclusion\
+	actions/path-intersection\
+	actions/path-union\
 	actions/window-maximize\
 	actions/window-minimize\
 	actions/window-restore\
@@ -1762,6 +1793,7 @@ ICONS =\
 	actions/document-page-setup\
 		actions/stock_print-setup\
 	actions/edit-clear-all\
+		actions/document-cleanup\
 		actions/editclear\
 			apps/computerjanitor\
 		actions/gtk-clear\
@@ -1769,6 +1801,7 @@ ICONS =\
 		actions/edit-clear\
 			apps/sweeper\
 	actions/edit-clear-all-rtl\
+		actions/document-cleanup-rtl\
 		actions/edit-clear-rtl\
 	actions/edit-clear-before\
 		actions/edit-clear-after-rtl\
