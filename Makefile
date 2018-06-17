@@ -229,6 +229,7 @@ ICONS =\
 		apps/gnome-color-browser\
 			apps/gnome-color-chooser\
 		apps/mate-color-select\
+		actions/swatches\
 		actions/fill-color\
 			actions/color-line\
 				actions/gtk-select-color\
@@ -1083,6 +1084,7 @@ ICONS =\
 			status/gnome-netstatus-0-24\
 	status/network-wireless-not-encrypted\
 	status/network-wireless-encrypted\
+		status/object-locked\
 		status/gnome-dev-wavelan-encrypted\
 		status/nm-secure-lock\
 			status/nm-vpn-active-lock\
@@ -1253,11 +1255,14 @@ ICONS =\
 	status/weather-few-clouds-night-340\
 	status/weather-few-clouds-night-350\
 	status/weather-windy\
+	status/object-unlocked\
 	status/user-not-tracked\
+		status/object-hidden\
 		status/password-hidden\
 			actions/hide-password\
 				actions/password-hide\
 	status/user-tracked\
+		status/object-visible\
 		status/password-shown\
 			actions/show-password\
 				actions/password-show\
@@ -1272,6 +1277,12 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/grid-axonometric\
+	actions/grid-rectangular\
+	actions/guides\
+	actions/path-mode-bezier\
+	actions/snap-grid-guide-intersections\
+	actions/tool-node-editor\
 	actions/draw-ellipse-arc\
 	actions/draw-ellipse-segment\
 	actions/draw-ellipse-whole\
@@ -1724,6 +1735,7 @@ ICONS =\
 		actions/view-split-horizontally\
 		actions/terminator_horiz\
 	actions/window-close\
+		actions/paint-none\
 		actions/gtk-close\
 		actions/stock_close\
 		actions/dialog-no\
