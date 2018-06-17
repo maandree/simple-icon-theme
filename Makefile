@@ -1282,6 +1282,7 @@ ICONS =\
 	actions/guides\
 	actions/path-mode-bezier\
 	actions/snap-grid-guide-intersections\
+		actions/snap-nodes-intersection\
 	actions/tool-node-editor\
 	actions/draw-ellipse-arc\
 	actions/draw-ellipse-segment\
@@ -1385,18 +1386,22 @@ ICONS =\
 	actions/align-horizontal-left\
 		actions/object-align-horizontal-left-calligra\
 	actions/align-horizontal-left-out\
+		actions/align-horizontal-left-to-anchor\
 	actions/align-horizontal-right\
 		actions/object-align-horizontal-right-calligra\
 	actions/align-horizontal-right-out\
+		actions/align-horizontal-right-to-anchor\
 	actions/align-vertical-bottom\
 		actions/object-align-vertical-bottom-calligra\
 	actions/align-vertical-bottom-out\
+		actions/align-vertical-bottom-to-anchor\
 		actions/object-align-vertical-bottom-top-calligra\
 	actions/align-vertical-center\
 		actions/object-align-vertical-center-calligra\
 	actions/align-vertical-top\
 		actions/object-align-vertical-top-calligra\
 	actions/align-vertical-top-out\
+		actions/align-vertical-top-to-anchor\
 	actions/format-connect-node\
 		actions/node-join-segment\
 		actions/pitivi-relink\
@@ -1589,6 +1594,8 @@ ICONS =\
 			apps/tracker\
 			apps/xfce4-appfinder\
 				apps/kfind\
+		actions/zoom\
+			actions/sticky_zoom\
 	actions/edit-find-replace\
 		actions/gtk-find-and-replace\
 		actions/stock_search-and-replace\
@@ -1597,6 +1604,48 @@ ICONS =\
 		actions/editpaste\
 		actions/gtk-paste\
 		actions/stock_paste\
+	actions/clonetiler_per_column_color\
+	actions/clonetiler_per_column_opacity\
+	actions/clonetiler_per_column_rotation\
+	actions/clonetiler_per_column_scale\
+	actions/clonetiler_per_column_shift\
+	actions/clonetiler_per_row_color\
+	actions/clonetiler_per_row_opacity\
+	actions/clonetiler_per_row_rotation\
+	actions/clonetiler_per_row_scale\
+	actions/clonetiler_per_row_shift\
+	actions/dialog-icon-preview\
+	actions/dialog-input-devices\
+	actions/dialog-layers\
+	actions/dialog-object-properties\
+	actions/dialog-text-and-font\
+	actions/dialog-xml-editor\
+	actions/distribute-randomize\
+	actions/distribute-remove-overlaps\
+	actions/draw-connector\
+	actions/draw-geometry-set-bounding-box\
+	actions/draw-trace-background\
+	actions/draw-use-pressure\
+	actions/draw-use-tilt\
+	actions/edit-clone\
+	actions/edit-clone-unlink\
+	actions/edit-duplicate\
+	actions/layer-delete\
+	actions/layer-duplicate\
+	actions/layer-new\
+	actions/layer-rename\
+	actions/object-columns\
+	actions/object-rows\
+	actions/pack-less\
+	actions/pack-more\
+	actions/path-mode-spiro\
+	actions/show-bounding-box\
+	actions/show-grid\
+	actions/show-guides\
+	actions/snap-nodes-midpoint\
+	actions/tool-tweak\
+	actions/zoom-next\
+	actions/zoom-previous\
 	actions/tab-new\
 		actions/stock_new-tab\
 		actions/tab_new\
@@ -1798,7 +1847,6 @@ ICONS =\
 		actions/gtk-zoom-in\
 		actions/stock_zoom-in\
 		actions/viewmag+\
-		actions/zoom\
 		status/view-near\
 	actions/zoom-original\
 		actions/gtk-zoom-100\
