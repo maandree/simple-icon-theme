@@ -29,6 +29,8 @@ ICONS =\
 		categories/configuration_section\
 		apps/preferences-sound\
 		apps/qt\
+			apps/qtconfig\
+				apps/qtconfig-qt4\
 		apps/scribus\
 		apps/quicktime\
 		apps/skype\
