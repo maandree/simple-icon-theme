@@ -27,6 +27,14 @@ ICONS =\
 		categories/redhat-preferences\
 		categories/applications-interfacedesign\
 		categories/configuration_section\
+		apps/preferences-sound\
+		apps/qt\
+		apps/scribus\
+		apps/quicktime\
+		apps/skype\
+		apps/teamviewer\
+		apps/wesnoth\
+		apps/wesnoth_editor-icon\
 		apps/dconf-editor\
 			apps/gconfeditor\
 				apps/gconf-editor\
@@ -105,6 +113,7 @@ ICONS =\
 	categories/preferences-other\
 		categories/applications-other\
 			categories/gnome-other\
+		apps/softwarecenter-debian\
 	categories/applications-multimedia\
 		categories/gnome-multimedia\
 		categories/package_multimedia\
@@ -500,6 +509,7 @@ ICONS =\
 	apps/google-drive\
 	apps/google-play\
 	apps/ktip\
+		actions/help-hint\
 	apps/LimeWire\
 	apps/marble\
 	apps/redshift\
@@ -1279,6 +1289,9 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/tools-wizard\
+	actions/transform-move\
+	actions/window-duplicate\
 	actions/grid-axonometric\
 	actions/grid-rectangular\
 	actions/guides\
@@ -1446,7 +1459,11 @@ ICONS =\
 		actions/mail_reply-rtl\
 		actions/stock_mail-reply-rtl\
 	actions/document-export\
+		actions/document-export-ltr\
 	actions/document-import\
+		actions/document-import-ltr\
+	actions/document-export-rtl\
+	actions/document-import-rtl\
 	actions/extract-archive\
 		actions/cab_extract\
 	actions/mail-send\
@@ -1974,8 +1991,10 @@ ICONS =\
 		actions/slideshow-pause\
 		status/notification-audio-pause\
 	actions/media-playback-start-rtl\
+	actions/gtk-media-play-rtl\
 	actions/media-playback-start\
 		actions/gtk-media-play-ltr\
+			actions/gtk-media-play\
 		actions/player_play\
 		actions/stock_media-play\
 		status/notification-audio-play\
