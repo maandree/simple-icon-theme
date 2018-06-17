@@ -1085,6 +1085,7 @@ ICONS =\
 	status/network-wireless-not-encrypted\
 	status/network-wireless-encrypted\
 		status/object-locked\
+			status/meld-locked\
 		status/gnome-dev-wavelan-encrypted\
 		status/nm-secure-lock\
 			status/nm-vpn-active-lock\
@@ -1256,6 +1257,7 @@ ICONS =\
 	status/weather-few-clouds-night-350\
 	status/weather-windy\
 	status/object-unlocked\
+		status/meld-unlocked\
 	status/user-not-tracked\
 		status/object-hidden\
 		status/password-hidden\
