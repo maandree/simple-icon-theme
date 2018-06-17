@@ -278,6 +278,7 @@ ICONS =\
 		apps/gnome-system-monitor\
 			apps/preferences-system-performance\
 			apps/ubunstustudio-controls\
+		actions/dialog-memory\
 	apps/mate-panel-launcher\
 		apps/gnome-panel-launcher\
 			apps/quick-lounge-applet\
@@ -546,6 +547,7 @@ ICONS =\
 		apps/gnome-settings-keybindings\
 		apps/key_bindings\
 		apps/ktouch\
+		actions/help-keyborad-shortcuts\
 	apps/help-contents\
 		actions/help-contents\
 			actions/help\
@@ -1270,6 +1272,28 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/draw-ellipse-arc\
+	actions/draw-ellipse-segment\
+	actions/draw-ellipse-whole\
+	actions/draw-polygon-star\
+	actions/draw-polygon\
+	actions/draw-star\
+	actions/node-add\
+	actions/node-delete\
+	actions/node-segment-curve\
+	actions/node-segment-line\
+	actions/node-transform\
+	actions/node-type-auto-smooth\
+	actions/node-type-cusp\
+	actions/node-type-smooth\
+	actions/node-type-symmetric\
+	actions/object-to-path\
+	actions/selection-bottom\
+	actions/selection-lower\
+	actions/selection-raise\
+	actions/selection-top\
+	actions/stroke-to-path\
+	actions/tool-pointer\
 	actions/info\
 		actions/gtk-dialog-info\
 		actions/gnome-info\
