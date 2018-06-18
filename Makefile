@@ -1291,6 +1291,27 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/bitmap-trace\
+	actions/dialog-align-and-distribute\
+	actions/dialog-rows-and-columns\
+	actions/edit-select-all-layers\
+	actions/object-group\
+	actions/object-ungroup-pop-selection\
+	actions/object-ungroup\
+	actions/paint-order-fms\
+	actions/paint-order-fsm\
+	actions/paint-order-mfs\
+	actions/paint-order-msf\
+	actions/paint-order-sfm\
+	actions/paint-order-smf\
+	actions/paint-unknown\
+	actions/path-simplify\
+	actions/stroke-cap-butt\
+	actions/stroke-cap-round\
+	actions/stroke-cap-square\
+	actions/stroke-join-bevel\
+	actions/stroke-join-miter\
+	actions/stroke-join-round\
 	actions/tools-wizard\
 	actions/transform-move\
 	actions/window-duplicate\
