@@ -2,3 +2,6 @@
 *\#*
 /*x*/
 *.theme
+conv
+*.o
+*.su

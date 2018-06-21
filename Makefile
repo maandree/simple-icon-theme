@@ -3168,6 +3168,8 @@ ALL_PNG_ICONS = $(foreach S,$(SIZES),$(foreach I,$(ICONS),$(S)x$(S)/$(I).png))
 
 all: index.theme $(ALL_PNG_ICONS)
 
+all-fast: index.theme all-fast-icons
+
 index.theme: Makefile
 	set -e;\
 	printf '%s\n' \
@@ -3213,68 +3215,34 @@ index.theme: Makefile
 		done;\
 	done >> index.theme
 
-8x8/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+all-fast-icons: $(ICONS:=.x)
 
-16x16/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+%.x: conv
+	./conv scalable/$*.svg $(SIZES)
 
-22x22/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+conv: conv.c
+	$(CC) -o $@ $< $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
 
-24x24/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+8x8/%.png: scalable/%.svg conv
+	./conv $@
 
-32x32/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+16x16/%.png: scalable/%.svg conv
+	./conv $@
 
-36x36/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+22x22/%.png: scalable/%.svg conv
+	./conv $@
 
-48x48/%.png: scalable/%.svg
-	mkdir -p -- $(@D)
-	s="$$(printf '%s\n' $@ | cut -d x -f 1)";\
-	if test -L $<; then\
-		ln -sf "$$(readlink $< | sed 's/\.svg$$/\.png/')" $@;\
-	else\
-		rsvg-convert -w $$s -h $$s -f png $< > $@;\
-	fi
+24x24/%.png: scalable/%.svg conv
+	./conv $@
+
+32x32/%.png: scalable/%.svg conv
+	./conv $@
+
+36x36/%.png: scalable/%.svg conv
+	./conv $@
+
+48x48/%.png: scalable/%.svg conv
+	./conv $@
 
 install: index.theme $(ALL_PNG_ICONS)
 	mkdir -p -- "$(DESTDIR)$(ICONPREFIX)"
@@ -3298,8 +3266,7 @@ uninstall:
 	rm -rf -- "$(DESTDIR)$(ICONPREFIX)/simple"
 
 clean:
-	-rm -f -- index.theme
-	-rm -f -- $(foreach S,$(SIZES),$(foreach I,$(ICONS),$(S)x$(S)/$(I).png))
-	-rmdir -- $(foreach S,$(SIZES),$(foreach D,$(DIRS),$(S)x$(S)/$(D)) $(S)x$(S))
+	-rm -f -- index.theme *.o *.su conv
+	-for s in $(SIZES); do printf "$${s}x$${s}\n"; done | xargs rm -rf --
 
-.PHONY: all install uninstall clean
+.PHONY: all all-fast all-fast-icons install uninstall clean
