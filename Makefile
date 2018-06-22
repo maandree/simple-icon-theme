@@ -241,6 +241,7 @@ ICONS =\
 			apps/gnome-color-chooser\
 		apps/mate-color-select\
 		actions/swatches\
+			actions/color-management\
 		actions/fill-color\
 			actions/color-line\
 				actions/gtk-select-color\
@@ -1330,6 +1331,34 @@ ICONS =\
 	actions/transform-scale-vertical\
 	actions/transform-skew-horizontal\
 	actions/transform-skew-vertical\
+	actions/node_insert_max_x\
+	actions/node_insert_max_y\
+	actions/node_insert_min_x\
+	actions/node_insert_min_y\
+	actions/object-tweak-jitter-color\
+	actions/object-tweak-paint\
+	actions/path-effect-parameter-next\
+		actions/path-effect-parameter-previous-rtl\
+	actions/path-effect-parameter-previous\
+		actions/path-effect-parameter-next-rtl\
+	actions/show-path-outline\
+	actions/snap-page\
+	actions/snap-text-baseline\
+	actions/symbols\
+	actions/text_horz_kern\
+	actions/text_letter_spacing\
+	actions/text_line_spacing\
+	actions/text_rotation\
+	actions/text_subscript\
+	actions/text_superscript\
+	actions/text_vert_kern\
+	actions/window-next\
+		actions/window-previous-rtl\
+	actions/window-previous\
+		actions/window-next-rtl\
+	actions/zoom-drawing\
+	actions/zoom-fit-selection\
+	actions/zoom-page\
 	actions/zoom-half-size\
 	actions/zoom-double-size\
 	actions/transform-move\
@@ -1707,7 +1736,9 @@ ICONS =\
 	actions/snap-nodes-midpoint\
 	actions/tool-tweak\
 	actions/zoom-next\
+		actions/zoom-previous-rtl\
 	actions/zoom-previous\
+		actions/zoom-next-rtl\
 	actions/tab-new\
 		actions/stock_new-tab\
 		actions/tab_new\
@@ -2185,6 +2216,7 @@ ICONS =\
 		actions/gtk-go-back-rtl\
 		actions/gtk-go-forward-ltr\
 		actions/next\
+			actions/previous-rtl\
 		actions/stock_right\
 		actions/go-previous-rtl\
 		actions/go-right\
@@ -2194,6 +2226,7 @@ ICONS =\
 		actions/gtk-go-back-ltr\
 		actions/gtk-go-forward-rtl\
 		actions/previous\
+			actions/next-rtl\
 		actions/stock_left\
 		actions/go-next-rtl\
 		actions/go-left\
