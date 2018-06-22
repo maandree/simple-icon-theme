@@ -1401,6 +1401,16 @@ ICONS =\
 	actions/text_subscript\
 	actions/text_superscript\
 	actions/text_vert_kern\
+	actions/draw-calligraphic\
+	actions/draw-eraser\
+	actions/draw-freehand\
+	actions/draw-path\
+	actions/draw-text\
+	actions/path-inset\
+	actions/path-offset-dynamic\
+	actions/path-offset-linked\
+	actions/path-outset\
+	actions/tool-spray\
 	actions/window-next\
 		actions/window-previous-rtl\
 	actions/window-previous\
