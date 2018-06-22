@@ -2171,6 +2171,10 @@ ICONS =\
 		actions/player_end\
 		actions/stock_media-next\
 		status/notification-audio-next\
+	actions/media-next-frame\
+		actions/media-previous-frame-rtl\
+	actions/media-previous-frame\
+		actions/media-next-frame-rtl\
 	actions/media-view-subtitles\
 	actions/address-book-new\
 		actions/stock_new-address-book\
