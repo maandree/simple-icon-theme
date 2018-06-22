@@ -1825,6 +1825,64 @@ ICONS =\
 	actions/view-split-top-bottom\
 		actions/view-split-horizontally\
 		actions/terminator_horiz\
+	actions/3dbox_four_handles\
+	actions/3dbox_three_handles\
+	actions/align-horizontal-baseline\
+	actions/align-horizontal-node\
+	actions/align-vertical-baseline\
+	actions/align-vertical-node\
+	actions/color-gradient\
+	actions/connector-avoid\
+	actions/connector-edit\
+	actions/connector-ignore\
+	actions/connector-new-connpoint\
+	actions/connector-orthogonal\
+	actions/connector-remove-connpoint\
+	actions/dialog-messages\
+	actions/dialog-path-effects\
+	actions/dialog-scripts\
+	actions/distribute-horizontal-baseline\
+	actions/distribute-horizontal-center\
+	actions/distribute-horizontal-gaps\
+	actions/distribute-horizontal-left\
+	actions/distribute-horizontal-node\
+	actions/distribute-horizontal-right\
+	actions/distribute-vertical-baseline\
+	actions/distribute-vertical-bottom\
+	actions/distribute-vertical-center\
+	actions/distribute-vertical-gaps\
+	actions/distribute-vertical-node\
+	actions/distribute-vertical-top\
+	actions/draw-geometry-angle-bisector\
+	actions/draw-geometry-circle-from-radius\
+	actions/draw-geometry-circle-from-three-points\
+	actions/draw-geometry-line-parallel\
+	actions/draw-geometry-line-perpendicular\
+	actions/draw-geometry-line-segment\
+	actions/draw-geometry-mirror\
+	actions/edit-select-none\
+	actions/flatten_simplify\
+	actions/inkscape-edit-select-all\
+	actions/interactive_simplify\
+	actions/object-fill\
+	actions/object-stroke-style\
+	actions/object-stroke\
+	actions/paint-gradient-conical\
+	actions/paint-gradient-linear\
+	actions/paint-gradient-mesh\
+	actions/paint-gradient-radial\
+	actions/paint-pattern\
+	actions/paint-solid\
+	actions/paint-swatch\
+	actions/path-reverse\
+	actions/perspective-parallel\
+		actions/toggle_vp_x\
+		actions/toggle_vp_y\
+		actions/toggle_vp_z\
+	actions/selection-make-bitmap-copy\
+	actions/spray-mode-clone\
+	actions/spray-mode-copy\
+	actions/spray-mode-union\
 	actions/window-close\
 		actions/paint-none\
 		actions/gtk-close\
