@@ -1405,9 +1405,10 @@ ICONS =\
 		actions/window-previous-rtl\
 	actions/window-previous\
 		actions/window-next-rtl\
-	actions/zoom-drawing\
+	actions/zoom-fit-drawing\
 	actions/zoom-fit-selection\
-	actions/zoom-page\
+	actions/zoom-fit-page\
+		actions/stock_zoom-page\
 	actions/zoom-half-size\
 	actions/zoom-double-size\
 	actions/transform-move\
@@ -2052,8 +2053,6 @@ ICONS =\
 	actions/window-restore\
 	actions/zoom-fit-best\
 		actions/gtk-zoom-fit\
-		actions/zoom-fit-page\
-			actions/stock_zoom-page\
 			actions/remmina-fit-window\
 		actions/viewmagfit\
 		actions/zoom-best-fit\
