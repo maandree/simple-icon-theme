@@ -1313,7 +1313,27 @@ ICONS =\
 	actions/stroke-join-miter\
 	actions/stroke-join-round\
 	actions/tools-wizard\
+	actions/dialog-fill-and-stroke\
+	actions/dialog-transform\
+	actions/draw-cuboid\
+	actions/path-mode-bspline\
+	actions/path-mode-polyline-paraxial\
+	actions/path-mode-polyline\
+	actions/transform-move-horizontal\
+		actions/transform-translate-horizontal\
+			actions/translate-horizontal\
+	actions/transform-move-vertical\
+		actions/transform-translate-vertical\
+			actions/translate-vertical\
+	actions/transform-rotate\
+	actions/transform-scale-horizontal\
+	actions/transform-scale-vertical\
+	actions/transform-skew-horizontal\
+	actions/transform-skew-vertical\
+	actions/zoom-half-size\
+	actions/zoom-double-size\
 	actions/transform-move\
+		actions/transform-translate\
 	actions/window-duplicate\
 	actions/grid-axonometric\
 	actions/grid-rectangular\
@@ -1884,6 +1904,7 @@ ICONS =\
 	actions/spray-mode-copy\
 	actions/spray-mode-union\
 	actions/window-close\
+		actions/draw-geometry-inactive\
 		actions/paint-none\
 		actions/gtk-close\
 		actions/stock_close\
@@ -2055,6 +2076,7 @@ ICONS =\
 	actions/list-remove\
 		actions/gtk-remove\
 		actions/remove\
+			actions/no-marker\
 			actions/minus\
 			actions/remove-amarok\
 			apps/package-remove\
