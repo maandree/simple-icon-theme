@@ -1880,6 +1880,8 @@ ICONS =\
 	actions/object-rotate-right\
 		actions/tool-rotate-90\
 		actions/rotate\
+	actions/object-transpose\
+	actions/object-transpose-mirrored\
 	actions/object-select\
 	actions/open-menu\
 	actions/pan-down\
