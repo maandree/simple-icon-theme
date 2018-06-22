@@ -1295,6 +1295,19 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/dialog-geometry\
+	actions/layer-bottom\
+	actions/layer-lower\
+	actions/layer-next\
+	actions/layer-previous\
+	actions/layer-raise\
+	actions/layer-top\
+	actions/mesh-gradient\
+	actions/selection-move-to-layer-above\
+	actions/selection-move-to-layer-below\
+	actions/tool-measure\
+		actions/draw-geometry\
+		actions/gimp-tool-measure\
 	actions/filters-invert\
 		actions/stock_filters-invert\
 		actions/gimp-invert\
