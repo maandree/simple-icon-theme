@@ -1281,6 +1281,9 @@ ICONS =\
 		status/password-shown\
 			actions/show-password\
 				actions/password-show\
+					actions/eye\
+					actions/visible\
+						actions/gimp-visible\
 	status/thunderbolt-acquiring\
 	status/night-light\
 	status/daytime-sunrise\
@@ -1292,6 +1295,33 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/filters-invert\
+		actions/stock_filters-invert\
+		actions/gimp-invert\
+	actions/gimp-layer\
+	actions/resize-e\
+		actions/gimp-gravity-east\
+	actions/resize-ne\
+		actions/gimp-gravity-north-east\
+	actions/resize-ns\
+		actions/resize-vertical\
+	actions/resize-n\
+		actions/gimp-gravity-north\
+	actions/resize-nw\
+		actions/gimp-gravity-north-west\
+	actions/resize-se\
+		actions/gimp-gravity-south-east\
+	actions/resize-s\
+		actions/gimp-gravity-south\
+	actions/resize-sw\
+		actions/gimp-gravity-south-west\
+	actions/resize-we\
+		actions/resize-horziontal\
+	actions/resize-w\
+		actions/gimp-gravity-west\
+	actions/tool-bucket-fill\
+		actions/gimp-tool-bucket-fill\
+		actions/color-fill\
 	actions/bitmap-trace\
 	actions/dialog-align-and-distribute\
 	actions/dialog-rows-and-columns\
@@ -1308,11 +1338,17 @@ ICONS =\
 	actions/paint-unknown\
 	actions/path-simplify\
 	actions/stroke-cap-butt\
+		actions/gimp-cap-butt\
 	actions/stroke-cap-round\
+		actions/gimp-cap-round\
 	actions/stroke-cap-square\
+		actions/gimp-cap-square\
 	actions/stroke-join-bevel\
+		actions/gimp-join-bevel\
 	actions/stroke-join-miter\
+		actions/gimp-join-miter\
 	actions/stroke-join-round\
+		actions/gimp-join-round\
 	actions/tools-wizard\
 	actions/dialog-fill-and-stroke\
 	actions/dialog-transform\
@@ -1393,6 +1429,7 @@ ICONS =\
 	actions/selection-top\
 	actions/stroke-to-path\
 	actions/tool-pointer\
+		actions/gimp-cursor\
 	actions/info\
 		actions/gtk-dialog-info\
 		actions/gnome-info\
@@ -1558,6 +1595,7 @@ ICONS =\
 	actions/edit-rename\
 	actions/object-crop\
 		actions/tool-crop\
+			actions/gimp-tool-crop\
 		actions/transform-crop-and-resize\
 			status/crop\
 	actions/view-calendar-day\
@@ -1594,6 +1632,8 @@ ICONS =\
 		apps/linphone\
 	actions/color-select\
 		actions/color-picker\
+			actions/tool-color-picker\
+				actions/gimp-tool-color-picker\
 	actions/document-open-recent\
 		actions/view-history\
 	actions/document-print-preview\
@@ -1686,6 +1726,8 @@ ICONS =\
 			apps/xfce4-appfinder\
 				apps/kfind\
 		actions/zoom\
+			actions/tool-zoom\
+				actions/gimp-tool-zoom\
 			actions/sticky_zoom\
 	actions/edit-find-replace\
 		actions/gtk-find-and-replace\
@@ -1735,6 +1777,8 @@ ICONS =\
 	actions/show-guides\
 	actions/snap-nodes-midpoint\
 	actions/tool-tweak\
+		actions/tool-warp\
+			actions/gimp-tool-warp\
 	actions/zoom-next\
 		actions/zoom-previous-rtl\
 	actions/zoom-previous\
@@ -1826,8 +1870,10 @@ ICONS =\
 		actions/stock_stop\
 		actions/stop\
 	actions/object-flip-horizontal\
+		actions/gimp-flip-horizontal\
 		actions/tool-mirror\
 	actions/object-flip-vertical\
+		actions/gimp-flip-vertical\
 		actions/tool-flip\
 	actions/object-rotate-left\
 		actions/tool-rotate-270\
@@ -1936,6 +1982,7 @@ ICONS =\
 	actions/spray-mode-union\
 	actions/window-close\
 		actions/draw-geometry-inactive\
+		actions/close\
 		actions/paint-none\
 		actions/gtk-close\
 		actions/stock_close\
@@ -3034,6 +3081,7 @@ ICONS =\
 		actions/pitivi-video\
 			actions/videoclip-amarok\
 			actions/tool-animator\
+				actions/gimp-video\
 		apps/video-player\
 	mimetypes/x-office-address-book\
 		mimetypes/contents2\
