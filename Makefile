@@ -3,7 +3,7 @@
 PREFIX = /usr
 ICONPREFIX = $(PREFIX)/share/icons
 
-SIZES = 8 16 22 24 32 48
+SIZES = 16 24 32 48
 
 DIRS =\
 	actions\
