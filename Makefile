@@ -1394,6 +1394,27 @@ ICONS =\
 	actions/snap-page\
 	actions/snap-text-baseline\
 	actions/symbols\
+	actions/dialog-templates\
+	actions/document-export-ocal-rtl\
+	actions/document-export-ocal\
+	actions/document-import-ocal-rtl\
+	actions/document-import-ocal\
+	actions/edit-paste-in-place\
+	actions/edit-paste-style\
+	actions/edit-select-invert\
+	actions/edit-undo-history-rtl\
+	actions/edit-undo-history\
+	actions/mesh-gradient-fit\
+	actions/text-convert-to-regular\
+	actions/text-flow-into-frame\
+	actions/text-put-on-path\
+	actions/text-remove-from-path\
+	actions/text-unflow\
+	actions/text-unkern\
+	actions/transform-affect-gradient\
+	actions/transform-affect-pattern\
+	actions/transform-affect-rounded-corners\
+	actions/transform-affect-stroke\
 	actions/text_horz_kern\
 	actions/text_letter_spacing\
 	actions/text_line_spacing\
