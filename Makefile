@@ -1298,6 +1298,14 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/off\
+	actions/on\
+	actions/path-tweak-attract\
+	actions/path-tweak-grow\
+	actions/path-tweak-push\
+	actions/path-tweak-repel\
+	actions/path-tweak-roughen\
+	actions/path-tweak-shrink\
 	actions/dialog-geometry\
 	actions/layer-bottom\
 	actions/layer-lower\
