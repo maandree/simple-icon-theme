@@ -1360,6 +1360,12 @@ ICONS =\
 	actions/paint-order-sfm\
 	actions/paint-order-smf\
 	actions/paint-unknown\
+	actions/object-tweak-blur\
+	actions/object-tweak-duplicate\
+	actions/object-tweak-rotate\
+	actions/symbol-bigger\
+	actions/symbol-fit\
+	actions/symbol-smaller\
 	actions/path-simplify\
 	actions/stroke-cap-butt\
 		actions/gimp-cap-butt\
