@@ -996,6 +996,7 @@ ICONS =\
 	status/folder-visiting\
 		status/gnome-fs-directory-visiting\
 	status/dialog-warning\
+		status/gimp-warning\
 		status/gtk-dialog-warning\
 			status/gtk-dialog-warning-panel\
 		status/important\
@@ -1004,11 +1005,13 @@ ICONS =\
 		status/gtk-caps-lock-warning\
 		apps/gnome-warning\
 	status/dialog-error\
+		status/gimp-error\
 		status/error\
 		status/gtk-dialog-error\
 		status/messagebox_critical\
 		status/stock_dialog-error\
 	status/dialog-question\
+		status/gimp-question\
 		status/gtk-dialog-question\
 			status/gtk-help\
 		status/stock_dialog-question\
@@ -1395,6 +1398,7 @@ ICONS =\
 	actions/snap-text-baseline\
 	actions/symbols\
 	actions/dialog-templates\
+		actions/gimp-template\
 	actions/document-export-ocal-rtl\
 	actions/document-export-ocal\
 	actions/document-import-ocal-rtl\
@@ -1403,7 +1407,9 @@ ICONS =\
 	actions/edit-paste-style\
 	actions/edit-select-invert\
 	actions/edit-undo-history-rtl\
+		actions/gimp-undo-history-rtl\
 	actions/edit-undo-history\
+		actions/gimp-undo-history\
 	actions/mesh-gradient-fit\
 	actions/text-convert-to-regular\
 	actions/text-flow-into-frame\
@@ -1424,9 +1430,15 @@ ICONS =\
 	actions/text_vert_kern\
 	actions/draw-calligraphic\
 	actions/draw-eraser\
+		actions/tool-eraser\
+			actions/gimp-tool-eraser\
 	actions/draw-freehand\
 	actions/draw-path\
+		actions/tool-path\
+			actions/gimp-tool-path\
 	actions/draw-text\
+		actions/tool-text\
+			actions/gimp-tool-text\
 	actions/path-inset\
 	actions/path-offset-dynamic\
 	actions/path-offset-linked\
@@ -2028,6 +2040,7 @@ ICONS =\
 	actions/spray-mode-copy\
 	actions/spray-mode-union\
 	actions/window-close\
+		actions/gimp-close\
 		actions/draw-geometry-inactive\
 		actions/close\
 		actions/paint-none\
