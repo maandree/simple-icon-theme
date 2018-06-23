@@ -1823,8 +1823,11 @@ ICONS =\
 	actions/draw-connector\
 	actions/draw-geometry-set-bounding-box\
 	actions/draw-trace-background\
+		actions/trace_background\
 	actions/draw-use-pressure\
+		actions/use_pressure\
 	actions/draw-use-tilt\
+		actions/use_tilt\
 	actions/edit-clone\
 	actions/edit-clone-unlink\
 	actions/edit-duplicate\
