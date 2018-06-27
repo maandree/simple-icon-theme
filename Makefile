@@ -1850,6 +1850,24 @@ ICONS =\
 	actions/show-grid\
 	actions/show-guides\
 	actions/snap-nodes-midpoint\
+	actions/dialog-filters\
+	actions/format-text-direction-vertical-lr\
+	actions/format-text-direction-vertical\
+	actions/pixelart-trace\
+	actions/show-node-handles\
+	actions/snap-bounding-box-center\
+	actions/snap-bounding-box-corners\
+	actions/snap-bounding-box-edges\
+	actions/snap-bounding-box-midpoints\
+	actions/snap-bounding-box\
+	actions/snap-nodes-cusp\
+	actions/snap-nodes-path\
+	actions/snap-nodes-smooth\
+	actions/snap-nodes\
+	actions/snap-others\
+	actions/snap\
+	actions/symbol-add\
+	actions/symbol-remove\
 	actions/tool-tweak\
 		actions/tool-warp\
 			actions/gimp-tool-warp\
@@ -1876,7 +1894,9 @@ ICONS =\
 		actions/media-track-edit-amarok\
 		actions/stock_edit\
 	actions/format-text-direction-ltr\
+		actions/format-text-direction-horizontal\
 	actions/format-text-direction-rtl\
+		actions/format-text-direction-r2l\
 	actions/format-text-italic\
 		actions/gtk-italic\
 		actions/stock_text_italic\
