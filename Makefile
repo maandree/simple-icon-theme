@@ -1534,6 +1534,10 @@ ICONS =\
 	actions/mail-outbox\
 	actions/webcamreceive\
 	actions/webcamsend\
+	actions/randomize\
+	actions/rectangle-make-corners-sharp\
+	actions/text_outer_style\
+	actions/text_remove_kerns\
 	actions/media-optical-blank\
 	actions/media-optical-burn\
 		actions/tools-media-optical-burn\
@@ -1774,6 +1778,8 @@ ICONS =\
 		actions/editdelete\
 		actions/gtk-delete\
 		actions/stock_delete\
+		actions/draw-eraser-delete-objects\
+		actions/xml-attribute-delete\
 	actions/edit-find\
 		actions/filefind\
 		actions/find\
