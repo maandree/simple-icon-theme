@@ -1456,6 +1456,24 @@ ICONS =\
 	actions/path-inset\
 	actions/path-offset-dynamic\
 	actions/path-offset-linked\
+	actions/audio-cd-duplicate\
+	actions/audio-cd-new\
+	actions/exchange-positions-clockwise\
+	actions/exchange-positions\
+	actions/exchange-positions-zorder\
+	actions/media-optical-video-new\
+	actions/object-clip-mask\
+	actions/object-clipped\
+	actions/object-masked\
+	actions/playlist-new\
+	actions/playlist-remove\
+	actions/playlist\
+	actions/printer-add\
+		actions/gnome-dev-printer-new\
+	actions/printer-remove\
+	actions/text-orientation-auto\
+	actions/text-orientation-sideways\
+	actions/text-orientation-upright\
 	actions/path-outset\
 	actions/tool-spray\
 	actions/window-next\
@@ -1464,6 +1482,7 @@ ICONS =\
 		actions/window-next-rtl\
 	actions/zoom-fit-drawing\
 	actions/zoom-fit-selection\
+		actions/zoom-select\
 	actions/zoom-fit-page\
 		actions/stock_zoom-page\
 	actions/zoom-half-size\
@@ -2419,6 +2438,8 @@ ICONS =\
 	actions/share\
 	actions/edit-link\
 	actions/sticky-notes\
+	devices/media-optical-video\
+		devices/media-optical-dvd-video\
 	devices/ac-adapter\
 	devices/audio-card\
 		devices/yast_soundcard\
