@@ -183,6 +183,8 @@ ICONS =\
 		apps/wire-shark\
 		apps/hi48-app-wireshark\
 	apps/nuvolaplayer\
+	apps/addressbook\
+		apps/address-book\
 	apps/pacman\
 		apps/alunn-pacman-24\
 		apps/kapman\
@@ -190,6 +192,8 @@ ICONS =\
 	apps/mplayer\
 		apps/kmplayer\
 		apps/kplayer\
+	apps/agave\
+	apps/bitcomet\
 	apps/audacity\
 		apps/quodlibet\
 		apps/mixxx-icon\
@@ -199,6 +203,7 @@ ICONS =\
 	apps/emu-nes\
 		apps/fceux\
 	apps/citrix\
+	apps/lunar-applet\
 	apps/preferences-desktop-accessibility\
 		apps/ax-applet\
 		apps/access\
@@ -465,6 +470,7 @@ ICONS =\
 			apps/window-list\
 			actions/view-presentation\
 			actions/remmina-switch-page\
+		apps/taskbar\
 	apps/mate-panel-window-menu\
 		apps/gnome-panel-window-menu\
 	apps/mate-panel-workspace-switcher\
@@ -2703,6 +2709,10 @@ ICONS =\
 		devices/drive-harddisk-system-solidstate\
 		devices/drive-harddisk-ieee1394-solidstate\
 		devices/drive-harddisk-usb-solidstate\
+	places/jamendo\
+	places/library-podcast\
+	places/mail-sent\
+	places/magnatune\
 	places/user-home\
 		places/folder_home\
 		places/gnome-fs-home\
