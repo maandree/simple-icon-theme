@@ -341,6 +341,7 @@ ICONS =\
 			apps/gnome-eterm\
 			apps/gnome-xterm\
 		apps/xfce-terminal\
+	apps/site-photobucket\
 	apps/preferences-system-windows\
 		apps/preferences_system_windows\
 		apps/xfwm4\
@@ -1314,6 +1315,15 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/edit-find-user\
+		actions/edit-find-contact\
+			actions/contact-find\
+			actions/find-contact\
+		actions/find-user\
+		actions/user-find\
+	actions/filename-sample-rate\
+	actions/select-rectangular\
+	actions/show-menu\
 	actions/visualization\
 	actions/off\
 	actions/on\
@@ -1865,6 +1875,7 @@ ICONS =\
 	actions/dialog-layers\
 	actions/dialog-object-properties\
 	actions/dialog-text-and-font\
+		categories/applications-fonts\
 	actions/dialog-xml-editor\
 	actions/distribute-randomize\
 	actions/distribute-remove-overlaps\
