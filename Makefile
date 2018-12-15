@@ -65,6 +65,9 @@ ICONS =\
 		categories/applications-geography\
 		categories/applications-webbrowsers\
 		categories/xfce-internet\
+		apps/jigdo\
+			apps/jigdo-icon\
+		apps/im-groupwise\
 	categories/applications-development\
 		categories/gnome-devel\
 		categories/package_development\
@@ -201,6 +204,7 @@ ICONS =\
 		apps/quodlibet\
 		apps/mixxx-icon\
 		apps/gnome-mime-application-x-audacity-project\
+		apps/aqualung\
 	apps/emu-snes\
 		apps/zsnes\
 	apps/emu-nes\
@@ -276,6 +280,7 @@ ICONS =\
 		apps/xfce-sound\
 		apps/arts\
 		apps/gnome-mixer\
+			apps/kmix\
 		apps/kcmsound\
 		apps/multimedia\
 		apps/volume-knob\
@@ -328,6 +333,7 @@ ICONS =\
 			apps/gnome-term\
 			apps/gnome-color-xterm\
 			apps/shell\
+			apps/hotwire\
 		apps/konsole\
 		apps/openterm\
 		apps/lxterminal\
@@ -340,6 +346,7 @@ ICONS =\
 			apps/gksu-root-terminal\
 			apps/gnome-eterm\
 			apps/gnome-xterm\
+			apps/gksu-debian\
 		apps/xfce-terminal\
 	apps/site-photobucket\
 	apps/preferences-system-windows\
@@ -422,6 +429,7 @@ ICONS =\
 				apps/tsclient\
 					apps/knemo\
 			apps/pac\
+				apps/ssh-askpass-gnome\
 			apps/kppp\
 			apps/distccmon-gnome-icon\
 			mimetypes/application-x-remote-connection\
@@ -550,6 +558,7 @@ ICONS =\
 		apps/feh\
 		apps/eog\
 			apps/gnome-eog\
+			apps/gnome-hideseek\
 			apps/geeqie\
 			apps/gpicview\
 			apps/gqview\
@@ -1177,9 +1186,11 @@ ICONS =\
 	status/rotation-locked\
 	status/security-high\
 		status/stock_lock-ok\
+		apps/activity-log-manager\
 	status/security-low\
 		status/stock_lock-broken\
 		status/stock_lock-open\
+		apps/krusader_shield\
 	status/security-medium\
 		status/stock_lock\
 	status/semi-starred-rtl\
@@ -1565,8 +1576,10 @@ ICONS =\
 				apps/xfce4-notifyd\
 		apps/preferences-desktop-notification\
 		apps/stock_view-details\
+		apps/ibus\
 	actions/insert-horizontal-rule\
 	actions/jockey-disabled\
+		apps/gdu-smart-unknown\
 	actions/jockey-enabled\
 	actions/mail-copy\
 		apps/mail-copy\
@@ -1579,6 +1592,7 @@ ICONS =\
 		apps/stock_mail-import\
 	actions/mail-outbox\
 	actions/webcamreceive\
+		apps/kamoso\
 	actions/webcamsend\
 	actions/randomize\
 	actions/rectangle-make-corners-sharp\
@@ -2154,6 +2168,7 @@ ICONS =\
 		actions/games-endturn\
 		actions/stock_mark\
 		status/account-logged-in\
+		apps/running\
 	actions/boundingbox_bottom_left\
 	actions/boundingbox_bottom_right\
 	actions/boundingbox_bottom\
@@ -2244,6 +2259,7 @@ ICONS =\
 		actions/editcopy\
 		actions/gtk-copy\
 		actions/stock_copy\
+		apps/gnome-documents\
 	actions/edit-select-all\
 		actions/gtk-select-all\
 		actions/stock_select-all\
@@ -2541,6 +2557,7 @@ ICONS =\
 				apps/wmtweaks\
 					apps/gnome-tweak-tool\
 			apps/paprefs\
+			apps/drakconf\
 	devices/input-touchpad\
 	devices/input-keyboard\
 		devices/gnome-dev-keyboard\
@@ -2593,6 +2610,7 @@ ICONS =\
 		devices/cdrom_unmount\
 			devices/cdwriter_unmount\
 			devices/dvd_unmount\
+			apps/k9copy\
 		devices/media-optical-bd\
 		devices/media-optical-dvd\
 			devices/media-dvd\
@@ -3053,6 +3071,7 @@ ICONS =\
 			mimetypes/application-x-compress\
 		mimetypes/application-x-pak\
 		apps/peazip\
+		apps/appset\
 	mimetypes/text-x-generic\
 		mimetypes/application-x-srtrip\
 		mimetypes/application-x-srt\
@@ -3188,6 +3207,7 @@ ICONS =\
 		mimetypes/application-pgp-encrypted\
 			mimetypes/encrypted\
 			mimetypes/multipart-encrypted\
+			apps/kleopatra\
 	mimetypes/font-x-generic\
 		mimetypes/font-bitmap\
 			mimetypes/font_bitmap\
