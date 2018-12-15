@@ -17,6 +17,9 @@ DIRS =\
 	status
 
 ICONS =\
+	categories/plugin-showmouse\
+	categories/plugin-snow\
+	categories/plugin-unityshell\
 	categories/preferences-desktop\
 		categories/gnome-control-center\
 			categories/kcontrol\
@@ -252,6 +255,9 @@ ICONS =\
 				actions/gtk-select-color\
 				actions/palette\
 			actions/format-fill-color\
+	apps/cloudsn\
+	apps/launchpad\
+	apps/live\
 	apps/help-faq\
 		actions/help-faq\
 	apps/bluetooth\
@@ -379,6 +385,10 @@ ICONS =\
 		mimetypes/application-x-python-bytecode\
 			mimetypes/gnome-mime-application-x-python-bytecode\
 	apps/kega-fusion\
+	apps/deadbeef\
+	apps/easytag\
+	apps/flattr\
+	apps/flickr\
 	apps/dosbox\
 		mimetypes/application-x-ms-dos-executable\
 			mimetypes/application-x-msdownload\
@@ -1304,6 +1314,7 @@ ICONS =\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
+	actions/visualization\
 	actions/off\
 	actions/on\
 	actions/path-tweak-attract\
@@ -2191,6 +2202,7 @@ ICONS =\
 		actions/stock_about\
 		actions/gnome-stock-about\
 		actions/stock_menu_about\
+		apps/mintinstall\
 	actions/content-loading\
 	actions/document-new\
 		actions/filenew\
