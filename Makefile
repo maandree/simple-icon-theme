@@ -200,6 +200,14 @@ ICONS =\
 		apps/kplayer\
 	apps/agave\
 	apps/bitcomet\
+	apps/f-spot\
+	apps/fglrx-amdcccle\
+	apps/gnumeric\
+	apps/im-sip\
+	apps/im-zephyr\
+	apps/lancelot\
+	apps/partner\
+	apps/trimage\
 	apps/audacity\
 		apps/quodlibet\
 		apps/mixxx-icon\
