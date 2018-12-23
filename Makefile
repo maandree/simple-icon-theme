@@ -306,21 +306,6 @@ ICONS =\
 	apps/gnome-inhibit-applet\
 	apps/gnome-klotski\
 	apps/gnome-mines\
-	apps/session-halt\
-		apps/halt\
-		apps/gnome-session-halt\
-	apps/session-suspend\
-		apps/suspend\
-		apps/gnome-session-suspend\
-	apps/session-hibernate\
-		apps/hibernate\
-		apps/gnome-session-hibernate\
-	apps/session-reboot\
-		apps/reboot\
-		apps/gnome-session-reboot\
-	apps/session-switch\
-		apps/switch-session\
-		apps/gnome-session-switch\
 	apps/accessories-dictionary\
 		apps/documentation\
 		apps/gnome-dictionary\
@@ -1361,6 +1346,21 @@ ICONS =\
 			actions/find-contact\
 		actions/find-user\
 		actions/user-find\
+	actions/session-halt\
+		actions/halt\
+		actions/gnome-session-halt\
+	actions/session-suspend\
+		actions/suspend\
+		actions/gnome-session-suspend\
+	actions/session-hibernate\
+		actions/hibernate\
+		actions/gnome-session-hibernate\
+	actions/session-reboot\
+		actions/reboot\
+		actions/gnome-session-reboot\
+	actions/session-switch\
+		actions/switch-session\
+		actions/gnome-session-switch\
 	actions/filename-sample-rate\
 	actions/select-rectangular\
 	actions/show-menu\
