@@ -1346,21 +1346,6 @@ ICONS =\
 			actions/find-contact\
 		actions/find-user\
 		actions/user-find\
-	actions/session-halt\
-		actions/halt\
-		actions/gnome-session-halt\
-	actions/session-suspend\
-		actions/suspend\
-		actions/gnome-session-suspend\
-	actions/session-hibernate\
-		actions/hibernate\
-		actions/gnome-session-hibernate\
-	actions/session-reboot\
-		actions/reboot\
-		actions/gnome-session-reboot\
-	actions/session-switch\
-		actions/switch-session\
-		actions/gnome-session-switch\
 	actions/filename-sample-rate\
 	actions/select-rectangular\
 	actions/show-menu\
@@ -2496,12 +2481,27 @@ ICONS =\
 	actions/dnd-multiple\
 		actions/gtk-dnd-multiple\
 	actions/system-switch-user\
+		actions/switch-user\
+		actions/session-switch\
+			actions/switch-session\
+			actions/gnome-session-switch\
 	actions/system-shutdown\
 		actions/gnome-shutdown\
+		actions/system-shut-down\
+		actions/session-shut-down\
+		actions/session-shutdown\
+		actions/session-halt\
+			actions/system-halt\
+			actions/halt\
+			actions/gnome-session-halt\
 	actions/system-log-out\
+		actions/system-logout\
+		actions/session-log-out\
+		actions/session-logout\
 		actions/gnome-logout\
 			actions/gnome-log-out\
 			actions/lxde-logout\
+			actions/gnome-session-logout\
 	actions/system-lock-screen\
 		actions/gnome-lockscreen\
 		actions/lock\
@@ -2509,6 +2509,18 @@ ICONS =\
 		apps/ike\
 			apps/ikea\
 			apps/ike-qtgui\
+	actions/session-hibernate\
+		actions/hibernate\
+		actions/gnome-session-hibernate\
+		actions/system-hibernate\
+	actions/session-suspend\
+		actions/suspend\
+		actions/gnome-session-suspend\
+		actions/system-suspend\
+	actions/session-reboot\
+		actions/reboot\
+		actions/gnome-session-reboot\
+		actions/system-reboot\
 	actions/share\
 	actions/edit-link\
 	actions/sticky-notes\
