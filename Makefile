@@ -300,6 +300,27 @@ ICONS =\
 			apps/preferences-desktop-sound\
 				apps/preferences-desktop-text-to-speech\
 		actions/volume_icon\
+	apps/darktable\
+	apps/fslint\
+	apps/gnome-gnometris\
+	apps/gnome-inhibit-applet\
+	apps/gnome-klotski\
+	apps/gnome-mines\
+	apps/session-halt\
+		apps/halt\
+		apps/gnome-session-halt\
+	apps/session-suspend\
+		apps/suspend\
+		apps/gnome-session-suspend\
+	apps/session-hibernate\
+		apps/hibernate\
+		apps/gnome-session-hibernate\
+	apps/session-reboot\
+		apps/reboot\
+		apps/gnome-session-reboot\
+	apps/session-switch\
+		apps/switch-session\
+		apps/gnome-session-switch\
 	apps/accessories-dictionary\
 		apps/documentation\
 		apps/gnome-dictionary\
