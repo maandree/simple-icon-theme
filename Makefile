@@ -198,6 +198,27 @@ ICONS =\
 	apps/mplayer\
 		apps/kmplayer\
 		apps/kplayer\
+	apps/java\
+		apps/javac\
+		apps/jconsole\
+		apps/jshell\
+		apps/openjdk\
+			apps/java5-openjdk\
+			apps/java6-openjdk\
+			apps/java7-openjdk\
+			apps/java8-openjdk\
+			apps/java9-openjdk\
+			apps/java10-openjdk\
+			apps/java11-openjdk\
+			apps/java12-openjdk\
+			apps/java13-openjdk\
+			apps/java14-openjdk\
+			apps/java15-openjdk\
+			apps/java16-openjdk\
+			apps/java17-openjdk\
+			apps/java18-openjdk\
+			apps/java19-openjdk\
+			apps/java20-openjdk\
 	apps/agave\
 	apps/bitcomet\
 	apps/f-spot\

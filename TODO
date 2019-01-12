@@ -1,3 +1,4 @@
 grub-customizer:		should be a boot with a wrench
 apps/package-*:			should probably be in status/
 gtk-[dis]connect:		should look like [un]connected powercords
+apps/java			fix style
