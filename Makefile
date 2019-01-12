@@ -301,6 +301,15 @@ ICONS =\
 				apps/preferences-desktop-text-to-speech\
 		actions/volume_icon\
 	apps/darktable\
+	apps/neverwinter-nights\
+	apps/baldurs-gate\
+		apps/BaldursGate\
+			apps/BaldursGate64\
+	apps/baldurs-gate-2-tob\
+	apps/eekeeper\
+		apps/EEKeeper\
+	apps/near-infinity\
+		apps/NearInfinity\
 	apps/fslint\
 	apps/gnome-gnometris\
 	apps/gnome-inhibit-applet\
