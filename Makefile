@@ -202,6 +202,7 @@ ICONS =\
 		apps/javac\
 		apps/jconsole\
 		apps/jshell\
+		apps/policytool\
 		apps/openjdk\
 			apps/java5-openjdk\
 			apps/java6-openjdk\
@@ -302,6 +303,7 @@ ICONS =\
 		apps/bluetoothradio\
 	apps/accessories-character-map\
 		apps/gnome-character-map\
+		apps/gnome-characters\
 		apps/gucharmap\
 		apps/kcharselect\
 		actions/character-set\
@@ -427,13 +429,27 @@ ICONS =\
 	apps/steam\
 	apps/python\
 		apps/ipython\
-		apps/python2.3\
-		apps/python2.4\
-		apps/python2.5\
-		apps/python-2.6\
-		apps/python2.6\
+		apps/python2\
+			apps/python2.0\
+			apps/python2.1\
+			apps/python2.2\
+			apps/python2.3\
+			apps/python2.4\
+			apps/python2.5\
+			apps/python-2.6\
+			apps/python2.6\
 			apps/python2.7\
-		apps/python3.0\
+		apps/python3\
+			apps/python3.0\
+			apps/python3.1\
+			apps/python3.2\
+			apps/python3.3\
+			apps/python3.4\
+			apps/python3.5\
+			apps/python3.6\
+			apps/python3.7\
+			apps/python3.8\
+			apps/python3.9\
 		mimetypes/application-x-python-bytecode\
 			mimetypes/gnome-mime-application-x-python-bytecode\
 	apps/kega-fusion\
@@ -613,6 +629,9 @@ ICONS =\
 	apps/xmonad\
 	apps/emacs\
 		apps/emacs23\
+		apps/emacs24\
+		apps/emacs25\
+		apps/emacs26\
 	apps/flash-player-properties\
 		apps/flash\
 			apps/adobeflashplugin\
