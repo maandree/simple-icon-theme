@@ -162,6 +162,10 @@ ICONS =\
 		categories/package_office\
 		categories/redhat-office\
 		categories/xfce-office\
+	apps/android-studio\
+	apps/electron\
+	apps/qemu\
+	apps/signal\
 	apps/mail-client\
 		apps/evolution\
 		apps/claws-mail\
@@ -289,6 +293,15 @@ ICONS =\
 				actions/gtk-select-color\
 				actions/palette\
 			actions/format-fill-color\
+	apps/transmission\
+		apps/transmission-gtk\
+		apps/transmission-qt\
+		apps/transmission-cli\
+			apps/transmission-create\
+			apps/transmission-daemon\
+			apps/transmission-edit\
+			apps/transmission-remote\
+			apps/transmission-show\
 	apps/cloudsn\
 	apps/launchpad\
 	apps/live\
@@ -2388,6 +2401,7 @@ ICONS =\
 			apps/package-remove\
 	actions/mark-location\
 		apps/google-local\
+		apps/where-am-i\
 	actions/media-eject\
 		actions/player_eject\
 		apps/ejecter\
