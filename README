@@ -1,0 +1,34 @@
+Design:
+
+•	Icons should be in SVG, 16 by 16 pixels
+
+•	Icons should be optimised for 16 by 16 pixels
+
+•	Gaps between objects should be 1 pixel
+
+•	The base colour should be #bebebe
+
+•	Transparency should be used instead of colours
+	and shades, primarily 25% opaque and secondarily
+	50% opaque, unless not appropriate
+
+•	In exceptional cases colours can be used:
+
+	Status indication:
+	•	Red    = #ef2929ff (critical state or missing)
+	•	Orange = #f57900ff (warning)
+	•	Green  = #32a679ff (verified)
+
+	User selectable colours:
+	•	Red     = #cd656cff
+	•	Orange  = #d69553ff
+	•	Yellow  = #ccad47ff
+	•	Green   = #32a679ff
+	•	Cyan    = #00a09fff
+	•	Blue    = #2495beff
+	•	Magenta = #a46eb0ff
+
+•	Icons that can be overlayed, such as emblems,
+	should have a 1 pixel black (#000000) outline
+
+•	SVG files should be cleaned up with `svgcleaner`

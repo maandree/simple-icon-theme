@@ -162,15 +162,33 @@ ICONS =\
 		categories/package_office\
 		categories/redhat-office\
 		categories/xfce-office\
+	apps/anjuta\
+	apps/converseen\
+	apps/ffmulticonverter\
+	apps/mendeleydesktop\
+	apps/telegram\
+	apps/viber\
+	apps/xmind\
+	apps/bomi\
+	apps/brackets\
+	apps/alienarena\
+	apps/cmake\
+		apps/CMakeSetup\
+	apps/freemind\
+	apps/homebank\
+	apps/synfig_icon\
 	apps/android-studio\
 	apps/electron\
 	apps/qemu\
 	apps/signal\
 	apps/mail-client\
+		apps/internet-mail\
+		apps/kmail\
 		apps/evolution\
 		apps/claws-mail\
 			apps/claws-mail_logo\
 	apps/ufraw\
+	apps/bluefish\
 	apps/gnome-gnibbles\
 		apps/gnibbles\
 	apps/preferences-desktop-theme\
@@ -246,11 +264,14 @@ ICONS =\
 	apps/citrix\
 	apps/lunar-applet\
 	apps/preferences-desktop-accessibility\
+		apps/kaccess\
 		apps/ax-applet\
 		apps/access\
 		apps/accessibility-directory\
 		apps/gnome-settings-accessibility-technologies\
 	apps/preferences-desktop-locale\
+		apps/amarok_change_language\
+		apps/yast-language\
 		apps/preferences_desktop_locale\
 		apps/config-language\
 			actions/amarok_change_language\
@@ -267,6 +288,7 @@ ICONS =\
 		apps/gnome-power-manager\
 			apps/preferences_system_power_management\
 				apps/preferences-system-power-management\
+					apps/kded5\
 	apps/accessories-calculator\
 		apps/speedcrunch\
 		apps/gnome-calculator\
@@ -335,6 +357,7 @@ ICONS =\
 		apps/gnome-settings-sound\
 			apps/preferences-desktop-sound\
 				apps/preferences-desktop-text-to-speech\
+				apps/yast-sound\
 		actions/volume_icon\
 	apps/darktable\
 	apps/neverwinter-nights\
@@ -361,6 +384,7 @@ ICONS =\
 	apps/utilities-system-monitor\
 		apps/gnome-monitor\
 		apps/ksysguard\
+			apps/ksysguardd\
 		apps/htop\
 		apps/utilities_system_monitor\
 		apps/gnome-system-monitor\
@@ -432,6 +456,7 @@ ICONS =\
 		apps/gnome-screenshot\
 			apps/kgrab\
 			apps/ksnapshot\
+				apps/spectacle\
 			apps/screenie\
 			apps/screenie-qt\
 		apps/istanbul\
@@ -477,6 +502,8 @@ ICONS =\
 				mimetypes/gnome-exe-thumbnailer-template\
 			mimetypes/gnome-exe-thumbnailer-generic-x\
 	apps/system-users\
+		apps/preferences-system-users\
+			apps/yast-users\
 		apps/config-users\
 			actions/view-process-users\
 			actions/resource-group\
@@ -491,6 +518,7 @@ ICONS =\
 	apps/preferences-system-time\
 		apps/mate-panel-clock\
 			apps/gnome-panel-clock\
+		apps/yast-timezone\
 	apps/preferences-system-notifications\
 		apps/mate-notification-properties\
 	apps/preferences-desktop-remote-desktop\
@@ -512,7 +540,9 @@ ICONS =\
 	apps/preferences-system-sharing\
 	apps/preferences-system-network-proxy\
 		apps/mate-network-properties\
+		apps/yast-proxy\
 	apps/preferences-system-network\
+		apps/yast-network-group\
 	apps/preferences-system-details\
 	apps/preferences-system-devices\
 	apps/preferences-desktop-wallpaper\
@@ -539,6 +569,7 @@ ICONS =\
 		apps/gaim\
 		apps/kopete\
 	apps/preferences-desktop-font\
+		apps/yast-fonts\
 		apps/preferences-desktop-font-installer\
 		apps/fonts\
 		apps/gnome-settings-font\
@@ -615,9 +646,12 @@ ICONS =\
 	apps/marble\
 	apps/redshift\
 		apps/blueshift\
+		apps/radharc\
 		status/redshift-status-on\
 			status/blueshift-on\
 	apps/vbox\
+		apps/virtualbox\
+		apps/VBox\
 	apps/vmware-workstation\
 	apps/x\
 	apps/utilities-file-archiver\
@@ -659,6 +693,7 @@ ICONS =\
 		mimetypes/application-x-blender\
 	apps/preferences-system-privacy\
 	apps/preferences-desktop-keyboard-shortcuts\
+		apps/yast-keyboard\
 		apps/preferences-web-browser-shortcuts\
 		apps/gnome-settings-keybindings\
 		apps/key_bindings\
@@ -1066,6 +1101,7 @@ ICONS =\
 		status/xfpm-phone-000\
 	status/bluetooth-active\
 		status/blueman-tray\
+			devices/bluetooth\
 	status/bluetooth-disabled\
 	status/call-missed\
 	status/changes-allow\
@@ -2865,6 +2901,13 @@ ICONS =\
 		apps/gnome-home\
 	places/folder-saved-search\
 		places/application-x-gnome-saved-search\
+	places/folder-red\
+	places/folder-green\
+	places/folder-orange\
+	places/folder-yellow\
+	places/folder-blue\
+	places/folder-magenta\
+	places/folder-cyan\
 	places/folder\
 		places/gnome-fs-directory\
 		places/stock_folder\
@@ -2897,6 +2940,10 @@ ICONS =\
 		places/folder-downloads\
 			places/folders-downloads\
 			places/folder_download\
+	places/folder-upload\
+		places/folder-uploads\
+			places/folders-uploads\
+			places/folder_upload\
 	places/folder-music\
 		places/folders-music\
 		places/folder-sound\
@@ -2961,6 +3008,7 @@ ICONS =\
 		places/gnome-fs-web\
 		apps/neat\
 			apps/netapplet\
+				apps/network-manager\
 		apps/pyneighborhood_48x48\
 	emotes/emote-love\
 	emotes/face-angel\
@@ -3020,6 +3068,7 @@ ICONS =\
 	emblems/emblem-videos\
 	emblems/emblem-red\
 	emblems/emblem-green\
+	emblems/emblem-orange\
 	emblems/emblem-yellow\
 	emblems/emblem-blue\
 	emblems/emblem-magenta\
@@ -3033,6 +3082,7 @@ ICONS =\
 		emblems/emblem-noread\
 	emblems/emblem-games\
 	emblems/emblem-downloads\
+	emblems/emblem-uploads\
 	emblems/emblem-symbolic-link\
 	mimetypes/application-x-bittorrent\
 		mimetypes/gnome-mime-application-x-bittorrent\
@@ -3534,6 +3584,7 @@ ICONS =\
 			apps/gnome-pdf\
 			apps/evince\
 				apps/okular\
+					apps/graphics-viewer-document\
 	mimetypes/text-x-generic-template\
 		mimetypes/template_source\
 	mimetypes/x-office-document-template\
