@@ -1,3 +1,6 @@
 grub-customizer:		should be a boot with a wrench
 apps/package-*:			should probably be in status/
 gtk-[dis]connect:		should look like [un]connected powercords
+status/network-cellular-5g	needed
+status/airplain-mode-off	needed
+status/airplain-mode-on		needed

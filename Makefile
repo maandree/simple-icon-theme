@@ -623,6 +623,7 @@ ICONS =\
 	apps/mpv\
 	apps/cups\
 	apps/deluge\
+		apps/deluge-panel\
 		apps/deluge-torrent\
 	apps/gimp\
 		apps/gnome-gimp\
@@ -855,31 +856,31 @@ ICONS =\
 		status/xfce4-mixer-volume-muted\
 		actions/audio-volume-muted-amarok\
 	status/avatar-default\
-	status/battery-caution-charging\
-	status/battery-caution\
-	status/battery-empty-charging\
-		status/gpm-battery-000-charging\
-			status/xfpm-battery-000-charging\
-			status/notification-gpm-battery-000-charging\
-			status/notification-battery-000-plugged\
-			status/gpm-primary-000-charging\
-				status/xfpm-primary-000-charging\
-			status/battery-000-charging\
-				status/gpm-ups-000-charging\
-					status/xfpm-ups-000-charging\
-					status/notification-gpm-ups-000-charging\
-	status/battery-empty\
-		status/gpm-battery-000\
-			status/xfpm-battery-000\
-			status/notification-gpm-battery-000\
-			status/notification-battery-empty\
-			status/notification-battery-000\
-			status/gpm-primary-000\
-				status/xfpm-primary-000\
-			status/battery-000\
-				status/gpm-ups-000\
-					status/xfpm-ups-000\
-					status/notification-gpm-ups-000\
+	status/gpm-battery-000-charging\
+		status/battery-level-0-charging\
+		status/battery-empty-charging\
+		status/xfpm-battery-000-charging\
+		status/notification-gpm-battery-000-charging\
+		status/notification-battery-000-plugged\
+		status/gpm-primary-000-charging\
+			status/xfpm-primary-000-charging\
+		status/battery-000-charging\
+			status/gpm-ups-000-charging\
+				status/xfpm-ups-000-charging\
+				status/notification-gpm-ups-000-charging\
+	status/gpm-battery-000\
+		status/battery-level-0\
+		status/battery-empty\
+		status/xfpm-battery-000\
+		status/notification-gpm-battery-000\
+		status/notification-battery-empty\
+		status/notification-battery-000\
+		status/gpm-primary-000\
+			status/xfpm-primary-000\
+		status/battery-000\
+			status/gpm-ups-000\
+				status/xfpm-ups-000\
+				status/notification-gpm-ups-000\
 	status/battery-full-charged\
 	status/battery-full-charging\
 	status/battery-full\
@@ -892,11 +893,42 @@ ICONS =\
 		status/xfpm-ac-adapter\
 		status/notification-gpm-ac-adapter\
 		status/battery_plugged\
+		status/gpm-battery-charged\
+			status/battery-level-100-charged\
+			status/xfpm-ups-charged\
+			status/xfpm-battery-charged\
+			status/notification-gpm-battery-charged\
+			status/gpm-primary-charged\
+				status/xfpm-primary-charged\
+	status/gpm-battery-010\
+		status/battery-level-10\
+		status/xfpm-battery-010\
+		status/notification-gpm-battery-010\
+		status/notification-battery-low\
+		status/notification-battery-010\
+		status/gpm-primary-010\
+			status/xfpm-primary-010\
+		status/battery-010\
+			status/gpm-ups-010\
+				status/xfpm-ups-010\
+				status/notification-gpm-ups-010\
+	status/gpm-battery-010-charging\
+		status/battery-level-10-charging\
+		status/xfpm-battery-010-charging\
+		status/notification-gpm-battery-010-charging\
+		status/notification-battery-010-plugged\
+		status/gpm-primary-010-charging\
+			status/xfpm-primary-010-charging\
+		status/battery-010-charging\
+			status/gpm-ups-010-charging\
+				status/xfpm-ups-010-charging\
+				status/notification-gpm-ups-010-charging\
 	status/gpm-battery-020\
+		status/battery-level-20\
+		status/battery-caution\
 		status/xfpm-battery-020\
 		status/notification-gpm-battery-020\
 		status/notification-battery-low\
-		status/notification-battery-010\
 		status/notification-battery-020\
 		status/gpm-primary-020\
 			status/xfpm-primary-020\
@@ -905,9 +937,10 @@ ICONS =\
 				status/xfpm-ups-020\
 				status/notification-gpm-ups-020\
 	status/gpm-battery-020-charging\
+		status/battery-level-20-charging\
+		status/battery-caution-charging\
 		status/xfpm-battery-020-charging\
 		status/notification-gpm-battery-020-charging\
-		status/notification-battery-010-plugged\
 		status/notification-battery-020-plugged\
 		status/gpm-primary-020-charging\
 			status/xfpm-primary-020-charging\
@@ -915,10 +948,32 @@ ICONS =\
 			status/gpm-ups-020-charging\
 				status/xfpm-ups-020-charging\
 				status/notification-gpm-ups-020-charging\
+	status/gpm-battery-030\
+		status/battery-level-30\
+		status/xfpm-battery-030\
+		status/notification-gpm-battery-030\
+		status/notification-battery-030\
+		status/gpm-primary-030\
+			status/xfpm-primary-030\
+		status/battery-030\
+			status/gpm-ups-030\
+				status/xfpm-ups-030\
+				status/notification-gpm-ups-030\
+	status/gpm-battery-030-charging\
+		status/battery-level-30-charging\
+		status/xfpm-battery-030-charging\
+		status/notification-gpm-battery-030-charging\
+		status/notification-battery-030-plugged\
+		status/gpm-primary-030-charging\
+			status/xfpm-primary-030-charging\
+		status/battery-030-charging\
+			status/gpm-ups-030-charging\
+				status/xfpm-ups-030-charging\
+				status/notification-gpm-ups-030-charging\
 	status/gpm-battery-040\
+		status/battery-level-40\
 		status/xfpm-battery-040\
 		status/notification-gpm-battery-040\
-		status/notification-battery-030\
 		status/notification-battery-040\
 		status/gpm-primary-040\
 			status/xfpm-primary-040\
@@ -927,9 +982,9 @@ ICONS =\
 				status/xfpm-ups-040\
 				status/notification-gpm-ups-040\
 	status/gpm-battery-040-charging\
+		status/battery-level-40-charging\
 		status/xfpm-battery-040-charging\
 		status/notification-gpm-battery-040-charging\
-		status/notification-battery-030-plugged\
 		status/notification-battery-040-plugged\
 		status/gpm-primary-040-charging\
 			status/xfpm-primary-040-charging\
@@ -937,10 +992,32 @@ ICONS =\
 			status/gpm-ups-040-charging\
 				status/xfpm-ups-040-charging\
 				status/notification-gpm-ups-040-charging\
+	status/gpm-battery-050\
+		status/battery-level-50\
+		status/xfpm-battery-050\
+		status/notification-gpm-battery-050\
+		status/notification-battery-050\
+		status/gpm-primary-050\
+			status/xfpm-primary-050\
+		status/battery-050\
+			status/gpm-ups-050\
+				status/xfpm-ups-050\
+				status/notification-gpm-ups-050\
+	status/gpm-battery-050-charging\
+		status/battery-level-50-charging\
+		status/xfpm-battery-050-charging\
+		status/notification-gpm-battery-050-charging\
+		status/notification-battery-050-plugged\
+		status/gpm-primary-050-charging\
+			status/xfpm-primary-050-charging\
+		status/battery-050-charging\
+			status/gpm-ups-050-charging\
+				status/xfpm-ups-050-charging\
+				status/notification-gpm-ups-050-charging\
 	status/gpm-battery-060\
+		status/battery-level-60\
 		status/xfpm-battery-060\
 		status/notification-gpm-battery-060\
-		status/notification-battery-050\
 		status/notification-battery-060\
 		status/gpm-primary-060\
 			status/xfpm-primary-060\
@@ -949,9 +1026,9 @@ ICONS =\
 				status/xfpm-ups-060\
 				status/notification-gpm-ups-060\
 	status/gpm-battery-060-charging\
+		status/battery-level-60-charging\
 		status/xfpm-battery-060-charging\
 		status/notification-gpm-battery-060-charging\
-		status/notification-battery-050-plugged\
 		status/notification-battery-060-plugged\
 		status/gpm-primary-060-charging\
 			status/xfpm-primary-060-charging\
@@ -959,10 +1036,32 @@ ICONS =\
 			status/gpm-ups-060-charging\
 				status/xfpm-ups-060-charging\
 				status/notification-gpm-ups-060-charging\
+	status/gpm-battery-070\
+		status/battery-level-70\
+		status/xfpm-battery-070\
+		status/notification-gpm-battery-070\
+		status/notification-battery-070\
+		status/gpm-primary-070\
+			status/xfpm-primary-070\
+		status/battery-070\
+			status/gpm-ups-070\
+				status/xfpm-ups-070\
+				status/notification-gpm-ups-070\
+	status/gpm-battery-070-charging\
+		status/battery-level-70-charging\
+		status/xfpm-battery-070-charging\
+		status/notification-gpm-battery-070-charging\
+		status/notification-battery-070-plugged\
+		status/gpm-primary-070-charging\
+			status/xfpm-primary-070-charging\
+		status/battery-070-charging\
+			status/gpm-ups-070-charging\
+				status/xfpm-ups-070-charging\
+				status/notification-gpm-ups-070-charging\
 	status/gpm-battery-080\
+		status/battery-level-80\
 		status/xfpm-battery-080\
 		status/notification-gpm-battery-080\
-		status/notification-battery-070\
 		status/notification-battery-080\
 		status/gpm-primary-080\
 			status/xfpm-primary-080\
@@ -971,9 +1070,9 @@ ICONS =\
 				status/xfpm-ups-080\
 				status/notification-gpm-ups-080\
 	status/gpm-battery-080-charging\
+		status/battery-level-80-charging\
 		status/xfpm-battery-080-charging\
 		status/notification-gpm-battery-080-charging\
-		status/notification-battery-070-plugged\
 		status/notification-battery-080-plugged\
 		status/gpm-primary-080-charging\
 			status/xfpm-primary-080-charging\
@@ -981,10 +1080,32 @@ ICONS =\
 			status/gpm-ups-080-charging\
 				status/xfpm-ups-080-charging\
 				status/notification-gpm-ups-080-charging\
+	status/gpm-battery-090\
+		status/battery-level-90\
+		status/xfpm-battery-090\
+		status/notification-gpm-battery-090\
+		status/notification-battery-090\
+		status/gpm-primary-090\
+			status/xfpm-primary-090\
+		status/battery-090\
+			status/gpm-ups-090\
+				status/xfpm-ups-090\
+				status/notification-gpm-ups-090\
+	status/gpm-battery-090-charging\
+		status/battery-level-90-charging\
+		status/xfpm-battery-090-charging\
+		status/notification-gpm-battery-090-charging\
+		status/notification-battery-090-plugged\
+		status/gpm-primary-090-charging\
+			status/xfpm-primary-090-charging\
+		status/battery-090-charging\
+			status/gpm-ups-090-charging\
+				status/xfpm-ups-090-charging\
+				status/notification-gpm-ups-090-charging\
 	status/gpm-battery-100\
+		status/battery-level-100\
 		status/xfpm-battery-100\
 		status/notification-gpm-battery-100\
-		status/notification-battery-090\
 		status/notification-battery-100\
 		status/gpm-primary-100\
 			status/xfpm-primary-100\
@@ -994,18 +1115,12 @@ ICONS =\
 				status/notification-gpm-ups-100\
 			status/battery_full\
 	status/gpm-battery-100-charging\
+		status/battery-level-100\
 		status/xfpm-battery-100-charging\
-		status/xfpm-ups-charged\
 		status/notification-gpm-battery-100-charging\
-		status/notification-battery-090-plugged\
 		status/notification-battery-100-plugged\
 		status/gpm-primary-100-charging\
 			status/xfpm-primary-100-charging\
-		status/gpm-battery-charged\
-			status/xfpm-battery-charged\
-			status/notification-gpm-battery-charged\
-			status/gpm-primary-charged\
-				status/xfpm-primary-charged\
 		status/battery-100-charging\
 			status/gpm-ups-100-charging\
 				status/xfpm-ups-100-charging\
@@ -1025,77 +1140,136 @@ ICONS =\
 		status/battery_empty\
 	status/gpm-keyboard-charged\
 	status/gpm-keyboard-100-charging\
+	status/gpm-keyboard-090-charging\
 	status/gpm-keyboard-080-charging\
+	status/gpm-keyboard-070-charging\
 	status/gpm-keyboard-060-charging\
+	status/gpm-keyboard-050-charging\
 	status/gpm-keyboard-040-charging\
+	status/gpm-keyboard-030-charging\
 	status/gpm-keyboard-020-charging\
+	status/gpm-keyboard-010-charging\
 	status/gpm-keyboard-000-charging\
 	status/gpm-keyboard-100\
 		status/notification-gpm-keyboard-100\
 		status/xfpm-keyboard-100\
+	status/gpm-keyboard-090\
+		status/notification-gpm-keyboard-090\
+		status/xfpm-keyboard-090\
 	status/gpm-keyboard-080\
 		status/notification-gpm-keyboard-080\
 		status/xfpm-keyboard-080\
+	status/gpm-keyboard-070\
+		status/notification-gpm-keyboard-070\
+		status/xfpm-keyboard-070\
 	status/gpm-keyboard-060\
 		status/notification-gpm-keyboard-060\
 		status/xfpm-keyboard-060\
+	status/gpm-keyboard-050\
+		status/notification-gpm-keyboard-050\
+		status/xfpm-keyboard-050\
 	status/gpm-keyboard-040\
 		status/notification-gpm-keyboard-040\
 		status/xfpm-keyboard-040\
+	status/gpm-keyboard-030\
+		status/notification-gpm-keyboard-030\
+		status/xfpm-keyboard-030\
 	status/gpm-keyboard-020\
 		status/notification-gpm-keyboard-020\
 		status/xfpm-keyboard-020\
+	status/gpm-keyboard-010\
+		status/notification-gpm-keyboard-010\
+		status/xfpm-keyboard-010\
 	status/gpm-keyboard-000\
 		status/notification-gpm-keyboard-000\
 		status/xfpm-keyboard-000\
 	status/gpm-mouse-charged\
 	status/gpm-mouse-100-charging\
+	status/gpm-mouse-090-charging\
 	status/gpm-mouse-080-charging\
+	status/gpm-mouse-070-charging\
 	status/gpm-mouse-060-charging\
+	status/gpm-mouse-050-charging\
 	status/gpm-mouse-040-charging\
+	status/gpm-mouse-030-charging\
 	status/gpm-mouse-020-charging\
+	status/gpm-mouse-010-charging\
 	status/gpm-mouse-000-charging\
 	status/gpm-mouse-100\
 		status/notification-gpm-mouse-100\
 		status/xfpm-mouse-100\
+	status/gpm-mouse-090\
+		status/notification-gpm-mouse-090\
+		status/xfpm-mouse-090\
 	status/gpm-mouse-080\
 		status/notification-gpm-mouse-080\
 		status/xfpm-mouse-080\
+	status/gpm-mouse-070\
+		status/notification-gpm-mouse-070\
+		status/xfpm-mouse-070\
 	status/gpm-mouse-060\
 		status/notification-gpm-mouse-060\
 		status/xfpm-mouse-060\
+	status/gpm-mouse-050\
+		status/notification-gpm-mouse-050\
+		status/xfpm-mouse-050\
 	status/gpm-mouse-040\
 		status/notification-gpm-mouse-040\
 		status/xfpm-mouse-040\
+	status/gpm-mouse-030\
+		status/notification-gpm-mouse-030\
+		status/xfpm-mouse-030\
 	status/gpm-mouse-020\
 		status/notification-gpm-mouse-020\
 		status/xfpm-mouse-020\
+	status/gpm-mouse-010\
+		status/notification-gpm-mouse-010\
+		status/xfpm-mouse-010\
 	status/gpm-mouse-000\
 		status/notification-gpm-mouse-000\
 		status/xfpm-mouse-000\
 	status/gpm-phone-charged\
 	status/gpm-phone-100-charging\
+	status/gpm-phone-090-charging\
 	status/gpm-phone-080-charging\
+	status/gpm-phone-070-charging\
 	status/gpm-phone-060-charging\
+	status/gpm-phone-050-charging\
 	status/gpm-phone-040-charging\
+	status/gpm-phone-030-charging\
 	status/gpm-phone-020-charging\
+	status/gpm-phone-010-charging\
 	status/gpm-phone-000-charging\
 	status/gpm-phone-100\
 		status/notification-gpm-phone-100\
 		status/xfpm-phone-100\
+	status/gpm-phone-090\
+		status/notification-gpm-phone-090\
+		status/xfpm-phone-090\
 	status/gpm-phone-080\
 		status/notification-gpm-phone-080\
 		status/xfpm-phone-080\
+	status/gpm-phone-070\
+		status/notification-gpm-phone-070\
+		status/xfpm-phone-070\
 	status/gpm-phone-060\
 		status/notification-gpm-phone-060\
 		status/xfpm-phone-060\
+	status/gpm-phone-050\
+		status/notification-gpm-phone-050\
+		status/xfpm-phone-050\
 	status/gpm-phone-040\
 		status/notification-gpm-phone-040\
 		status/xfpm-phone-040\
-			status/xfpm-phone-030\
+	status/gpm-phone-030\
+		status/notification-gpm-phone-030\
+		status/xfpm-phone-030\
 	status/gpm-phone-020\
 		status/notification-gpm-phone-020\
 		status/xfpm-phone-020\
+	status/gpm-phone-010\
+		status/notification-gpm-phone-010\
+		status/xfpm-phone-010\
 	status/gpm-phone-000\
 		status/notification-gpm-phone-000\
 		status/xfpm-phone-000\
@@ -1432,9 +1606,17 @@ ICONS =\
 	status/daytime-sunrise\
 	status/daytime-sunset\
 	status/orientation-landscape\
+		status/orientation-landscape-up\
+			status/orientation-up\
 	status/orientation-landscape-inverse\
+		status/orientation-landscape-down\
+			status/orientation-down\
 	status/orientation-portrait\
+		status/orientation-portrait-right\
+			status/orientation-right\
 	status/orientation-portrait-inverse\
+		status/orientation-portrait-left\
+			status/orientation-left\
 	status/image-missing\
 		status/gtk-missing-image\
 		actions/gtk-missing-image\
@@ -2073,6 +2255,7 @@ ICONS =\
 		actions/media-track-edit-amarok\
 		actions/stock_edit\
 	actions/format-text-direction-ltr\
+		actions/format-text-direction\
 		actions/format-text-direction-horizontal\
 	actions/format-text-direction-rtl\
 		actions/format-text-direction-r2l\
@@ -2177,6 +2360,7 @@ ICONS =\
 	actions/view-pin\
 	actions/view-grid\
 		actions/view-list-icons\
+			actions/mode-browse\
 		actions/xn-grid\
 	actions/view-list\
 		actions/view-list-details\
@@ -3657,7 +3841,6 @@ ICONS =\
 
 #apps/mozo
 #	apps/alacarte
-
 
 ALL_PNG_ICONS = $(foreach S,$(SIZES),$(foreach I,$(ICONS),$(S)x$(S)/$(I).png))
 
