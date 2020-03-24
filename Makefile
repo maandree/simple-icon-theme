@@ -57,6 +57,8 @@ ICONS =\
 		apps/redhat-server_settings\
 		apps/redhat-tools\
 		apps/unity-tweak-tool-overview\
+	categories/applications-chat\
+	categories/applications-mathematics\
 	categories/applications-internet\
 		categories/gnome-globe\
 		categories/package_network\
@@ -171,6 +173,8 @@ ICONS =\
 	apps/xmind\
 	apps/bomi\
 	apps/brackets\
+	apps/mumble\
+	apps/teams\
 	apps/alienarena\
 	apps/cmake\
 		apps/CMakeSetup\
@@ -244,6 +248,7 @@ ICONS =\
 			apps/java20-openjdk\
 	apps/agave\
 	apps/bitcomet\
+	apps/brave\
 	apps/f-spot\
 	apps/fglrx-amdcccle\
 	apps/gnumeric\
@@ -818,6 +823,8 @@ ICONS =\
 		status/image-loading\
 			status/gnome-fs-loading-icon\
 	status/airplane-mode\
+		status/airplane-mode-on\
+	status/airplane-mode-off\
 	status/alarm\
 		apps/alarm\
 			apps/alarm-clock\
@@ -2807,6 +2814,13 @@ ICONS =\
 	actions/share\
 	actions/edit-link\
 	actions/sticky-notes\
+	actions/camera-switch\
+	actions/dialog-tile-clones\
+	actions/distribute-graph\
+	actions/document-metadata\
+	actions/show-dialogs\
+	actions/snap-nodes-center\
+	actions/snap-nodes-rotation-center\
 	devices/media-optical-video\
 		devices/media-optical-dvd-video\
 	devices/ac-adapter\

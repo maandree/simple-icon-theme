@@ -2,5 +2,24 @@ grub-customizer:		should be a boot with a wrench
 apps/package-*:			should probably be in status/
 gtk-[dis]connect:		should look like [un]connected powercords
 status/network-cellular-5g	needed
-status/airplain-mode-off	needed
-status/airplain-mode-on		needed
+
+
+actions/
+  mail-mark-notjunk		The icon for the mark as not junk action of an electronic mail application.
+  mail-mark-unread		The icon for the mark as unread action of an electronic mail application.
+
+animations/
+  process-working	This is the standard spinner animation for web browsers and file managers to show that the location is loading.
+
+apps/
+  preferences-desktop-multimedia	The icon used for the desktop's multimedia preferences.
+
+emblems/
+  emblem-synchronized	The icon used as an emblem for files or directories that are configured to be synchronized to another device.
+
+intl/
+  flag-??			The flag for the country with the ISO 3166 country code ??. All flags should use ISO 3166 two-letter country codes, in lowercase form, as the specifier for the country. 
+
+status/
+  sync-error		The icon used when an error occurs while attempting to synchronize data from the computing device, to another device.
+  sync-synchronizing	The icon used while data is successfully synchronizing to another device.
