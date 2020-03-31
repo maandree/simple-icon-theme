@@ -1514,9 +1514,9 @@ ICONS =\
 	status/network-vpn\
 		devices/network-vpn\
 		status/network-vpn-enabled\
-			actions/network-vpn-enabled\
+			actions/network-vpn-enable\
 	status/network-vpn-disabled\
-	actions/network-vpn-disabled\
+	actions/network-vpn-disable\
 	status/non-starred\
 	status/printer-error\
 		actions/gtk-print-error\
@@ -3004,8 +3004,8 @@ ICONS =\
 	devices/audio-speakers\
 		status/audio-speakers-enabled\
 			actions/audio-speakers-enable\
-	status/audio-speakers-disabled
-	actions/audio-speakers-disable
+	status/audio-speakers-disabled\
+	actions/audio-speakers-disable\
 	devices/battery\
 		devices/gnome-dev-battery\
 		apps/batti\
@@ -3024,7 +3024,7 @@ ICONS =\
 		status/camera-web-recording\
 			actions/camera-web-enable\
 	status/camera-web-not-recording\
-	actions/camera-web-disable
+	actions/camera-web-disable\
 	status/camera-web-recording-warning\
 	devices/colorimeter-colorhug\
 	devices/computer\
