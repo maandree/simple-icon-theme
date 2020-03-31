@@ -834,7 +834,9 @@ ICONS =\
 			status/airplane-mode\
 	actions/airplane-mode-turn-off\
 	status/airplane-mode-off\
+	status/alarm-off\
 	status/alarm\
+		status/alarm-on\
 		apps/alarm\
 			apps/alarm-clock\
 			apps/alarm-timer\
@@ -1539,7 +1541,6 @@ ICONS =\
 		status/stock_weather-few-clouds\
 		apps/weather-indicator\
 			apps/indicator-weather\
-		apps/xfce4-weather-unsynced\
 	status/weather-few-clouds-unsynced\
 	status/weather-clear-night-000\
 	status/weather-clear-night-010\
@@ -2941,6 +2942,9 @@ ICONS =\
 		apps/gnome-sound-recorder\
 			apps/gnome-grecord\
 			apps/xfce4-mixer-record\
+		status/microphone-recording\
+	status/microphone-not-recording\
+	status/microphone-recording-warning\
 	devices/audio-speakers\
 	devices/battery\
 		devices/gnome-dev-battery\
@@ -2957,6 +2961,9 @@ ICONS =\
 	devices/camera-web\
 		apps/camorama\
 		apps/webcamstudio\
+		status/camera-web-recording\
+	status/camera-web-not-recording\
+	status/camera-web-recording-warning\
 	devices/colorimeter-colorhug\
 	devices/computer\
 		devices/gnome-dev-computer\
