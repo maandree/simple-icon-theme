@@ -343,6 +343,14 @@ ICONS =\
 		apps/blueman\
 		apps/blueradio-48\
 		apps/bluetoothradio\
+		status/bluetooth-active\
+			status/blueman-tray\
+				devices/bluetooth\
+			status/bluetooth-enabled\
+	status/bluetooth-disabled\
+		status/bluetooth-inactive\
+	status/bluetooth-idle\
+	status/bluetooth-missing\
 	apps/accessories-character-map\
 		apps/gnome-character-map\
 		apps/gnome-characters\
@@ -1294,10 +1302,6 @@ ICONS =\
 	status/gpm-phone-000\
 		status/notification-gpm-phone-000\
 		status/xfpm-phone-000\
-	status/bluetooth-active\
-		status/blueman-tray\
-			devices/bluetooth\
-	status/bluetooth-disabled\
 	status/call-missed\
 	status/changes-allow\
 	status/changes-prevent\
