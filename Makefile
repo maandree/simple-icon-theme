@@ -267,6 +267,8 @@ ICONS =\
 	apps/emu-nes\
 		apps/fceux\
 	apps/citrix\
+		apps/Citrix-Receiver\
+			apps/citrix-receiver\
 	apps/lunar-applet\
 	apps/preferences-desktop-accessibility\
 		apps/kaccess\
@@ -450,6 +452,8 @@ ICONS =\
 		apps/xfce-filemanager\
 		apps/kfm\
 		apps/caja\
+		apps/nautilus\
+			apps/org.gnome.Nautilus\
 		apps/thunar\
 			apps/Thunar\
 		apps/drawer\
@@ -470,6 +474,9 @@ ICONS =\
 			apps/preferences-desktop-user\
 		actions/user-properties\
 	apps/steam\
+	apps/pulse-secure\
+		apps/Pulse-Secure\
+		apps/pulseUi\
 	apps/python\
 		apps/ipython\
 		apps/python2\
@@ -822,8 +829,10 @@ ICONS =\
 	status/content-loading\
 		status/image-loading\
 			status/gnome-fs-loading-icon\
-	status/airplane-mode\
+	actions/airplane-mode-turn-on\
 		status/airplane-mode-on\
+			status/airplane-mode\
+	actions/airplane-mode-turn-off\
 	status/airplane-mode-off\
 	status/alarm\
 		apps/alarm\
@@ -1470,6 +1479,7 @@ ICONS =\
 		actions/gtk-print-error\
 		status/notification-printer-error\
 	status/printer-printing\
+	status/printer-not-printing\
 	status/printer-warning\
 		actions/gtk-print-warning\
 	status/radio-checked\
@@ -1488,6 +1498,11 @@ ICONS =\
 		status/stock_lock\
 	status/semi-starred-rtl\
 	status/semi-starred\
+	status/semi-starred-hovered-rtl\
+	status/semi-starred-hovered\
+	status/non-starred-hovered\
+	status/starred-hovered\
+		status/not-starred\
 	status/software-update-available\
 	status/software-update-urgent\
 	status/starred\
@@ -1496,26 +1511,36 @@ ICONS =\
 	status/touchpad-disabled\
 	status/view-wrapped-rtl\
 	status/view-wrapped\
+	status/weather-unknown\
 	status/weather-overcast\
 		status/stock_weather-cloudy\
+	status/weather-overcast-unsynced\
 	status/weather-showers\
 		status/stock_weather-showers\
+	status/weather-showers-unsynced\
 	status/weather-showers-scattered\
+	status/weather-showers-scattered-unsynced\
 	status/weather-snow\
 		status/stock_weather-snow\
+	status/weather-snow-unsynced\
 	status/weather-storm\
 		status/stock_weather-storm\
+	status/weather-storm-unsynced\
 	status/weather-fog\
 		status/stock_weather-fog\
+	status/weather-fog-unsynced\
 	status/weather-severe-alert\
+	status/weather-severe-alert-unsynced\
 	status/weather-clear\
 		status/stock_weather-sunny\
 		status/sunny\
+	status/weather-clear-unsynced\
 	status/weather-few-clouds\
 		status/stock_weather-few-clouds\
 		apps/weather-indicator\
 			apps/indicator-weather\
-		apps/xfce4-weather\
+		apps/xfce4-weather-unsynced\
+	status/weather-few-clouds-unsynced\
 	status/weather-clear-night-000\
 	status/weather-clear-night-010\
 	status/weather-clear-night-020\
@@ -1593,6 +1618,81 @@ ICONS =\
 	status/weather-few-clouds-night-340\
 	status/weather-few-clouds-night-350\
 	status/weather-windy\
+	status/weather-windy-unsynced\
+	status/weather-clear-night-000-unsynced\
+	status/weather-clear-night-010-unsynced\
+	status/weather-clear-night-020-unsynced\
+	status/weather-clear-night-030-unsynced\
+	status/weather-clear-night-040-unsynced\
+	status/weather-clear-night-050-unsynced\
+	status/weather-clear-night-060-unsynced\
+	status/weather-clear-night-070-unsynced\
+	status/weather-clear-night-080-unsynced\
+	status/weather-clear-night-090-unsynced\
+	status/weather-clear-night-100-unsynced\
+	status/weather-clear-night-110-unsynced\
+	status/weather-clear-night-120-unsynced\
+	status/weather-clear-night-130-unsynced\
+	status/weather-clear-night-140-unsynced\
+	status/weather-clear-night-150-unsynced\
+	status/weather-clear-night-160-unsynced\
+	status/weather-clear-night-170-unsynced\
+	status/weather-clear-night-180-unsynced\
+		status/weather-clear-night-unsynced\
+	status/weather-clear-night-190-unsynced\
+	status/weather-clear-night-200-unsynced\
+	status/weather-clear-night-210-unsynced\
+	status/weather-clear-night-220-unsynced\
+	status/weather-clear-night-230-unsynced\
+	status/weather-clear-night-240-unsynced\
+	status/weather-clear-night-250-unsynced\
+	status/weather-clear-night-260-unsynced\
+	status/weather-clear-night-270-unsynced\
+	status/weather-clear-night-280-unsynced\
+	status/weather-clear-night-290-unsynced\
+	status/weather-clear-night-300-unsynced\
+	status/weather-clear-night-310-unsynced\
+	status/weather-clear-night-320-unsynced\
+	status/weather-clear-night-330-unsynced\
+	status/weather-clear-night-340-unsynced\
+	status/weather-clear-night-350-unsynced\
+	status/weather-few-clouds-night-000-unsynced\
+	status/weather-few-clouds-night-010-unsynced\
+	status/weather-few-clouds-night-020-unsynced\
+	status/weather-few-clouds-night-030-unsynced\
+	status/weather-few-clouds-night-040-unsynced\
+	status/weather-few-clouds-night-050-unsynced\
+	status/weather-few-clouds-night-060-unsynced\
+	status/weather-few-clouds-night-070-unsynced\
+	status/weather-few-clouds-night-080-unsynced\
+	status/weather-few-clouds-night-090-unsynced\
+	status/weather-few-clouds-night-100-unsynced\
+	status/weather-few-clouds-night-110-unsynced\
+	status/weather-few-clouds-night-120-unsynced\
+	status/weather-few-clouds-night-130-unsynced\
+	status/weather-few-clouds-night-140-unsynced\
+	status/weather-few-clouds-night-150-unsynced\
+	status/weather-few-clouds-night-160-unsynced\
+	status/weather-few-clouds-night-170-unsynced\
+	status/weather-few-clouds-night-180-unsynced\
+		status/weather-few-clouds-night-unsynced\
+	status/weather-few-clouds-night-190-unsynced\
+	status/weather-few-clouds-night-200-unsynced\
+	status/weather-few-clouds-night-210-unsynced\
+	status/weather-few-clouds-night-220-unsynced\
+	status/weather-few-clouds-night-230-unsynced\
+	status/weather-few-clouds-night-240-unsynced\
+	status/weather-few-clouds-night-250-unsynced\
+	status/weather-few-clouds-night-260-unsynced\
+	status/weather-few-clouds-night-270-unsynced\
+	status/weather-few-clouds-night-280-unsynced\
+	status/weather-few-clouds-night-290-unsynced\
+	status/weather-few-clouds-night-300-unsynced\
+	status/weather-few-clouds-night-310-unsynced\
+	status/weather-few-clouds-night-320-unsynced\
+	status/weather-few-clouds-night-330-unsynced\
+	status/weather-few-clouds-night-340-unsynced\
+	status/weather-few-clouds-night-350-unsynced\
 	status/object-unlocked\
 		status/meld-unlocked\
 	status/user-not-tracked\
@@ -1609,7 +1709,9 @@ ICONS =\
 					actions/visible\
 						actions/gimp-visible\
 	status/thunderbolt-acquiring\
-	status/night-light\
+	status/night-light-on\
+		status/night-light\
+	status/night-light-off\
 	status/daytime-sunrise\
 	status/daytime-sunset\
 	status/orientation-landscape\
