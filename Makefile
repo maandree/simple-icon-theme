@@ -784,6 +784,24 @@ ICONS =\
 			apps/ppracer\
 	apps/mate-panel-drawer\
 		apps/gnome-panel-drawer\
+	status/kbd-capslock-on\
+		devices/kbd-capslock-on\
+	status/kbd-capslock-off\
+		devices/kbd-capslock-off\
+	status/kbd-capslock-mixed\
+		devices/kbd-capslock-mixed\
+	status/kbd-numlock-on\
+		devices/kbd-numlock-on\
+	status/kbd-numlock-off\
+		devices/kbd-numlock-off\
+	status/kbd-numlock-mixed\
+		devices/kbd-numlock-mixed\
+	status/kbd-scrolllock-on\
+		devices/kbd-scrolllock-on\
+	status/kbd-scrolllock-off\
+		devices/kbd-scrolllock-off\
+	status/kbd-scrolllock-mixed\
+		devices/kbd-scrolllock-mixed\
 	status/redshift-status-off\
 		status/blueshift-off\
 		status/radharc-off\
@@ -1743,6 +1761,11 @@ ICONS =\
 			actions/find-contact\
 		actions/find-user\
 		actions/user-find\
+	actions/distribute-unclump\
+	actions/distribute-graph-directed\
+	actions/draw-geometry-show-measuring-info\
+	actions/path-clip-edit\
+	actions/path-mask-edit\
 	actions/filename-sample-rate\
 	actions/select-rectangular\
 	actions/show-menu\
