@@ -1433,10 +1433,14 @@ ICONS =\
 	status/network-wireless-no-route\
 	status/network-wireless-offline\
 	status/network-wireless-signal-excellent\
+		status/network-wireless-enabled\
+			actions/network-wireless-enable\
 		status/nm-device-wireless\
 		status/nm-signal-100\
 			status/notification-network-wireless-full\
 			status/gnome-netstatus-75-100\
+	status/network-wireless-disabled\
+	actions/network-wireless-disable\
 	status/network-wireless-signal-good\
 		status/nm-signal-75\
 			status/notification-network-wireless-high\
@@ -1480,9 +1484,17 @@ ICONS =\
 	status/media-playlist-shuffle\
 		status/stock_shuffle\
 	status/microphone-sensitivity-high\
+		actions/audio-input-microphone-enable-high\
 	status/microphone-sensitivity-low\
+		actions/audio-input-microphone-enable-low\
 	status/microphone-sensitivity-medium\
+		actions/audio-input-microphone-enable-medium\
 	status/microphone-sensitivity-muted\
+	actions/audio-input-microphone-enable-muted\
+	actions/audio-input-microphone-disable-high\
+	actions/audio-input-microphone-disable-low\
+	actions/audio-input-microphone-disable-medium\
+	actions/audio-input-microphone-disable-muted\
 	status/network-cellular-3g\
 	status/network-cellular-4g\
 	status/network-cellular-acquiring\
@@ -1501,6 +1513,10 @@ ICONS =\
 	status/network-vpn-acquiring\
 	status/network-vpn\
 		devices/network-vpn\
+		status/network-vpn-enabled\
+			actions/network-vpn-enabled\
+	status/network-vpn-disabled\
+	actions/network-vpn-disabled\
 	status/non-starred\
 	status/printer-error\
 		actions/gtk-print-error\
@@ -2964,7 +2980,15 @@ ICONS =\
 		apps/system-config-soundcard\
 	devices/audio-headphones\
 		devices/headphones\
+		status/audio-headphones-enabled\
+			actions/audio-headphones-enable\
+	status/audio-headphones-disabled\
+	actions/audio-headphones-disable\
 	devices/audio-headset\
+		status/audio-headset-enabled\
+			actions/audio-headset-enable\
+	status/audio-headset-disabled\
+	actions/audio-headset-disable\
 	devices/audio-input-microphone\
 		devices/gnome-stock-mic\
 		devices/stock_mic\
@@ -2973,9 +2997,15 @@ ICONS =\
 			apps/gnome-grecord\
 			apps/xfce4-mixer-record\
 		status/microphone-recording\
+			actions/audio-input-microphone-enable\
+	actions/audio-input-microphone-disable\
 	status/microphone-not-recording\
 	status/microphone-recording-warning\
 	devices/audio-speakers\
+		status/audio-speakers-enabled\
+			actions/audio-speakers-enable\
+	status/audio-speakers-disabled
+	actions/audio-speakers-disable
 	devices/battery\
 		devices/gnome-dev-battery\
 		apps/batti\
@@ -2992,7 +3022,9 @@ ICONS =\
 		apps/camorama\
 		apps/webcamstudio\
 		status/camera-web-recording\
+			actions/camera-web-enable\
 	status/camera-web-not-recording\
+	actions/camera-web-disable
 	status/camera-web-recording-warning\
 	devices/colorimeter-colorhug\
 	devices/computer\

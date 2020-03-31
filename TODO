@@ -1,7 +1,38 @@
-grub-customizer:		should be a boot with a wrench
-apps/package-*:			should probably be in status/
-gtk-[dis]connect:		should look like [un]connected powercords
-status/network-cellular-5g	needed
+grub-customizer						should be a boot with a wrench
+apps/package-*						should probably be in status/
+gtk-[dis]connect					should look like [un]connected powercords
+status/network-cellular-5g				needed
+actions/night-light-enable				needed
+actions/night-light-disable				needed
+status/uninterruptible-power-supply-running		needed
+status/uninterruptible-power-supply-not-running		needed
+
+
+Add screen sharing icons:
+  app/screen-share					live devices/video-display but with arrows as in actions/webcamsend
+  status/screen-share-enabled
+  status/screen-share-enabled-warning
+  status/screen-share-disabled
+  actions/screen-share-enable
+  actions/screen-share-disable
+
+Need status icons for mail
+
+Add enable/disable/enabled/disabled versions of
+    network-wireless-hotspot
+    phone
+
+Add icons for phones:
+    GPS/location		based on actions/mark-location
+    wi-fi calling
+    NFC
+    always on display
+    torch
+    mobile data
+    device visibility
+    performance mode
+    power saving mode
+    tethering
 
 
 actions/
