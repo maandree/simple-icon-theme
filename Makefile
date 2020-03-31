@@ -656,11 +656,13 @@ ICONS =\
 	apps/ktip\
 		actions/help-hint\
 	apps/LimeWire\
+		apps/limewire\
 	apps/marble\
 	apps/redshift\
 		apps/blueshift\
 		apps/radharc\
 		status/redshift-status-on\
+			status/radharc-on\
 			status/blueshift-on\
 	apps/vbox\
 		apps/virtualbox\
@@ -776,6 +778,7 @@ ICONS =\
 		apps/gnome-panel-drawer\
 	status/redshift-status-off\
 		status/blueshift-off\
+		status/radharc-off\
 	status/notification-display-brightness-full\
 		status/notification-gpm-brightness-lcd\
 	status/notification-display-brightness-high\
