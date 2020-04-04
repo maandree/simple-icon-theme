@@ -164,7 +164,9 @@ ICONS =\
 		categories/package_office\
 		categories/redhat-office\
 		categories/xfce-office\
+	apps/apport\
 	apps/anjuta\
+		apps/anjuta6\
 	apps/converseen\
 	apps/ffmulticonverter\
 	apps/mendeleydesktop\
@@ -191,6 +193,8 @@ ICONS =\
 		apps/evolution\
 		apps/claws-mail\
 			apps/claws-mail_logo\
+		apps/thunderbird\
+			apps/thunderbird-icon\
 	apps/ufraw\
 	apps/bluefish\
 	apps/gnome-gnibbles\
@@ -331,6 +335,7 @@ ICONS =\
 			apps/transmission-edit\
 			apps/transmission-remote\
 			apps/transmission-show\
+		apps/transmission-tray-icon\
 	apps/cloudsn\
 	apps/launchpad\
 	apps/live\
@@ -376,10 +381,16 @@ ICONS =\
 		actions/volume_icon\
 	apps/darktable\
 	apps/neverwinter-nights\
+		apps/nwmain-linux\
+		apps/nwserver-linux\
 	apps/baldurs-gate\
 		apps/BaldursGate\
 			apps/BaldursGate64\
 	apps/baldurs-gate-2-tob\
+	apps/icewind-dale\
+		apps/IcewindDale\
+			apps/IcewindDale64\
+	apps/icewind-dale-how\
 	apps/eekeeper\
 		apps/EEKeeper\
 	apps/near-infinity\
@@ -603,6 +614,7 @@ ICONS =\
 			apps/start-here\
 		mimetypes/vmlinuz\
 	apps/baobab\
+		apps/org.gnome.baobab\
 		apps/kdf\
 	apps/gnome-disks\
 	apps/gnome-disks-state-standby\
@@ -637,6 +649,7 @@ ICONS =\
 		apps/dooble-qt4\
 	apps/vlc\
 		apps/vlc-xmas\
+		apps/vlc-kb\
 	apps/kdenlive\
 		mimetypes/application-x-kdenlive\
 		mimetypes/application-x-kdenlivetitle\
@@ -1742,6 +1755,7 @@ ICONS =\
 		status/password-hidden\
 			actions/hide-password\
 				actions/password-hide\
+				actions/view-conceal\
 	status/user-tracked\
 		status/object-visible\
 		status/password-shown\
@@ -1750,6 +1764,7 @@ ICONS =\
 					actions/eye\
 					actions/visible\
 						actions/gimp-visible\
+			actions/view-reveal\
 	status/thunderbolt-acquiring\
 	status/night-light-on\
 		status/night-light\
@@ -2504,8 +2519,13 @@ ICONS =\
 	actions/pan-up\
 	actions/view-continuous\
 		actions/view-page-continuous\
+			actions/view-pages-continuous\
+	actions/view-continuous-horizontal\
+		actions/view-page-continuous-horizontal\
+			actions/view-pages-continuous-horizontal\
 	actions/view-dual\
 		actions/view-page-facing\
+			actions/view-pages-facing\
 	actions/view-fullscreen\
 		actions/gtk-fullscreen\
 		actions/stock_fullscreen\
@@ -2521,6 +2541,7 @@ ICONS =\
 	actions/view-list\
 		actions/view-list-details\
 	actions/view-more\
+	actions/view-more-horizontal\
 	actions/view-paged\
 	actions/view-restore\
 		actions/gtk-leave-fullscreen\

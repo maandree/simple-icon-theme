@@ -54,3 +54,8 @@ intl/
 status/
   sync-error		The icon used when an error occurs while attempting to synchronize data from the computing device, to another device.
   sync-synchronizing	The icon used while data is successfully synchronizing to another device.
+
+
+Icon that should be ungenericised:
+	apps/thunderbird
+	apps/nautilus
