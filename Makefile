@@ -379,6 +379,23 @@ ICONS =\
 				apps/preferences-desktop-text-to-speech\
 				apps/yast-sound\
 		actions/volume_icon\
+	apps/beatbox\
+	apps/blogtk\
+	apps/dc-icon\
+	apps/deviantart\
+	apps/diaspora\
+	apps/ekiga\
+	apps/gparted\
+	apps/gvim\
+		apps/vim\
+	apps/h2-icon\
+	apps/im-irc\
+	apps/im-meanwhile\
+	apps/iron\
+	apps/jokosher\
+	apps/kturtle\
+	apps/neverball\
+	apps/orca\
 	apps/darktable\
 	apps/neverwinter-nights\
 		apps/nwmain-linux\
@@ -526,6 +543,11 @@ ICONS =\
 	apps/easytag\
 	apps/flattr\
 	apps/flickr\
+	apps/ardour\
+	apps/elisa\
+	apps/exfalso\
+	apps/gnomebaker\
+	apps/fluxgui\
 	apps/dosbox\
 		mimetypes/application-x-ms-dos-executable\
 			mimetypes/application-x-msdownload\
