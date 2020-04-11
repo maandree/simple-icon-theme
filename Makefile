@@ -75,11 +75,13 @@ ICONS =\
 		categories/package_development\
 		categories/redhat-programming\
 		categories/xfce-devel\
+		categories/plugins-utility\
 		apps/code-context\
 		apps/kuiviewer\
 	categories/applications-system\
 		categories/gnome-system\
 		categories/package_system\
+			categories/plugins-general\
 		categories/redhat-system_tools\
 		categories/system_section\
 		categories/xfce-system\
@@ -279,6 +281,7 @@ ICONS =\
 		apps/ax-applet\
 		apps/access\
 		apps/accessibility-directory\
+			categories/plugins-accessibility\
 		apps/gnome-settings-accessibility-technologies\
 	apps/preferences-desktop-locale\
 		apps/amarok_change_language\
@@ -481,6 +484,12 @@ ICONS =\
 		apps/gnome-window-manager\
 		apps/kcmkwm\
 		apps/kwin\
+		categories/plugin-group\
+			categories/plugin-switcher\
+				categories/plugin-staticswitcher\
+				categories/plugin-swapper\
+				 	categories/plugin-swap\
+				categories/plugin-animationism\
 	apps/system-file-manager\
 		apps/system_file_manager\
 		apps/file-manager\
@@ -509,6 +518,7 @@ ICONS =\
 		apps/preferences_desktop_user\
 			apps/preferences-desktop-user\
 		actions/user-properties\
+		mimetypes/text-x-vcard\
 	apps/steam\
 	apps/pulse-secure\
 		apps/Pulse-Secure\
@@ -565,9 +575,10 @@ ICONS =\
 		apps/system-config-users\
 		apps/susers\
 	apps/preferences-desktop-screensaver\
-		apps/kscreensaver\
 		apps/screensaver\
-		apps/xscreensaver\
+			apps/kscreensaver\
+			apps/xscreensaver\
+				categories/plugin-screensaver\
 	apps/preferences-system-time\
 		apps/mate-panel-clock\
 			apps/gnome-panel-clock\
@@ -605,6 +616,7 @@ ICONS =\
 		apps/gnome-settings-background\
 		apps/wallpaper\
 		apps/xfce4-backdrop\
+		categories/plugin-wallpaper\
 	apps/google-chrome\
 		apps/google-chrome-stable\
 		apps/google-chrome-unstable\
@@ -680,6 +692,7 @@ ICONS =\
 	apps/deluge\
 		apps/deluge-panel\
 		apps/deluge-torrent\
+		categories/plugin-water\
 	apps/gimp\
 		apps/gnome-gimp\
 		mimetypes/image-x-xcf\
@@ -742,6 +755,7 @@ ICONS =\
 			apps/adobeflashplugin\
 			apps/flashplayer\
 				apps/adobe-flashplayer\
+				categories/plugin-flash\
 		mimetypes/application-x-flash-video\
 			mimetypes/application-x-shockwave-flash\
 	apps/steam\
@@ -757,6 +771,7 @@ ICONS =\
 		apps/key_bindings\
 		apps/ktouch\
 		actions/help-keyborad-shortcuts\
+		categories/plugin-commands\
 	apps/help-contents\
 		actions/help-contents\
 			actions/help\
@@ -791,6 +806,7 @@ ICONS =\
 			apps/kate\
 				apps/kwrite\
 			categories/preferences-composer\
+		categories/plugin-annotate\
 	apps/help-browser\
 		apps/xfce-man\
 		apps/stock_help\
@@ -931,6 +947,7 @@ ICONS =\
 		status/sonata-stock_volume-med\
 		status/xfce4-mixer-volume-medium\
 		actions/audio-volume-medium-amarok\
+		categories/plugin-sound\
 	status/audio-volume-muted\
 		status/stock_volume-mute\
 		status/notification-audio-volume-muted\
@@ -2064,6 +2081,7 @@ ICONS =\
 		apps/preferences-desktop-notification\
 		apps/stock_view-details\
 		apps/ibus\
+		categories/plugin-notification\
 	actions/insert-horizontal-rule\
 	actions/jockey-disabled\
 		apps/gdu-smart-unknown\
@@ -2349,6 +2367,9 @@ ICONS =\
 			apps/tracker\
 			apps/xfce4-appfinder\
 				apps/kfind\
+			categories/plugin-mag\
+				categories/plugins-search\
+				categories/plugin-ezoom\
 		actions/zoom\
 			actions/tool-zoom\
 				actions/gimp-tool-zoom\
@@ -2432,6 +2453,7 @@ ICONS =\
 	actions/tab-new\
 		actions/stock_new-tab\
 		actions/tab_new\
+		actions/tab-new-background\
 	actions/tab-close\
 		actions/dust-tab-close-active-hover\
 		actions/dust-tab-close-active\
@@ -2554,12 +2576,14 @@ ICONS =\
 		actions/window_fullscreen\
 		actions/remmina-scrolled-fullscreen\
 		actions/remmina-viewport-fullscreen\
+		actions/transform-scale\
 	actions/view-mirror\
 	actions/view-pin\
 	actions/view-grid\
 		actions/view-list-icons\
 			actions/mode-browse\
 		actions/xn-grid\
+		categories/plugin-grid\
 	actions/view-list\
 		actions/view-list-details\
 	actions/view-more\
@@ -2570,6 +2594,9 @@ ICONS =\
 		actions/stock_leave-fullscreen\
 		actions/window_nofullscreen\
 		actions/remmina-leave-fullscreen\
+		actions/tool-resize\
+			categories/plugin-resize\
+				categories/plugin-resizeinfo\
 	actions/view-sort-ascending\
 		actions/gtk-sort-ascending\
 	actions/view-sort-descending\
@@ -2755,6 +2782,9 @@ ICONS =\
 		actions/gtk-copy\
 		actions/stock_copy\
 		apps/gnome-documents\
+		actions/svn_merge\
+			actions/svn-merge\
+		categories/plugin-copytex\
 	actions/edit-select-all\
 		actions/gtk-select-all\
 		actions/stock_select-all\
@@ -2766,6 +2796,8 @@ ICONS =\
 	actions/folder-new\
 		actions/folder_new\
 		actions/stock_new-dir\
+		actions/svn_branch\
+			actions/svn_branch\
 	actions/format-indent-less\
 		actions/format-indent-more-rtl\
 		actions/gnome-stock-text-unindent\
@@ -2810,6 +2842,8 @@ ICONS =\
 		actions/add\
 			apps/credentials-add-account\
 			apps/package-install\
+			actions/svn_add\
+				actions/svn-add\
 		actions/gtk-add\
 	actions/list-remove\
 		actions/gtk-remove\
@@ -2818,6 +2852,8 @@ ICONS =\
 			actions/minus\
 			actions/remove-amarok\
 			apps/package-remove\
+			actions/svn_remove\
+				actions/svn-remove\
 	actions/mark-location\
 		apps/google-local\
 		apps/where-am-i\
@@ -2896,6 +2932,7 @@ ICONS =\
 		actions/stock_refresh\
 		actions/amarok_playlist_refresh\
 			actions/collection-refresh-amarok\
+		actions/tool-rotate\
 	actions/go-bottom\
 		actions/bottom\
 		actions/gtk-goto-bottom\
@@ -2906,6 +2943,8 @@ ICONS =\
 		actions/gtk-go-down\
 		actions/stock_down\
 		actions/arrow-down\
+		actions/svn-update\
+		categories/plugin-minimize\
 	actions/go-first\
 		actions/gtk-goto-first-ltr\
 		actions/gtk-goto-last-rtl\
@@ -2953,6 +2992,7 @@ ICONS =\
 		actions/stock_up\
 		actions/up\
 		actions/arrow-up\
+		actions/svn-commit\
 	actions/touchpad-disabled\
 	actions/touchpad-enabled\
 		apps/synaptiks\
@@ -3298,6 +3338,7 @@ ICONS =\
 			devices/gnome-dev-harddisk-usb\
 		apps/disks\
 			apps/lv_icon\
+		categories/plugin-fs\
 	devices/drive-harddisk-solidstate\
 		devices/drive-harddisk-system-solidstate\
 		devices/drive-harddisk-ieee1394-solidstate\
@@ -3393,6 +3434,8 @@ ICONS =\
 		places/gnome-fs-desktop\
 		places/other-desktop\
 		places/gnome-ccdesktop\
+		categories/plugins-desktop\
+			categories/plugin-showdesktop\
 	places/user-trash\
 		mimetypes/application-x-trash\
 			mimetypes/text-x-bak\
@@ -3639,6 +3682,7 @@ ICONS =\
 		apps/peazip\
 		apps/appset\
 	mimetypes/text-x-generic\
+		categories/plugin-text\
 		mimetypes/application-x-srtrip\
 		mimetypes/application-x-srt\
 		mimetypes/application-x-subrip\
@@ -3649,6 +3693,7 @@ ICONS =\
 		mimetypes/stock_new-text\
 		mimetypes/gtk-file\
 			mimetypes/gnome-fs-regular\
+			mimetypes/text-x-gtkrc\
 		mimetypes/application-x-tex\
 			mimetypes/tex\
 				mimetypes/text-x-bibtex\
@@ -3807,6 +3852,7 @@ ICONS =\
 			mimetypes/openofficeorg3-extension\
 			mimetypes/openofficeorg-extension\
 	mimetypes/video-x-generic\
+		categories/plugin-video\
 		mimetypes/gnome-mime-application-vnd.rn-realmedia\
 		mimetypes/gnome-mime-application-vnd.rn-realmedia-secure\
 		mimetypes/gnome-mime-application-vnd.rn-realmedia-vbr\
