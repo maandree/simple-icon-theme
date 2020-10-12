@@ -32,3 +32,8 @@ Design:
 	should have a 1 pixel black (#000000) outline
 
 •	SVG files should be cleaned up with `svgcleaner`
+
+Colours are customisable via config.mk.
+
+When building, it is a good idea to run `make all-fast -j`
+rather than `make all -j` or `make -j` (also if without -j).

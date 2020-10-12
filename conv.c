@@ -12,7 +12,7 @@ static char *argv0;
 static int
 single(int argc, char *argv[])
 {
-	char size[10], target[4096], source[4096];
+	char size[256], target[4096], source[4096];
 	char *p;
 	ssize_t r;
 	int fd;
@@ -24,7 +24,7 @@ single(int argc, char *argv[])
 	stpcpy(size, argv[0]);
 	*p = 'x';
 
-	p = strchr(p, '/');
+	p = &p[strcspn(p, "-/")];
 	if (!p)
 		return 1;
 	p = stpcpy(stpcpy(source, "scalable"), p);
@@ -90,7 +90,7 @@ multi(int argc, char *argv[])
 
 	source = *argv++, argc--;
 
-	q = strchr(source, '/');
+	q = &source[strcspn(source, "-/")];
 	if (!q)
 		return 1;
 
