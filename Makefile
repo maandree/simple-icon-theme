@@ -703,6 +703,7 @@ ICONS =\
 				mimetypes/image-x-psdimage-x-psd\
 	apps/inkscape\
 		apps/inkscape-logo\
+		apps/org.inkscape.Inkscape\
 	apps/application-community\
 	apps/gnome-gnect\
 	apps/gnome-iagno\
@@ -724,6 +725,7 @@ ICONS =\
 		apps/virtualbox\
 		apps/VBox\
 	apps/vmware-workstation\
+	apps/wire-desktop\
 	apps/x\
 	apps/utilities-file-archiver\
 		apps/utilities-archiver\
