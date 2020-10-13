@@ -185,6 +185,26 @@ ICONS =\
 	apps/synfig_icon\
 	apps/android-studio\
 	apps/electron\
+		apps/electron1\
+		apps/electron2\
+		apps/electron3\
+		apps/electron4\
+		apps/electron5\
+		apps/electron6\
+		apps/electron7\
+		apps/electron8\
+		apps/electron9\
+		apps/electron10\
+		apps/electron11\
+		apps/electron12\
+		apps/electron13\
+		apps/electron14\
+		apps/electron15\
+		apps/electron16\
+		apps/electron17\
+		apps/electron18\
+		apps/electron19\
+		apps/electron20\
 	apps/qemu\
 	apps/signal\
 	apps/mail-client\
@@ -219,6 +239,8 @@ ICONS =\
 		apps/wire-shark\
 		apps/hi48-app-wireshark\
 	apps/nuvolaplayer\
+	apps/zathura\
+		apps/org.pwmt.zathura\
 	apps/addressbook\
 		apps/address-book\
 	apps/pacman\
@@ -703,6 +725,8 @@ ICONS =\
 		apps/inkscape-logo\
 		apps/org.inkscape.Inkscape\
 	apps/application-community\
+	apps/fontforge\
+		apps/org.fontforge.FontForge\
 	apps/gnome-gnect\
 	apps/gnome-iagno\
 	apps/gnome-samegnome\
@@ -761,6 +785,9 @@ ICONS =\
 	apps/steam\
 	apps/goa-panel\
 	apps/qv4l2\
+	apps/woeusbgui-icon\
+		apps/woeusbgui\
+		apps/woeusb\
 	apps/blender\
 		mimetypes/application-x-blender\
 	apps/preferences-system-privacy\

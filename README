@@ -9,6 +9,8 @@ Design:
 
 •	Icons should be optimised for 16 by 16 pixels
 
+•	Icons should be low on details
+
 •	Gaps between objects should be 1 pixel
 
 •	The base colour should be #bebebe

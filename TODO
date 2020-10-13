@@ -1,5 +1,3 @@
-Add tool to change the colour
-
 grub-customizer						should be a boot with a wrench
 apps/package-*						should probably be in status/
 gtk-[dis]connect					should look like [un]connected powercords
@@ -19,6 +17,8 @@ Add screen sharing icons:
   actions/screen-share-disable
 
 Need status icons for mail
+
+Can icons used inside fontforge be changes?
 
 Add enable/disable/enabled/disabled versions of
     network-wireless-hotspot
