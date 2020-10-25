@@ -477,6 +477,9 @@ ICONS =\
 		apps/xterm-color\
 		apps/uxterm\
 		apps/terminator\
+		apps/alacritty\
+			apps/Alacritty\
+		apps/kitty\
 		apps/gnome-terminal\
 			apps/yakuake\
 			apps/gnome-term\
@@ -785,6 +788,9 @@ ICONS =\
 	apps/steam\
 	apps/goa-panel\
 	apps/qv4l2\
+	apps/compton\
+	apps/higan\
+	apps/icarus\
 	apps/woeusbgui-icon\
 		apps/woeusbgui\
 		apps/woeusb\
