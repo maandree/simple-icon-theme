@@ -2,6 +2,7 @@ grub-customizer						should be a boot with a wrench
 apps/package-*						should probably be in status/
 gtk-[dis]connect					should look like [un]connected powercords
 status/network-cellular-5g				needed
+status/network-cellular-6g				needed
 actions/night-light-enable				needed
 actions/night-light-disable				needed
 status/uninterruptible-power-supply-running		needed
@@ -17,6 +18,7 @@ Add screen sharing icons:
   actions/screen-share-disable
 
 Need status icons for mail
+Need weather icons: hail, wind direction
 
 Can icons used inside fontforge be changes?
 

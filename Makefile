@@ -2355,6 +2355,7 @@ ICONS =\
 			apps/cairo-clock\
 			apps/clock\
 				apps/rclock\
+			apps/gnome-clocks\
 			apps/gcrontab\
 			apps/gnome-set-time\
 			apps/gtubeclock\
