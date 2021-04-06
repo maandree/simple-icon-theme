@@ -168,6 +168,8 @@ ICONS =\
 	apps/anjuta\
 		apps/anjuta6\
 	apps/converseen\
+	apps/element\
+		apps/io.element.Element\
 	apps/ffmulticonverter\
 	apps/mendeleydesktop\
 	apps/telegram\
