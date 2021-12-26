@@ -870,6 +870,10 @@ ICONS =\
 			apps/ppracer\
 	apps/mate-panel-drawer\
 		apps/gnome-panel-drawer\
+	status/birthday\
+	status/birthday-christian\
+	status/deathday\
+	status/deathday-christian\
 	status/kbd-capslock-on\
 		devices/kbd-capslock-on\
 	status/kbd-capslock-off\
