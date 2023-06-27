@@ -207,6 +207,85 @@ ICONS =\
 		apps/electron18\
 		apps/electron19\
 		apps/electron20\
+		apps/electron21\
+		apps/electron22\
+		apps/electron23\
+		apps/electron24\
+		apps/electron25\
+		apps/electron26\
+		apps/electron27\
+		apps/electron28\
+		apps/electron29\
+		apps/electron30\
+		apps/electron31\
+		apps/electron32\
+		apps/electron33\
+		apps/electron34\
+		apps/electron35\
+		apps/electron36\
+		apps/electron37\
+		apps/electron38\
+		apps/electron39\
+		apps/electron40\
+		apps/electron41\
+		apps/electron42\
+		apps/electron43\
+		apps/electron44\
+		apps/electron45\
+		apps/electron46\
+		apps/electron47\
+		apps/electron48\
+		apps/electron49\
+		apps/electron50\
+		apps/electron51\
+		apps/electron52\
+		apps/electron53\
+		apps/electron54\
+		apps/electron55\
+		apps/electron56\
+		apps/electron57\
+		apps/electron58\
+		apps/electron59\
+		apps/electron60\
+		apps/electron61\
+		apps/electron62\
+		apps/electron63\
+		apps/electron64\
+		apps/electron65\
+		apps/electron66\
+		apps/electron67\
+		apps/electron68\
+		apps/electron69\
+		apps/electron70\
+		apps/electron71\
+		apps/electron72\
+		apps/electron73\
+		apps/electron74\
+		apps/electron75\
+		apps/electron76\
+		apps/electron77\
+		apps/electron78\
+		apps/electron79\
+		apps/electron80\
+		apps/electron81\
+		apps/electron82\
+		apps/electron83\
+		apps/electron84\
+		apps/electron85\
+		apps/electron86\
+		apps/electron87\
+		apps/electron88\
+		apps/electron89\
+		apps/electron90\
+		apps/electron91\
+		apps/electron92\
+		apps/electron93\
+		apps/electron94\
+		apps/electron95\
+		apps/electron96\
+		apps/electron97\
+		apps/electron98\
+		apps/electron99\
 	apps/qemu\
 	apps/signal\
 	apps/mail-client\
@@ -215,8 +294,8 @@ ICONS =\
 		apps/evolution\
 		apps/claws-mail\
 			apps/claws-mail_logo\
-		apps/thunderbird\
-			apps/thunderbird-icon\
+	apps/thunderbird\
+		apps/thunderbird-icon\
 	apps/ufraw\
 	apps/bluefish\
 	apps/gnome-gnibbles\
@@ -494,7 +573,26 @@ ICONS =\
 		apps/terminal\
 			apps/guake\
 			apps/Terminal\
-			apps/bash\
+			apps/sh\
+				apps/bash\
+					apps/rbash\
+				apps/dash\
+				apps/ksh\
+					apps/ksh93\
+					apps/pdksh\
+						apps/mksh\
+					apps/dtksh\
+					apps/tksh\
+					apps/oksh\
+						apps/loksh\
+				apps/sash\
+				apps/apsh\
+				apps/ash\
+				apps/fish\
+				apps/zsh\
+				apps/qsh\
+				apps/tcsh\
+				apps/rc\
 			apps/tilda\
 			apps/Etermutilities-terminal\
 			apps/gksu-root-terminal\
@@ -779,6 +877,30 @@ ICONS =\
 		apps/emacs24\
 		apps/emacs25\
 		apps/emacs26\
+		apps/emacs27\
+		apps/emacs28\
+		apps/emacs29\
+		apps/emacs30\
+		apps/emacs31\
+		apps/emacs32\
+		apps/emacs33\
+		apps/emacs34\
+		apps/emacs35\
+		apps/emacs36\
+		apps/emacs37\
+		apps/emacs38\
+		apps/emacs39\
+		apps/emacs40\
+		apps/emacs41\
+		apps/emacs42\
+		apps/emacs43\
+		apps/emacs44\
+		apps/emacs45\
+		apps/emacs46\
+		apps/emacs47\
+		apps/emacs48\
+		apps/emacs49\
+		apps/emacs50\
 	apps/flash-player-properties\
 		apps/flash\
 			apps/adobeflashplugin\
@@ -870,6 +992,11 @@ ICONS =\
 			apps/ppracer\
 	apps/mate-panel-drawer\
 		apps/gnome-panel-drawer\
+	apps/zscaler\
+		apps/zsaservice\
+		apps/ZSTray\
+		apps/zstunnel\
+		apps/zsupdater\
 	status/birthday\
 	status/birthday-christian\
 	status/deathday\
