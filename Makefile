@@ -407,6 +407,7 @@ ICONS =\
 	apps/accessories-calculator\
 		apps/speedcrunch\
 		apps/gnome-calculator\
+			apps/org.gnome.Calculator\
 		apps/calc\
 			apps/qalculate\
 		apps/galculator\
@@ -520,6 +521,7 @@ ICONS =\
 	apps/gnome-gnometris\
 	apps/gnome-inhibit-applet\
 	apps/gnome-klotski\
+		apps/org.gnome.Klotski\
 	apps/gnome-mines\
 	apps/accessories-dictionary\
 		apps/documentation\
@@ -669,6 +671,17 @@ ICONS =\
 			apps/python3.7\
 			apps/python3.8\
 			apps/python3.9\
+			apps/python3.10\
+			apps/python3.11\
+			apps/python3.12\
+			apps/python3.13\
+			apps/python3.14\
+			apps/python3.15\
+			apps/python3.16\
+			apps/python3.17\
+			apps/python3.18\
+			apps/python3.19\
+			apps/python3.20\
 		mimetypes/application-x-python-bytecode\
 			mimetypes/gnome-mime-application-x-python-bytecode\
 	apps/kega-fusion\
@@ -714,6 +727,8 @@ ICONS =\
 			apps/wicd-client\
 				apps/wicd-gtk\
 			apps/remmina\
+				apps/remmina-file-wrapper\
+				apps/org.remmina.Remmina\
 				apps/tsclient\
 					apps/knemo\
 			apps/pac\
@@ -751,6 +766,7 @@ ICONS =\
 	apps/abiword\
 		apps/abiword_48\
 	apps/meld\
+		apps/org.gnome.meld\
 	apps/mate\
 	apps/pidgin\
 		apps/pidgin-menu\
