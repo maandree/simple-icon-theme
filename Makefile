@@ -1035,6 +1035,12 @@ ICONS =\
 		devices/kbd-scrolllock-off\
 	status/kbd-scrolllock-mixed\
 		devices/kbd-scrolllock-mixed\
+	status/kbd-compose-on\
+		devices/kbd-compose-on\
+	status/kbd-compose-off\
+		devices/kbd-compose-off\
+	status/kbd-compose-mixed\
+		devices/kbd-compose-mixed\
 	status/redshift-status-off\
 		status/blueshift-off\
 		status/radharc-off\
