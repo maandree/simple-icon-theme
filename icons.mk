@@ -3,6 +3,11 @@ ICONS =\
 	categories/plugin-snow\
 	categories/plugin-unityshell\
 	categories/preferences-desktop\
+		apps/desktop-effects\
+			apps/wmtweaks\
+				apps/gnome-tweak-tool\
+		apps/drakconf\
+		apps/paprefs\
 		categories/gnome-control-center\
 			categories/kcontrol\
 		categories/gnome-settings\
@@ -12,16 +17,6 @@ ICONS =\
 		categories/redhat-preferences\
 		categories/applications-interfacedesign\
 		categories/configuration_section\
-		apps/preferences-sound\
-		apps/qt\
-			apps/qtconfig\
-				apps/qtconfig-qt4\
-		apps/scribus\
-		apps/quicktime\
-		apps/skype\
-		apps/teamviewer\
-		apps/wesnoth\
-		apps/wesnoth_editor-icon\
 		apps/dconf-editor\
 			apps/gconfeditor\
 				apps/gconf-editor\
@@ -39,6 +34,15 @@ ICONS =\
 		apps/redhat-server_settings\
 		apps/redhat-tools\
 		apps/unity-tweak-tool-overview\
+	apps/qt\
+		apps/qtconfig\
+			apps/qtconfig-qt4\
+	apps/scribus\
+	apps/quicktime\
+	apps/skype\
+	apps/teamviewer\
+	apps/wesnoth\
+	apps/wesnoth_editor-icon\
 	categories/applications-chat\
 	categories/applications-mathematics\
 	categories/applications-internet\
@@ -138,8 +142,8 @@ ICONS =\
 		apps/gelemental\
 		apps/nitrogen\
 	categories/preferences-desktop-personal\
-		apps/gnome-session-properties\
-			apps/session-properties\
+		apps/session-properties\
+			apps/gnome-session-properties\
 			apps/preferences-system-session-services\
 	categories/preferences-system-network\
 		categories/preferences-system-network-proxy\
@@ -148,6 +152,7 @@ ICONS =\
 		categories/package_office\
 		categories/redhat-office\
 		categories/xfce-office\
+	apps/preferences-sound\
 	apps/apport\
 	apps/anjuta\
 		apps/anjuta6\
@@ -300,6 +305,7 @@ ICONS =\
 	apps/xfce4-mixer-no-record\
 	apps/preferences-desktop-keyboard\
 		apps/system-config-keyboard\
+		apps/yast-keyboard\
 	apps/wireshark\
 		apps/wire-shark\
 		apps/hi48-app-wireshark\
@@ -597,7 +603,7 @@ ICONS =\
 			categories/plugin-switcher\
 				categories/plugin-staticswitcher\
 				categories/plugin-swapper\
-				 	categories/plugin-swap\
+					categories/plugin-swap\
 				categories/plugin-animationism\
 	apps/system-file-manager\
 		apps/system_file_manager\
@@ -698,7 +704,7 @@ ICONS =\
 		apps/screensaver\
 			apps/kscreensaver\
 			apps/xscreensaver\
-				categories/plugin-screensaver\
+			categories/plugin-screensaver\
 	apps/preferences-system-time\
 		apps/mate-panel-clock\
 			apps/gnome-panel-clock\
@@ -767,8 +773,8 @@ ICONS =\
 		places/distributor-logo\
 			places/novell-button\
 			places/start-here\
+				apps/start-here\
 			apps/distributor-logo\
-			apps/start-here\
 		mimetypes/vmlinuz\
 	apps/baobab\
 		apps/org.gnome.baobab\
@@ -909,7 +915,6 @@ ICONS =\
 				categories/plugin-flash\
 		mimetypes/application-x-flash-video\
 			mimetypes/application-x-shockwave-flash\
-	apps/steam\
 	apps/goa-panel\
 	apps/qv4l2\
 	apps/compton\
@@ -922,7 +927,6 @@ ICONS =\
 		mimetypes/application-x-blender\
 	apps/preferences-system-privacy\
 	apps/preferences-desktop-keyboard-shortcuts\
-		apps/yast-keyboard\
 		apps/preferences-web-browser-shortcuts\
 		apps/gnome-settings-keybindings\
 		apps/key_bindings\
@@ -1175,7 +1179,6 @@ ICONS =\
 		status/battery-level-10\
 		status/xfpm-battery-010\
 		status/notification-gpm-battery-010\
-		status/notification-battery-low\
 		status/notification-battery-010\
 		status/gpm-primary-010\
 			status/xfpm-primary-010\
@@ -1382,11 +1385,11 @@ ICONS =\
 			status/xfpm-primary-100\
 		status/battery-100\
 			status/gpm-ups-100\
-				status/xfpm-ups-100-charging\
+				status/xfpm-ups-100\
 				status/notification-gpm-ups-100\
 			status/battery_full\
 	status/gpm-battery-100-charging\
-		status/battery-level-100\
+		status/battery-level-100-charging\
 		status/xfpm-battery-100-charging\
 		status/notification-gpm-battery-100-charging\
 		status/notification-battery-100-plugged\
@@ -1396,8 +1399,8 @@ ICONS =\
 			status/gpm-ups-100-charging\
 				status/xfpm-ups-100-charging\
 				status/notification-gpm-ups-100-charging\
-		status/battery_charged\
-		status/battery-charged\
+			status/battery-charged\
+				status/battery_charged\
 	status/gpm-battery-empty\
 		status/notification-gpm-battery-empty\
 		status/notification-power-disconnected\
@@ -1975,7 +1978,7 @@ ICONS =\
 					actions/eye\
 					actions/visible\
 						actions/gimp-visible\
-			actions/view-reveal\
+				actions/view-reveal\
 	status/thunderbolt-acquiring\
 	status/night-light-on\
 		status/night-light\
@@ -2288,9 +2291,9 @@ ICONS =\
 					apps/graveman48\
 				apps/k3b\
 			actions/brasero-disc-100\
-		apps/isomaster\
-		apps/grip\
-		apps/gcdmaster\
+			apps/isomaster\
+			apps/grip\
+			apps/gcdmaster\
 	actions/brasero-disc-00\
 	actions/brasero-disc-05\
 	actions/brasero-disc-10\
@@ -2536,12 +2539,12 @@ ICONS =\
 			apps/deskbar-applet\
 			apps/gnome-search-tool\
 				apps/strigi\
+				categories/plugins-search\
 			apps/panel-searchtool\
 			apps/tracker\
 			apps/xfce4-appfinder\
 				apps/kfind\
 			categories/plugin-mag\
-				categories/plugins-search\
 				categories/plugin-ezoom\
 		actions/zoom\
 			actions/tool-zoom\
@@ -2970,7 +2973,7 @@ ICONS =\
 		actions/folder_new\
 		actions/stock_new-dir\
 		actions/svn_branch\
-			actions/svn_branch\
+			actions/svn-branch\
 	actions/format-indent-less\
 		actions/format-indent-more-rtl\
 		actions/gnome-stock-text-unindent\
@@ -3073,7 +3076,6 @@ ICONS =\
 		actions/media-seek-backward-rtl\
 		actions/player_fwd\
 		actions/stock_media-fwd\
-		actions/media-skip-forward-rtl\
 	actions/media-skip-backward\
 		actions/gtk-media-next-rtl\
 		actions/gtk-media-previous-ltr\
@@ -3081,6 +3083,7 @@ ICONS =\
 		actions/player_start\
 		actions/stock_media-prev\
 		status/notification-audio-previous\
+		actions/media-skip-forward-rtl\
 	actions/media-skip-forward\
 		actions/gtk-media-next-ltr\
 		actions/gtk-media-previous-rtl\
@@ -3134,7 +3137,7 @@ ICONS =\
 		actions/stock_last\
 		actions/go-first-rtl\
 		actions/last-page\
-		actions/arrow-left-double\
+		actions/arrow-right-double\
 	actions/go-next\
 		actions/forward\
 		actions/gtk-go-back-rtl\
@@ -3318,11 +3321,6 @@ ICONS =\
 		categories/preferences-desktop-peripherals\
 			categories/input_devices_settings\
 			apps/xfce4-mcs-manager\
-			apps/desktop-effects\
-				apps/wmtweaks\
-					apps/gnome-tweak-tool\
-			apps/paprefs\
-			apps/drakconf\
 	devices/input-touchpad\
 	devices/input-keyboard\
 		devices/gnome-dev-keyboard\
@@ -3612,12 +3610,12 @@ ICONS =\
 	places/user-trash\
 		mimetypes/application-x-trash\
 			mimetypes/text-x-bak\
-	places/emptytrash\
-		places/gnome-fs-trash-empty\
 		places/gnome-stock-trash\
-		places/trashcan_empty\
-			actions/trash-empty\
-		places/xfce-trash_empty\
+		places/emptytrash\
+			places/gnome-fs-trash-empty\
+			places/trashcan_empty\
+				actions/trash-empty\
+			places/xfce-trash_empty\
 	places/network-server\
 		places/gnome-fs-server\
 		places/gnome-mime-x-directory-nfs-server\
@@ -3939,13 +3937,13 @@ ICONS =\
 			mimetypes/text-x-csharp\
 				mimetypes/gnome-mime-text-x-csharp\
 			mimetypes/text-x-c++src\
-				mimetypes/text-x-c++\
 				mimetypes/gnome-mime-text-x-c++src\
-				mimetypes/gnome-mime-text-x-c++\
+				mimetypes/text-x-c++\
+					mimetypes/gnome-mime-text-x-c++\
 			mimetypes/text-x-csrc\
-				mimetypes/text-x-c\
 				mimetypes/gnome-mime-text-x-csrc\
-				mimetypes/gnome-mime-text-x-c\
+				mimetypes/text-x-c\
+					mimetypes/gnome-mime-text-x-c\
 			mimetypes/text-x-hdr\
 				mimetypes/text-x-c++hdr\
 					mimetypes/gnome-mime-text-x-c++hdr\
@@ -3993,30 +3991,31 @@ ICONS =\
 			mimetypes/multipart-encrypted\
 			apps/kleopatra\
 	mimetypes/font-x-generic\
+		mimetypes/font\
 		mimetypes/font-bitmap\
 			mimetypes/font_bitmap\
-			mimetypes/gnome-mime-application-x-font-bdf\
-			mimetypes/gnome-mime-application-x-font-linux-psf\
-			mimetypes/gnome-mime-application-x-font-pcf\
-		mimetypes/font\
-		mimetypes/font_truetype\
-		mimetypes/font_type1\
-		mimetypes/gnome-mime-application-x-font-afm\
-			mimetypes/gnome-mime-x-font-afm\
-		mimetypes/gnome-mime-application-x-font-sunos-news\
-		mimetypes/gnome-mime-application-x-font-ttf\
+			mimetypes/application-x-font-bdf\
+				mimetypes/gnome-mime-application-x-font-bdf\
+			mimetypes/application-x-font-pcf\
+				mimetypes/gnome-mime-application-x-font-pcf\
+			mimetypes/gnome-mime-application-x-font-psf\
+				mimetypes/gnome-mime-application-x-font-linux-psf\
+			mimetypes/application-x-font-snf\
 		mimetypes/application-x-font-afm\
-		mimetypes/application-x-font-bdf\
+			mimetypes/gnome-mime-application-x-font-afm\
+				mimetypes/gnome-mime-x-font-afm\
+		mimetypes/gnome-mime-application-x-font-sunos-news\
 		mimetypes/application-x-font-otf\
-		mimetypes/application-x-font-pcf\
-		mimetypes/application-x-font-snf\
-		mimetypes/application-x-font-ttf\
-		mimetypes/application-x-font-type1\
-			mimetypes/application-x-font-type\
 		mimetypes/font-truetype\
+			mimetypes/application-x-font-ttf\
+				mimetypes/gnome-mime-application-x-font-ttf\
+			mimetypes/font_truetype\
 		mimetypes/font-type1\
-			mimetypes/font_type\
+			mimetypes/application-x-font-type1\
+			mimetypes/font_type1\
 			mimetypes/font-type\
+				mimetypes/application-x-font-type\
+				mimetypes/font_type\
 	mimetypes/x-office-extension\
 		mimetypes/libreoffice-extension\
 			mimetypes/libreoffice34-extension\
@@ -4199,7 +4198,6 @@ ICONS =\
 		mimetypes/openofficeorg3-oasis-spreadsheet\
 		mimetypes/openofficeorg3-spreadsheet\
 		mimetypes/openofficeorg-oasis-spreadsheet\
-		mimetypes/openofficeorg-spreadsheet\
 		mimetypes/spreadsheet\
 		mimetypes/text-csv\
 		mimetypes/application-vnd.oasis.opendocument.spreadsheet\
