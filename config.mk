@@ -21,10 +21,3 @@ OUTLINE      = 000000
 # Uncomment the two lines above if you want to use customised colours
 
 SIZES = 16 24 32 48
-# Supported sizes are 8, 16, 22, 24, 32, 36, and 48,
-# you you want any other size add
-#
-# 	###x###$(DIR_SUFFIX)/%.png: scalable$(DIR_SUFFIX)/%.svg conv
-# 		./conv $@
-# 
-# with ### replaces for the size to add support for.

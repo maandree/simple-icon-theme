@@ -6,3 +6,4 @@
 conv
 *.o
 *.su
+/generated-rules.mk
