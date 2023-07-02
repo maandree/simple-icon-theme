@@ -8,6 +8,7 @@ include $(CONFIGFILE)
 all:
 
 generated.mk: $(CONFIGFILE) icons.mk Makefile
+	$(DEVCHECK) ./find-unlisted-icons
 	$(DEVCHECK) ./check-icons-listing
 	@test ! -e $@ || chmod -- u+w $@
 	printf '\043 %s\n' 'This file is generated from Makefile' > $@

@@ -1809,6 +1809,7 @@ ICONS =\
 		status/stock_weather-few-clouds\
 		apps/weather-indicator\
 			apps/indicator-weather\
+			apps/xfce4-weather\
 	status/weather-few-clouds-unsynced\
 	status/weather-clear-night-000\
 	status/weather-clear-night-010\
@@ -2463,7 +2464,7 @@ ICONS =\
 	actions/document-properties\
 		actions/gtk-properties\
 			actions/gtk-print-report\
-		actions/stock_file-properites\
+		actions/stock_file-properties\
 		actions/stock_properties\
 		actions/gtk-info\
 	actions/document-revert\
@@ -2571,6 +2572,7 @@ ICONS =\
 	actions/dialog-icon-preview\
 	actions/dialog-input-devices\
 	actions/dialog-layers\
+		actions/gimp-layers\
 	actions/dialog-object-properties\
 	actions/dialog-text-and-font\
 		categories/applications-fonts\
@@ -3266,6 +3268,7 @@ ICONS =\
 	status/audio-speakers-disabled\
 	actions/audio-speakers-disable\
 	devices/battery\
+		apps/gnome-power-preferences\
 		devices/gnome-dev-battery\
 		apps/batti\
 	devices/camera-photo\
@@ -4172,6 +4175,7 @@ ICONS =\
 	mimetypes/x-office-spreadsheet\
 		apps/libreoffice-calc\
 			apps/libreoffice32-calc\
+			apps/libreoffice34-calc\
 			apps/openofficeorg-calc\
 				apps/openofficeorg3-calc\
 				apps/openofficeorg-calc-default\

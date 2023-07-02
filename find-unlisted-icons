@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+for f in scalable/*/*.svg; do
+	if test -e "$f"; then
+		printf '%s\n' "$f"
+	fi
+done | sed 's/^scalable\/\(.*\)\.svg$/\1/' | sort > "/tmp/pid-$$-a"
+
+sed 's/\\$//' < icons.mk | sed '/^\s*\(#.*\|\)$/d' | sed 1d | tr -d '\t' | sort > "/tmp/pid-$$-b"
+
+unlisted="$(comm -23 "/tmp/pid-$$-a" "/tmp/pid-$$-b")"
+rm "/tmp/pid-$$-a" "/tmp/pid-$$-b"
+
+if test -n "$unlisted"; then
+	printf '%s\n' 'The following icons exist but are not listed in icons.mk' "$unlisted" >&2
+	exit 1
+fi
