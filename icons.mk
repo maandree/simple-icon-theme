@@ -174,6 +174,9 @@ ICONS =\
 	apps/freemind\
 	apps/homebank\
 	apps/synfig_icon\
+		apps/synfig\
+			apps/synfigstudio\
+				apps/org.synfig.SynfigStudio\
 	apps/android-studio\
 	apps/electron\
 		apps/electron1\
@@ -361,6 +364,7 @@ ICONS =\
 		apps/aqualung\
 	apps/emu-snes\
 		apps/zsnes\
+			apps/io.github.xyproto.zsnes\
 	apps/emu-nes\
 		apps/fceux\
 	apps/citrix\
@@ -3251,6 +3255,8 @@ ICONS =\
 	status/audio-headset-disabled\
 	actions/audio-headset-disable\
 	devices/audio-input-microphone\
+		devices/audio-microphone\
+			devices/microphone\
 		devices/gnome-stock-mic\
 		devices/stock_mic\
 		actions/gnome-stock-mic\
@@ -3738,11 +3744,26 @@ ICONS =\
 		mimetypes/gnome-mime-application-rss+xml\
 	mimetypes/application-x-appliance\
 	mimetypes/application-x-executable\
+		mimetypes/x-executable\
+		mimetypes/application-x-executable-libexec\
+			mimetypes/x-executable-libexec\
 		mimetypes/binary\
 		mimetypes/exec\
 		mimetypes/gnome-fs-executable\
 		mimetypes/gnome-mime-application-x-executable\
 		mimetypes/gnome-mime-application-x-ms-dos-executable\
+	mimetypes/application-x-executable-suid\
+		mimetypes/x-executable-suid\
+		mimetypes/application-x-executable-suid-libexec\
+			mimetypes/x-executable-suid-libexec\
+		mimetypes/application-x-executable-sgid\
+			mimetypes/x-executable-sgid\
+			mimetypes/application-x-executable-sgid-libexec\
+				mimetypes/x-executable-sgid-libexec\
+	mimetypes/application-x-executable-daemon\
+		mimetypes/x-executable-daemon\
+	mimetypes/application-x-sharedlib\
+		mimetypes/x-sharedlib\
 	mimetypes/audio-x-generic\
 		mimetypes/media-audio\
 		mimetypes/gnome-mime-application-ogg\
@@ -3982,12 +4003,15 @@ ICONS =\
 			mimetypes/emacs-document23\
 		mimetypes/application-x-mono-develop-xib\
 	mimetypes/application-x-addon\
+		mimetypes/x-addon\
 		mimetypes/extension\
 			mimetypes/opera-extension\
 		mimetypes/plugin\
 			mimetypes/pluma-plugin\
 	mimetypes/application-x-firmware\
 		mimetypes/x-firmware\
+		mimetypes/application-x-microcode\
+			mimetypes/x-microcode\
 	mimetypes/application-x-keepass\
 		mimetypes/application-pgp-encrypted\
 			mimetypes/encrypted\
