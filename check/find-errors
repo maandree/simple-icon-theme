@@ -1,0 +1,4 @@
+#!/bin/sh
+! grep -ro '#[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]' scalable/ \
+| tr 'A-F' 'a-f' \
+| grep -v '#\(bebebe\|ef2929\|f57900\|32a679\|cd656c\|d69553\|ccad47\|32a679\|00a09f\|2495be\|a46eb0\|32a678\)'

@@ -8,8 +8,9 @@ include $(CONFIGFILE)
 all:
 
 generated.mk: $(CONFIGFILE) icons.mk Makefile
-	$(DEVCHECK) ./find-unlisted-icons
-	$(DEVCHECK) ./check-icons-listing
+	$(DEVCHECK) check/find-errors
+	$(DEVCHECK) check/find-unlisted-icons
+	$(DEVCHECK) check/check-icons-listing
 	@test ! -e $@ || chmod -- u+w $@
 	printf '\043 %s\n' 'This file is generated from Makefile' > $@
 	printf '\n%1i$$(DIR_SUFFIX)/%%.png: scalable$$(DIR_SUFFIX)/%%.svg conv\n\t./conv $$@\n' $(SIZES) |\
@@ -31,10 +32,10 @@ clean:
 
 # These are just added so autocompletion works with them
 all all-fast all-fast-icons install uninstall index.theme conv: generated.mk
-	+@$(MAKE) -f make-stage-2.mk $@
+	+@$(MAKE) -f mk/make-stage-2.mk $@
 
 .DEFAULT:
 	+@$(MAKE) generated.mk
-	+@$(MAKE) -f make-stage-2.mk $@
+	+@$(MAKE) -f mk/make-stage-2.mk $@
 
 .PHONY: all all-fast all-fast-icons install uninstall clean

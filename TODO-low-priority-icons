@@ -1,0 +1,272 @@
+These are icons that should be added (indenting of course means symlink to
+the first above with less indent), but which I will not be prioritising for
+the foreseeable future
+
+
+apps/emu-game_boy
+	apps/emu-gameboy
+	apps/emu-game_boy-color
+		apps/emu-game_boy_color
+		apps/emu-gameboy-color
+			apps/emu-gameboy_color
+
+apps/emu-game_gear
+	apps/emu-gamegear
+
+apps/emu-game_boy_advance
+	apps/emu-gameboy_advance
+	apps/emu-gba
+
+apps/emu-playstation_portable
+	apps/emu-ps_portable
+	apps/emu-psp
+
+apps/emu-playstation_vita
+	apps/emu-psvita
+	apps/emu-ps_vita
+	apps/emu-psv
+
+devices/joystick-pandora
+
+apps/emu-nintendo_3ds
+	apps/emu-3ds
+
+devices/joystick-nintendo_switch
+	apps/emu-nintendo_switch
+
+devices/joystick-nintendo_switch-pro
+
+devices/joystick-nintendo_switch-joy_con
+	devices/joystick-nintendo_switch-joy-con
+	devices/joystick-joy_con
+		devices/joystick-joy-con
+
+devices/joystick-steam_deck
+
+devices/joystick-atari_2600
+	devices/joystick-atari2600
+	apps/emu-atari_2600
+		apps/emu-atari2600
+
+devices/joystick-sega_master_system
+	devices/joystick-master_system
+	apps/emu-sega_master_system
+		apps/emu-master_system
+
+devices/joystick-commodore_64
+	devices/joystick-commodore64
+	apps/emu-commodore_64
+		apps/emu-commodore64
+
+devices/joystick-sega_mega_drive-3button
+	devices/joystick-mega_drive-3button
+	devices/joystick-sega_genesis-3button
+		devices/joystick-genesis-3button
+	devices/joystick-sega_mega_drive
+		devices/joystick-mega_drive
+		devices/joystick-sega_genesis
+			devices/joystick-genesis
+		apps/emu-sega_mega_drive
+			apps/emu-mega_drive
+			apps/emu-sega_genesis
+				apps/emu-genesis
+			apps/gens
+				apps/gens-gs
+		apps/emu-sega_32x
+		apps/emu-sega_mega_cd
+			apps/emu-sega_cd
+
+devices/joystick-sega_mega_drive-6button
+	devices/joystick-mega_drive-6button
+	devices/joystick-sega_genesis-6button
+		devices/joystick-genesis-6button
+
+devices/joystick-sega_saturn
+	devices/joystick-saturn
+	apps/emu-sega_saturn
+		apps/emu-saturn
+
+devices/joystick-sega_saturn-3d_pad
+	devices/joystick-saturn-3d_pad
+	devices/joystick-3d_pad
+
+devices/joystick-nintendo_64
+	devices/joystick-nintendo64
+	devices/joystick-n64
+	apps/emu-nintendo_64
+		apps/emu-nintendo64
+		apps/emu-n64
+
+devices/joystick-dreamcast
+	apps/emu-dreamcast
+
+devices/joystick-gamecube
+	apps/emu-gamecube
+
+devices/joystick-pippin
+	apps/emu-pippin
+
+apps/emu-wii-u
+
+devices/joystick-wii-u-pro
+
+apps/emu-wii
+
+devices/joystick-wii-remote
+
+devices/joystick-wii-nunchuk
+	devices/joystick-nunchuk
+
+devices/joystick-wii-classic_controller
+	devices/joystick-classic_controller
+
+devices/joystick-wii-classic_controller-pro
+	devices/joystick-classic_controller-pro
+
+devices/joystick-steam-controller
+
+devices/joystick-virtual_boy
+	apps/emu-virtual_boy
+
+devices/joystick-ouya
+	apps/emu-ouya
+
+devices/joystick-stadia
+	devices/joystick-google_stadia
+
+devices/joystick-luna
+	devices/joystick-amazon_luna
+
+devices/joystick-playstation-move
+	devices/joystick-ps-move
+
+devices/joystick-playstation-move-navigation
+	devices/joystick-ps-move-navigation
+
+devices/joystick-dual_analog
+	devices/joystick-dualshock
+		devices/joystick-dual_shock
+		devices/joystick-dualshock-2
+			devices/joystick-dual_shock-2
+			devices/joystick-dualshock2
+		devices/joystick-sixaxis
+			devices/joystick-dualshock-3
+				devices/joystick-dual_shock-3
+				devices/joystick-dualshock3
+			apps/emu-playstation-3
+				apps/emu-playstation3
+				apps/emu-ps-3
+				apps/emu-ps3
+	<temporarily>
+		devices/joystick-playstation-1
+			devices/joystick-playstation
+			devices/joystick-playstation1
+			devices/joystick-ps-1
+			devices/joystick-ps
+			devices/joystick-ps1
+			apps/emu-playstation-1
+				apps/emu-playstation
+				apps/emu-playstation1
+				apps/emu-ps-1
+				apps/emu-ps
+				apps/emu-ps1
+			devices/joystick-playstation-2
+				devices/joystick-playstation2
+				devices/joystick-ps-2
+				devices/joystick-ps2
+				apps/emu-playstation-2
+					apps/emu-playstation2
+					apps/emu-ps-2
+					apps/emu-ps2
+	<temporarily>
+		devices/joystick-dualshock-4
+			devices/joystick-dual_shock-4
+			devices/joystick-dualshock4
+			apps/emu-playstation-4
+				apps/emu-playstation4
+				apps/emu-ps-4
+				apps/emu-ps4
+			<temporarily>
+				devices/joystick-dualsense
+					devices/joystick-dualsense
+					apps/emu-playstation-5
+						apps/emu-playstation5
+						apps/emu-ps-5
+						apps/emu-ps5
+
+devices/joystick-xbox
+	apps/emu-xbox
+
+devices/joystick-xbox-controller-s
+	devices/joystick-xbox-s
+
+devices/joystick-xbox-360-s
+	apps/emu-xbox-360
+
+devices/joystick-xbox-one
+	apps/emu-xbox-one
+
+devices/joystick-xbox-series-xs
+	apps/emu-xbox-series-xs
+		apps/emu-xbox-series-x
+		apps/emu-xbox-series-s
+		apps/emu-xbox-series
+
+devices/input-joystick
+	devices/input-gaming-joystick
+
+devices/input-steering-wheel
+	devices/input-wheel
+	devices/input-steeringwheel
+	devices/input-gaming-steering-wheel
+	devices/input-gaming-wheel
+	devices/input-gaming-steeringwheel
+
+devices/input-light_gun
+	devices/input-lightgun
+	devices/input-gun
+	devices/input-gaming-lightgun
+	devices/input-gaming-light_gun
+	devices/input-gaming-gun
+
+devices/input-pen
+	devices/input-light_pen
+	devices/input-lightpen
+	devices/input-stylus
+	devices/stylus
+
+devices/input-remote
+	devices/input-tv-remote
+	devices/remote
+	devices/tv-remote
+
+devices/input-guitar
+	devices/input-gaming-guitar
+	devices/input-music-guitar
+	devices/audio-input-guitar
+	devices/audio-guitar
+	devices/guitar
+
+devices/input-drumset
+	devices/input-gaming-drumset
+	devices/input-music-drumset
+	devices/drumset
+	devices/input-drums
+	devices/input-gaming-drums
+	devices/input-music-drums
+	devices/drums
+
+devices/input-gaming-microphone
+
+devices/input-music-keyboard
+	devices/audio-keyboard
+	devices/audio-input-keyboard
+	devices/input-music-piano
+		devices/audio-piano
+		devices/audio-input-piano
+	devices/input-music-synth
+		devices/audio-synth
+		devices/audio-input-synth
+
+devices/input-3d_mouse
+	devices/3d_mouse

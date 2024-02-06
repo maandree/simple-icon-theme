@@ -13,18 +13,36 @@ Design:
 
 •	Gaps between objects should be 1 pixel
 
-•	The base colour should be #bebebe
+•	The base colour should be #bebebeff
 
 •	Transparency should be used instead of colours
 	and shades, primarily 25% opaque and secondarily
 	50% opaque, unless not appropriate
+
+•	35% opaqueness is used to indicate that something
+	is disabled, whereas the action to disable is
+	indicated by a stroke along the main diagonal
+
+•	35% opaqueness is also used to indicate that
+	something is not happening, or a level that
+	that has not been reached
+
+•	50% opaqueness is used to indicate that the
+	information is may be out of date
+
+•	50% opaqueness is also used to indicate idle
+	but enabled state
+
+•	Status icons that may animated to blink have
+	a version suffixed "-blink_off" where the
+	blinking part is set to have 20% opacity
 
 •	In exceptional cases colours can be used:
 
 	Status indication:
 	•	Red    = #ef2929ff (critical state or missing)
 	•	Orange = #f57900ff (warning)
-	•	Green  = #32a679ff (verified)
+	•	Green  = #32a678ff (verified)
 
 	User selectable colours:
 	•	Red     = #cd656cff
@@ -36,9 +54,21 @@ Design:
 	•	Magenta = #a46eb0ff
 
 •	Icons that can be overlayed, such as emblems,
-	should have a 1 pixel black (#000000) outline
+	should have a 1 pixel black (#000000ff) outline
 
 •	SVG files should be cleaned up with `svgcleaner`
 
 When building, it is a good idea to run `make all-fast -j`
 rather than `make all -j` or `make -j` (also if without -j).
+
+
+Icons with ad-hoc design choices:
+
+	emblems/emblem-urgent:
+		Uses #cd656cff (user red)
+
+	mimetypes/application-x-executable-suid (and alises):
+		Uses #cd656cff (user red)
+
+	mimetypes/application-x-executable-daemon (and alises):
+		Uses 35% opacity

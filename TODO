@@ -1,12 +1,23 @@
 grub-customizer						should be a boot with a wrench
 apps/package-*						should probably be in status/
 gtk-[dis]connect					should look like [un]connected powercords
+actions/view-list-bullet				should have bullets
 status/network-cellular-5g				needed
 status/network-cellular-6g				needed
 actions/night-light-enable				needed
 actions/night-light-disable				needed
 status/uninterruptible-power-supply-running		needed
 status/uninterruptible-power-supply-not-running		needed
+status/audio-headphones-missing				needed
+status/audio-headset-missing				needed
+status/audio-speakers-missing				needed
+actions/view-calendar-year				needed
+actions/stock_folder-copy				needed
+actions/stock_folder-move				needed
+actions/work_online					needed
+actions/work_offline					needed
+status/working_online					needed
+status/working_offline					needed
 
 
 Add screen sharing icons:
@@ -62,3 +73,7 @@ status/
 
 Icon that should be ungenericised:
 	apps/nautilus
+
+Make it easier to switch between LTR and RTL as the default direction
+DEVCHECK shall validate that emblems are not outside emblems/
+DEVCHECK shall validate links outside emblems/ are not emblems

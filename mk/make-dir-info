@@ -1,0 +1,49 @@
+#!/bin/sh
+
+size="$1"
+dir="$2"
+
+d="$(printf '%s\n' "$dir" | cut -d / -f 1)"
+
+if test "$d" = actions; then
+	context=Actions
+elif test "$d" = animations; then
+	context=Animations
+elif test "$d" = apps; then
+	context=Applications
+elif test "$d" = categories; then
+	context=Categories
+elif test "$d" = devices; then
+	context=Devices
+elif test "$d" = emblems; then
+	context=Emblems
+elif test "$d" = emotes; then
+	context=Emotes
+elif test "$d" = filesystems; then
+	context=FileSystems
+elif test "$d" = intl; then
+	context=International
+elif test "$d" = legacy; then
+	context=Legacy
+elif test "$d" = mimetypes; then
+	context=MimeTypes
+elif test "$d" = places; then
+	context=Places
+elif test "$d" = status; then
+	context=Status
+elif test "$d" = stock; then
+	context=Stock
+elif test "$d" = ui; then
+	context=UI
+else
+	printf '%s: No value defined for Context for %s\n' "$0" "$d" >&2
+	exit 1
+fi
+
+if test "$size" = scalable; then
+	printf '[%s/%s]\n' "$size" "$dir"
+	printf '%s\n' Context="$context" Size="16" MinSize="8" MaxSize="1024" Type="Scalable"
+else
+	printf '[%sx%s/%s]\n' "$size" "$size" "$dir"
+	printf '%s\n' Context="$context" Size="$size" Type="Fixed"
+fi
