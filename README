@@ -24,8 +24,8 @@ Design:
 	indicated by a stroke along the main diagonal
 
 •	35% opaqueness is also used to indicate that
-	something is not happening, or a level that
-	that has not been reached
+	something is not happening, a level that has
+	not been reached, or an old state
 
 •	50% opaqueness is used to indicate that the
 	information is may be out of date

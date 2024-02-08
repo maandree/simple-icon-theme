@@ -19,6 +19,8 @@ actions/work_offline					needed
 status/working_online					needed
 status/working_offline					needed
 
+inkscape gotten new icons that most be added
+
 
 Add screen sharing icons:
   app/screen-share					live devices/video-display but with arrows as in actions/webcamsend
@@ -70,9 +72,6 @@ status/
   sync-error		The icon used when an error occurs while attempting to synchronize data from the computing device, to another device.
   sync-synchronizing	The icon used while data is successfully synchronizing to another device.
 
-
-Icon that should be ungenericised:
-	apps/nautilus
 
 Make it easier to switch between LTR and RTL as the default direction
 DEVCHECK shall validate that emblems are not outside emblems/

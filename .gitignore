@@ -3,7 +3,8 @@
 /*x*/
 /scalable-*/
 *.theme
-conv
+/conv
 *.o
 *.su
 /generated.mk
+/check-icon-listing

@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+dups="$(sed 's/\\$//' < icons.mk | sed '/^\s*\(#.*\|\)$/d' | sed 1d | tr -d '\t ' | sort | uniq -d)"
+
+if test -n "$dups"; then
+	printf 'The following files have been listed in icons.mk multiple times:\n%s\n' "$dups" >&2
+	exit 1
+fi

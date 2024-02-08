@@ -7,10 +7,11 @@ include $(CONFIGFILE)
 
 all:
 
-generated.mk: $(CONFIGFILE) icons.mk Makefile
+generated.mk: $(CONFIGFILE) icons.mk Makefile check-icon-listing
 	$(DEVCHECK) check/find-errors
 	$(DEVCHECK) check/find-unlisted-icons
-	$(DEVCHECK) check/check-icons-listing
+	$(DEVCHECK) check/find-duplicates
+	$(DEVCHECK) ./check-icon-listing
 	@test ! -e $@ || chmod -- u+w $@
 	printf '\043 %s\n' 'This file is generated from Makefile' > $@
 	printf '\n%1i$$(DIR_SUFFIX)/%%.png: scalable$$(DIR_SUFFIX)/%%.svg conv\n\t./conv $$@\n' $(SIZES) |\
@@ -26,8 +27,12 @@ generated.mk: $(CONFIGFILE) icons.mk Makefile
 	printf '\n' >> $@
 	@chmod -- a-w $@
 
+check-icon-listing: check/check-icon-listing.c
+	$(CC) -o $@ $< $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
+
 clean:
 	-rm -rf -- index.theme *.o *.su conv generated.mk scalable-"$(DIR_SUFFIX_)"
+	-rm -f -- check-icon-listing
 	-for s in $(SIZES); do printf "$${s}x$${s}$(DIR_SUFFIX)\n"; done | xargs rm -rf --
 
 # These are just added so autocompletion works with them

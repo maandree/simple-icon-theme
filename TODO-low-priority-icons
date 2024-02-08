@@ -1,6 +1,6 @@
 These are icons that should be added (indenting of course means symlink to
 the first above with less indent), but which I will not be prioritising for
-the foreseeable future
+the foreseeable future.
 
 
 apps/emu-game_boy
@@ -270,3 +270,7 @@ devices/input-music-keyboard
 
 devices/input-3d_mouse
 	devices/3d_mouse
+
+apps/nautilus # exists but as an alias to a generic icon
+
+apps/thunar # exists but as an alias to a generic icon

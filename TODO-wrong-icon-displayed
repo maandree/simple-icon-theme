@@ -1,0 +1,73 @@
+These errors could be because of a missing or misspelled icon, but
+it could also be because of a poor choice in the application itself.
+
+
+mate-disk-usage-analyzer:
+	Menu item "Analyser" > "Scan Remote Folder..." (also found in the
+	toolbar) is currently displaying network status/network-idle instead
+	of places/folder-remote, and thus looks very out of place.
+
+fceux:
+	Menu item "Options" > "Hotkey Config" stands out because it does
+	not have an icon, apps/preferences-desktop-keyboard-shortcuts
+	should be used apps/preferences-system-network.
+
+	Menu item "Options" > "Network Config" is currently displaying
+	icon status/network-idle instead of places/folder-remote,
+	and thus looks very out of place.
+
+	fceuX icon should after clicking "Help" > "About" uses an external
+	icon instead of apps/fceux.
+
+brave:
+	All icons are external icons, these are tolerable.
+
+claws-mail:
+	Almost all icons are external icons.
+
+firefox:
+	All icons are external icons, these are tolerable.
+
+transmission-gtk:
+	The icons at the bottom of the application are external icons,
+	one of them also appear in "Edit" > "Preferences" > "Speed";
+	these icons do however look okay.
+
+libreoffice:
+	A lot of icons are external icons.
+
+meld:
+	(investigate)
+	It is not sure that the icons for the menu items "Changes" >
+	"Pull from Left" and "Changes" > "Pull from Right" are
+	right-to-left compatible. It is likely more likely, but it
+	should still be checked, that "Changes" > "Pull to Left" and
+	"Changes" > "Pull to Right" are right-to-left compatible.
+
+synfig-studio:
+	Most icons are external icons.
+
+gimp:
+	A lot of icons are external icons, but look okay.
+
+thunar:
+	Most icons in "View" > "Config Toolbar..." (they are of couse
+	also used elsewhere) are external icons that look a bit off.
+	Mostly they are too bright, but the Home looks different from
+	the Home icon that is displayed in the side pane and elsewhere.
+
+	The icons to the right in "Edit" > "Configure custom actions..."
+	are external icons and look to bright, also cliking the Gear icon
+	brings up a window where the icon on the button associated with
+	"Command" has the same issue but also uses a different style.
+
+	Clicking the mouse secondary button ("right clicking"), or
+	pressing the menu key on the keyboard, inside a directory brings
+	up a context menu with the three zoom commands' icons are external
+	icons and are too bright.
+
+
+There is no point in trying to fix
+	fontforge
+	audacity
+

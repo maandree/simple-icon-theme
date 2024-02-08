@@ -950,11 +950,11 @@ ICONS =\
 	apps/preferences-system-network-proxy\
 		apps/proxy-config\
 		apps/proxy\
-		apps/gnome-network-preferences\
 		apps/stock_proxy\
-		apps/mate-network-properties\
 		apps/yast-proxy\
 	apps/preferences-system-network\
+		apps/gnome-network-preferences\
+		apps/mate-network-properties\
 		categories/org.gnome.Settings-network\
 		apps/yast-network-group\
 	apps/preferences-system-details\
@@ -1017,11 +1017,19 @@ ICONS =\
 			apps/distributor-logo\
 		mimetypes/vmlinux\
 			mimetypes/vmlinuz\
+			mimetypes/x-kernel\
+				mimetypes/application-x-kernel\
+				mimetypes/x-kernel-object\
+					mimetypes/application-x-kernel-object\
+					mimetypes/x-kernel-module\
+						mimetypes/application-x-kernel-module\
 	apps/baobab\
 		apps/filelight\
 		apps/org.gnome.baobab\
 		apps/kdf\
+		apps/mate-disk-usage-analyzer\
 	apps/gnome-disks\
+		apps/gnome-disk-utility\
 	apps/gnome-disks-state-standby\
 	apps/mate-panel\
 		apps/gnome-panel\
@@ -2188,8 +2196,8 @@ ICONS =\
 	actions/audio-input-microphone-enable-muted\
 	actions/audio-input-microphone-disable-high\
 	actions/audio-input-microphone-disable-low\
+		actions/audio-input-microphone-disable-muted\
 	actions/audio-input-microphone-disable-medium\
-	actions/audio-input-microphone-disable-muted\
 	status/network-cellular-3g\
 	status/network-cellular-4g\
 	status/network-cellular-acquiring\
@@ -2256,6 +2264,7 @@ ICONS =\
 		status/update-notifier\
 	status/software-update-urgent\
 	status/starred\
+		status/not-starred-hovered\
 		status/blueman-trust\
 		status/rating\
 			status/rating-rated\
@@ -2710,12 +2719,22 @@ ICONS =\
 	actions/window-previous\
 		actions/window-next-rtl\
 	actions/zoom-fit-drawing\
+		actions/view-zoom-fit-drawing\
+		actions/zoom-draw-fit\
+			actions/view-zoom-draw-fit\
 	actions/zoom-fit-selection\
+		actions/view-zoom-fit-selection\
 		actions/zoom-select\
+			actions/view-zoom-select\
 	actions/zoom-fit-page\
+		actions/view-zoom-fit-page\
 		actions/stock_zoom-page\
+		actions/zoom-page-fit\
+			actions/view-zoom-page-fit\
 	actions/zoom-half-size\
+		actions/view-zoom-half-size\
 	actions/zoom-double-size\
+		actions/view-zoom-double-size\
 	actions/transform-move\
 		actions/transform-translate\
 	actions/window-duplicate\
@@ -2732,6 +2751,10 @@ ICONS =\
 	actions/draw-polygon-star\
 	actions/draw-polygon\
 	actions/draw-star\
+	actions/folder-move\
+		actions/stock_folder-move\
+	actions/folder-copy\
+		actions/stock_folder-copy\
 	actions/node-add\
 	actions/node-delete\
 	actions/node-segment-curve\
@@ -3222,9 +3245,13 @@ ICONS =\
 		actions/tool-warp\
 			actions/gimp-tool-warp\
 	actions/zoom-next\
+		actions/view-zoom-next\
 		actions/zoom-previous-rtl\
+			actions/view-zoom-previous-rtl\
 	actions/zoom-previous\
+		actions/view-zoom-previous\
 		actions/zoom-next-rtl\
+			actions/view-zoom-next-rtl\
 	actions/tab-new\
 		actions/stock_new-tab\
 		actions/tab_new\
@@ -3530,12 +3557,15 @@ ICONS =\
 	actions/window-minimize\
 	actions/window-restore\
 	actions/zoom-fit-best\
+		actions/view-zoom-fit-best\
 		actions/gtk-zoom-fit\
 			actions/remmina-fit-window\
 		actions/viewmagfit\
 		actions/zoom-best-fit\
+			actions/view-zoom-best-fit\
 			actions/stock_zoom-optimal\
 				actions/zoom-optimal\
+					actions/view-zoom-optimal\
 	actions/zoom-in\
 		actions/file-zoom-in\
 		actions/image-zoom-in\
@@ -3545,6 +3575,7 @@ ICONS =\
 		actions/viewmag+\
 		status/view-near\
 	actions/zoom-original\
+		actions/view-zoom-original\
 		actions/gtk-zoom-100\
 		actions/stock_zoom-1\
 		actions/viewmag1\
@@ -3557,8 +3588,10 @@ ICONS =\
 		actions/viewmag-\
 		status/view-far\
 	actions/zoom-fit-width\
+		actions/view-zoom-fit-width\
 		actions/stock_zoom-page-width\
 	actions/zoom-fit-height\
+		actions/view-zoom-fit-height\
 		actions/stock_zoom-page-height\
 	actions/help-about\
 		actions/stock_about\
@@ -4629,6 +4662,7 @@ ICONS =\
 			apps/rss\
 			apps/akregator\
 			apps/liferea\
+			apps/gfeeds\
 	mimetypes/application-x-appliance\
 	mimetypes/application-x-executable\
 		mimetypes/x-executable\
@@ -5160,7 +5194,6 @@ ICONS =\
 		mimetypes/gnome-mime-application-msword\
 		mimetypes/gnome-mime-application-postscript\
 		mimetypes/gnome-mime-application-x-abiword\
-		mimetypes/gnome-mime-application-x-dvi\
 		mimetypes/gnome-mime-application-x-gzpostscript\
 		mimetypes/gnome-mime-application-x-kword\
 		mimetypes/gnome-mime-application-x-scribus\
@@ -5355,6 +5388,9 @@ ICONS =\
 		mimetypes/application-x-bzpdf\
 		mimetypes/gnome-mime-application-pdf\
 		mimetypes/pdf\
+		mimetypes/application-dvi\
+			mimetypes/application-x-dvi\
+				mimetypes/gnome-mime-application-x-dvi\
 		apps/graphics-viewer-document\
 			apps/xpdf\
 			apps/kpdf\
@@ -5363,6 +5399,7 @@ ICONS =\
 			apps/atril\
 			apps/okular\
 			apps/gnome-pdf\
+			apps/xdvi\
 	mimetypes/x-office-formula-template\
 		mimetypes/libreoffice-formula-template\
 		mimetypes/libreoffice-oasis-formula-template\

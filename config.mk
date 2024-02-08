@@ -1,6 +1,11 @@
 PREFIX       = /usr
 ICONPREFIX   = $(PREFIX)/share/icons
 
+CC           = c99
+CPPFLAGS     = -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_GNU_SOURCE
+CFLAGS       =
+LDFLAGS      =
+
 THEME_NAME   = Simple
 THEME_DESC   = A very simple icon theme
 THEME_DIR    = simple
