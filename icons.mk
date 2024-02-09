@@ -656,15 +656,15 @@ ICONS =\
 		apps/kphone\
 		apps/linphone2\
 		apps/wengophone\
-		apps/internet_telephony
-			apps/internet-telephony
-		apps/plasma-mobile-phone
-		apps/kcall
-		actions/voicecall
+		apps/internet_telephony\
+			apps/internet-telephony\
+		apps/plasma-mobile-phone\
+		apps/kcall\
+		actions/voicecall\
 	apps/gparted\
 	apps/gvim\
 		apps/vim\
-			apps/vimlogox\
+			apps/vimlogo\
 	apps/h2-icon\
 	apps/im-irc\
 	apps/im-meanwhile\
