@@ -53,6 +53,7 @@ ICONS =\
 			actions/xn-equalizer\
 			actions/media-eq\
 	apps/qt\
+		apps/qtlogo\
 		apps/qtconfig\
 			apps/qtconfig-qt4\
 	apps/scribus\
@@ -67,6 +68,7 @@ ICONS =\
 		apps/kopete\
 		apps/konversation\
 	categories/applications-mathematics\
+		categories/applications-education-mathematics\
 	categories/applications-internet\
 		categories/gnome-globe\
 			apps/earth\
@@ -224,6 +226,7 @@ ICONS =\
 		categories/religion-sikhism\
 	apps/preferences-sound\
 	apps/apport\
+		apps/apport-gtk\
 		apps/blam\
 	apps/anjuta\
 		apps/anjuta6\
@@ -243,6 +246,8 @@ ICONS =\
 	apps/cmake\
 		apps/CMakeSetup\
 	apps/freemind\
+		apps/free_mind\
+			apps/free-mind\
 	apps/homebank\
 	apps/synfig_icon\
 		apps/synfig\
@@ -374,8 +379,9 @@ ICONS =\
 		apps/thunderbird-icon\
 	apps/ufraw\
 	apps/bluefish\
-		apps/bluefish_icon\
 		apps/bluefish-icon\
+			apps/bluefish_icon\
+				apps/bluefish_icon1\
 	apps/gnome-gnibbles\
 		apps/gnibbles\
 	apps/preferences-desktop-theme\
@@ -413,6 +419,7 @@ ICONS =\
 			mimetypes/stock_addressbook\
 			mimetypes/vcard\
 				mimetypes/text-x-vcard\
+					mimetypes/x-office-contact\
 					mimetypes/gnome-mime-text-x-vcard\
 	apps/pacman\
 		apps/alunn-pacman-24\
@@ -422,8 +429,14 @@ ICONS =\
 		apps/kmplayer\
 		apps/kplayer\
 	apps/java\
+		apps/sun_java\
+			apps/sun-java\
+				apps/sun-java6\
+		apps/sun-jcontrol\
+		apps/sun-javaws\
+		apps/javaws\
+		apps/cacao-oj6\
 		apps/typing-monitor\
-		apps/openjdk-6\
 		apps/javac\
 		apps/jconsole\
 		apps/jshell\
@@ -431,7 +444,9 @@ ICONS =\
 		apps/openjdk\
 			apps/java5-openjdk\
 			apps/java6-openjdk\
+				apps/openjdk-6\
 			apps/java7-openjdk\
+				apps/openjdk-7\
 			apps/java8-openjdk\
 			apps/java9-openjdk\
 			apps/java10-openjdk\
@@ -456,6 +471,7 @@ ICONS =\
 	apps/im-sip\
 	apps/im-zephyr\
 	apps/lancelot\
+		apps/lancelot-start\
 	apps/partner\
 	apps/trimage\
 	apps/audacity\
@@ -547,6 +563,8 @@ ICONS =\
 				actions/palette\
 			actions/format-fill-color\
 	apps/transmission\
+		apps/transmission-remote-gtk\
+			apps/transmission-remote-qt\
 		apps/transmission-gtk\
 		apps/transmission-qt\
 		apps/transmission-cli\
@@ -557,7 +575,9 @@ ICONS =\
 			apps/transmission-show\
 		apps/transmission-tray-icon\
 	apps/cloudsn\
+		apps/cloudsn64\
 	apps/launchpad\
+		apps/Launchpad-launchpad.net\
 	apps/live\
 	apps/help-faq\
 		actions/help-faq\
@@ -625,17 +645,26 @@ ICONS =\
 	apps/blogtk\
 		apps/blogtk-icon\
 	apps/dc-icon\
+		apps/dc++\
+			apps/DC++\
 	apps/deviantart\
 	apps/diaspora\
 	devices/stock_landline-phone\
 		apps/ekiga\
 			apps/ekiga-gtkonly\
+			apps/im-ekiga\
 		apps/kphone\
 		apps/linphone2\
 		apps/wengophone\
+		apps/internet_telephony
+			apps/internet-telephony
+		apps/plasma-mobile-phone
+		apps/kcall
+		actions/voicecall
 	apps/gparted\
 	apps/gvim\
 		apps/vim\
+			apps/vimlogox\
 	apps/h2-icon\
 	apps/im-irc\
 	apps/im-meanwhile\
@@ -645,6 +674,7 @@ ICONS =\
 	apps/kturtle\
 	apps/neverball\
 	apps/orca\
+		apps/gnome-orca\
 	apps/darktable\
 	apps/neverwinter-nights\
 		apps/nwmain-linux\
@@ -666,6 +696,8 @@ ICONS =\
 	apps/gnome-inhibit-applet\
 	apps/gnome-klotski\
 		apps/org.gnome.Klotski\
+		apps/gnotski\
+		apps/klotski\
 	apps/gnome-mines\
 		apps/org.gnome.Mines\
 	apps/accessories-dictionary\
@@ -1095,6 +1127,7 @@ ICONS =\
 	apps/application-community\
 	apps/fontforge\
 		apps/ffanvil32\
+		apps/ffanvil128\
 		apps/org.fontforge.FontForge\
 	apps/gnome-gnect\
 	apps/gnome-iagno\
@@ -1116,11 +1149,16 @@ ICONS =\
 			status/blueshift-on\
 	apps/vbox\
 		apps/virtualbox\
+			apps/virtual_box\
+				apps/virtual-box\
 			apps/virtualbox-ose\
 		apps/VBox\
 	apps/vmware-workstation\
 	apps/wire-desktop\
 	apps/x\
+		apps/X\
+		apps/xorg\
+			apps/Xorg\
 	apps/utilities-file-archiver\
 		apps/utilities-archiver\
 		apps/utilities_file_archiver\
@@ -1292,6 +1330,7 @@ ICONS =\
 				apps/resapplet\
 				apps/grandr\
 				apps/gsd-xrandr\
+		apps/monitor\
 	apps/force-exit\
 		apps/mate-panel-force-quit\
 			apps/gnome-panel-force-quit\
@@ -1447,20 +1486,25 @@ ICONS =\
 	status/avatar-default\
 		status/user-info\
 	status/gpm-battery-000-charging\
+		status/unity-gpm-battery-000-charging\
 		status/battery-level-0-charging\
 		status/battery-empty-charging\
+			status/unity-battery-empty-charging\
 		status/xfpm-battery-000-charging\
 		status/notification-gpm-battery-000-charging\
 		status/notification-battery-000-plugged\
 		status/gpm-primary-000-charging\
 			status/xfpm-primary-000-charging\
 		status/battery-000-charging\
+			status/unity-battery-000-charging\
 			status/gpm-ups-000-charging\
 				status/xfpm-ups-000-charging\
 				status/notification-gpm-ups-000-charging\
 	status/gpm-battery-000\
+		status/unity-gpm-battery-000\
 		status/battery-level-0\
 		status/battery-empty\
+			status/unity-battery-empty\
 		status/xfpm-battery-000\
 		status/notification-gpm-battery-000\
 		status/notification-battery-empty\
@@ -1468,23 +1512,33 @@ ICONS =\
 		status/gpm-primary-000\
 			status/xfpm-primary-000\
 		status/battery-000\
+			status/unity-battery-000\
 			status/gpm-ups-000\
 				status/xfpm-ups-000\
 				status/notification-gpm-ups-000\
 	status/battery-full-charged\
+		status/unity-battery-full-charged\
 	status/battery-full-charging\
+		status/unity-battery-full-charging\
 	status/battery-full\
+		status/unity-battery-full\
 	status/battery-good-charging\
+		status/unity-battery-good-charging\
 	status/battery-good\
+		status/unity-battery-good\
 	status/battery-low-charging\
+		status/unity-battery-low-charging\
 	status/battery-low\
+		status/unity-battery-low\
 	status/battery-missing\
+		status/unity-battery-missing\
 		status/gpm-primary-missing\
 	status/gpm-ac-adapter\
 		status/xfpm-ac-adapter\
 		status/notification-gpm-ac-adapter\
 		status/battery_plugged\
 		status/gpm-battery-charged\
+			status/unity-gpm-battery-charged\
 			status/battery-level-100-charged\
 			status/xfpm-ups-charged\
 			status/xfpm-battery-charged\
@@ -1494,6 +1548,7 @@ ICONS =\
 				status/gpm-battery-100-charged\
 				status/xfpm-primary-charged\
 	status/gpm-battery-010\
+		status/unity-gpm-battery-010\
 		status/battery-level-10\
 		status/xfpm-battery-010\
 		status/notification-gpm-battery-010\
@@ -1501,10 +1556,12 @@ ICONS =\
 		status/gpm-primary-010\
 			status/xfpm-primary-010\
 		status/battery-010\
+			status/unity-battery-010\
 			status/gpm-ups-010\
 				status/xfpm-ups-010\
 				status/notification-gpm-ups-010\
 	status/gpm-battery-010-blink_off\
+		status/unity-gpm-battery-010-blink_off\
 		status/battery-level-10-blink_off\
 		status/xfpm-battery-010-blink_off\
 		status/notification-gpm-battery-010-blink_off\
@@ -1512,10 +1569,12 @@ ICONS =\
 		status/gpm-primary-010-blink_off\
 			status/xfpm-primary-010-blink_off\
 		status/battery-010-blink_off\
+			status/unity-battery-010-blink_off\
 			status/gpm-ups-010-blink_off\
 				status/xfpm-ups-010-blink_off\
 				status/notification-gpm-ups-010-blink_off\
 	status/gpm-battery-010-charging\
+		status/unity-gpm-battery-010-charging\
 		status/battery-level-10-charging\
 		status/xfpm-battery-010-charging\
 		status/notification-gpm-battery-010-charging\
@@ -1523,12 +1582,15 @@ ICONS =\
 		status/gpm-primary-010-charging\
 			status/xfpm-primary-010-charging\
 		status/battery-010-charging\
+			status/unity-battery-010-charging\
 			status/gpm-ups-010-charging\
 				status/xfpm-ups-010-charging\
 				status/notification-gpm-ups-010-charging\
 	status/gpm-battery-020\
+		status/unity-gpm-battery-020\
 		status/battery-level-20\
 		status/battery-caution\
+			status/unity-battery-caution\
 		status/xfpm-battery-020\
 		status/notification-gpm-battery-020\
 		status/notification-battery-low\
@@ -1536,12 +1598,15 @@ ICONS =\
 		status/gpm-primary-020\
 			status/xfpm-primary-020\
 		status/battery-020\
+			status/unity-battery-020\
 			status/gpm-ups-020\
 				status/xfpm-ups-020\
 				status/notification-gpm-ups-020\
 	status/gpm-battery-020-blink_off\
+		status/unity-gpm-battery-020-blink_off\
 		status/battery-level-20-blink_off\
 		status/battery-caution-blink_off\
+			status/unity-battery-caution-blink_off\
 		status/xfpm-battery-020-blink_off\
 		status/notification-gpm-battery-020-blink_off\
 		status/notification-battery-low-blink_off\
@@ -1549,22 +1614,27 @@ ICONS =\
 		status/gpm-primary-020-blink_off\
 			status/xfpm-primary-020-blink_off\
 		status/battery-020-blink_off\
+			status/unity-battery-020-blink_off\
 			status/gpm-ups-020-blink_off\
 				status/xfpm-ups-020-blink_off\
 				status/notification-gpm-ups-020-blink_off\
 	status/gpm-battery-020-charging\
+		status/unity-gpm-battery-020-charging\
 		status/battery-level-20-charging\
 		status/battery-caution-charging\
+			status/unity-battery-caution-charging\
 		status/xfpm-battery-020-charging\
 		status/notification-gpm-battery-020-charging\
 		status/notification-battery-020-plugged\
 		status/gpm-primary-020-charging\
 			status/xfpm-primary-020-charging\
 		status/battery-020-charging\
+			status/unity-battery-020-charging\
 			status/gpm-ups-020-charging\
 				status/xfpm-ups-020-charging\
 				status/notification-gpm-ups-020-charging\
 	status/gpm-battery-030\
+		status/unity-gpm-battery-030\
 		status/battery-level-30\
 		status/xfpm-battery-030\
 		status/notification-gpm-battery-030\
@@ -1572,10 +1642,12 @@ ICONS =\
 		status/gpm-primary-030\
 			status/xfpm-primary-030\
 		status/battery-030\
+			status/unity-battery-030\
 			status/gpm-ups-030\
 				status/xfpm-ups-030\
 				status/notification-gpm-ups-030\
 	status/gpm-battery-030-charging\
+		status/unity-gpm-battery-030-charging\
 		status/battery-level-30-charging\
 		status/xfpm-battery-030-charging\
 		status/notification-gpm-battery-030-charging\
@@ -1583,10 +1655,12 @@ ICONS =\
 		status/gpm-primary-030-charging\
 			status/xfpm-primary-030-charging\
 		status/battery-030-charging\
+			status/unity-battery-030-charging\
 			status/gpm-ups-030-charging\
 				status/xfpm-ups-030-charging\
 				status/notification-gpm-ups-030-charging\
 	status/gpm-battery-040\
+		status/unity-gpm-battery-040\
 		status/battery-level-40\
 		status/xfpm-battery-040\
 		status/notification-gpm-battery-040\
@@ -1594,10 +1668,12 @@ ICONS =\
 		status/gpm-primary-040\
 			status/xfpm-primary-040\
 		status/battery-040\
+			status/unity-battery-040\
 			status/gpm-ups-040\
 				status/xfpm-ups-040\
 				status/notification-gpm-ups-040\
 	status/gpm-battery-040-charging\
+		status/unity-gpm-battery-040-charging\
 		status/battery-level-40-charging\
 		status/xfpm-battery-040-charging\
 		status/notification-gpm-battery-040-charging\
@@ -1605,10 +1681,12 @@ ICONS =\
 		status/gpm-primary-040-charging\
 			status/xfpm-primary-040-charging\
 		status/battery-040-charging\
+			status/unity-battery-040-charging\
 			status/gpm-ups-040-charging\
 				status/xfpm-ups-040-charging\
 				status/notification-gpm-ups-040-charging\
 	status/gpm-battery-050\
+		status/unity-gpm-battery-050\
 		status/battery-level-50\
 		status/xfpm-battery-050\
 		status/notification-gpm-battery-050\
@@ -1616,10 +1694,12 @@ ICONS =\
 		status/gpm-primary-050\
 			status/xfpm-primary-050\
 		status/battery-050\
+			status/unity-battery-050\
 			status/gpm-ups-050\
 				status/xfpm-ups-050\
 				status/notification-gpm-ups-050\
 	status/gpm-battery-050-charging\
+		status/unity-gpm-battery-050-charging\
 		status/battery-level-50-charging\
 		status/xfpm-battery-050-charging\
 		status/notification-gpm-battery-050-charging\
@@ -1627,10 +1707,12 @@ ICONS =\
 		status/gpm-primary-050-charging\
 			status/xfpm-primary-050-charging\
 		status/battery-050-charging\
+			status/unity-battery-050-charging\
 			status/gpm-ups-050-charging\
 				status/xfpm-ups-050-charging\
 				status/notification-gpm-ups-050-charging\
 	status/gpm-battery-060\
+		status/unity-gpm-battery-060\
 		status/battery-level-60\
 		status/xfpm-battery-060\
 		status/notification-gpm-battery-060\
@@ -1639,10 +1721,12 @@ ICONS =\
 			status/battery_two_thirds\
 			status/xfpm-primary-060\
 		status/battery-060\
+			status/unity-battery-060\
 			status/gpm-ups-060\
 				status/xfpm-ups-060\
 				status/notification-gpm-ups-060\
 	status/gpm-battery-060-charging\
+		status/unity-gpm-battery-060-charging\
 		status/battery-level-60-charging\
 		status/xfpm-battery-060-charging\
 		status/notification-gpm-battery-060-charging\
@@ -1650,10 +1734,12 @@ ICONS =\
 		status/gpm-primary-060-charging\
 			status/xfpm-primary-060-charging\
 		status/battery-060-charging\
+			status/unity-battery-060-charging\
 			status/gpm-ups-060-charging\
 				status/xfpm-ups-060-charging\
 				status/notification-gpm-ups-060-charging\
 	status/gpm-battery-070\
+		status/unity-gpm-battery-070\
 		status/battery-level-70\
 		status/xfpm-battery-070\
 		status/notification-gpm-battery-070\
@@ -1661,10 +1747,12 @@ ICONS =\
 		status/gpm-primary-070\
 			status/xfpm-primary-070\
 		status/battery-070\
+			status/unity-battery-070\
 			status/gpm-ups-070\
 				status/xfpm-ups-070\
 				status/notification-gpm-ups-070\
 	status/gpm-battery-070-charging\
+		status/unity-gpm-battery-070-charging\
 		status/battery-level-70-charging\
 		status/xfpm-battery-070-charging\
 		status/notification-gpm-battery-070-charging\
@@ -1672,10 +1760,12 @@ ICONS =\
 		status/gpm-primary-070-charging\
 			status/xfpm-primary-070-charging\
 		status/battery-070-charging\
+			status/unity-battery-070-charging\
 			status/gpm-ups-070-charging\
 				status/xfpm-ups-070-charging\
 				status/notification-gpm-ups-070-charging\
 	status/gpm-battery-080\
+		status/unity-gpm-battery-080\
 		status/battery-level-80\
 		status/xfpm-battery-080\
 		status/notification-gpm-battery-080\
@@ -1684,10 +1774,12 @@ ICONS =\
 			status/battery_third_fourth\
 			status/xfpm-primary-080\
 		status/battery-080\
+			status/unity-battery-080\
 			status/gpm-ups-080\
 				status/xfpm-ups-080\
 				status/notification-gpm-ups-080\
 	status/gpm-battery-080-charging\
+		status/unity-gpm-battery-080-charging\
 		status/battery-level-80-charging\
 		status/xfpm-battery-080-charging\
 		status/notification-gpm-battery-080-charging\
@@ -1695,10 +1787,12 @@ ICONS =\
 		status/gpm-primary-080-charging\
 			status/xfpm-primary-080-charging\
 		status/battery-080-charging\
+			status/unity-battery-080-charging\
 			status/gpm-ups-080-charging\
 				status/xfpm-ups-080-charging\
 				status/notification-gpm-ups-080-charging\
 	status/gpm-battery-090\
+		status/unity-gpm-battery-090\
 		status/battery-level-90\
 		status/xfpm-battery-090\
 		status/notification-gpm-battery-090\
@@ -1706,10 +1800,12 @@ ICONS =\
 		status/gpm-primary-090\
 			status/xfpm-primary-090\
 		status/battery-090\
+			status/unity-battery-090\
 			status/gpm-ups-090\
 				status/xfpm-ups-090\
 				status/notification-gpm-ups-090\
 	status/gpm-battery-090-charging\
+		status/unity-gpm-battery-090-charging\
 		status/battery-level-90-charging\
 		status/xfpm-battery-090-charging\
 		status/notification-gpm-battery-090-charging\
@@ -1717,10 +1813,12 @@ ICONS =\
 		status/gpm-primary-090-charging\
 			status/xfpm-primary-090-charging\
 		status/battery-090-charging\
+			status/unity-battery-090-charging\
 			status/gpm-ups-090-charging\
 				status/xfpm-ups-090-charging\
 				status/notification-gpm-ups-090-charging\
 	status/gpm-battery-100\
+		status/unity-gpm-battery-100\
 		status/battery-level-100\
 		status/xfpm-battery-100\
 		status/notification-gpm-battery-100\
@@ -1728,11 +1826,14 @@ ICONS =\
 		status/gpm-primary-100\
 			status/xfpm-primary-100\
 		status/battery-100\
+			status/unity-battery-100\
 			status/gpm-ups-100\
 				status/xfpm-ups-100\
 				status/notification-gpm-ups-100\
 			status/battery_full\
+				status/unity-battery_full\
 	status/gpm-battery-100-charging\
+		status/unity-gpm-battery-100-charging\
 		status/battery-level-100-charging\
 		status/xfpm-battery-100-charging\
 		status/notification-gpm-battery-100-charging\
@@ -1740,12 +1841,16 @@ ICONS =\
 		status/gpm-primary-100-charging\
 			status/xfpm-primary-100-charging\
 		status/battery-100-charging\
+			status/unity-battery-100-charging\
 			status/gpm-ups-100-charging\
 				status/xfpm-ups-100-charging\
 				status/notification-gpm-ups-100-charging\
 			status/battery-charged\
+				status/unity-battery-charged\
 				status/battery_charged\
+					status/unity-battery_charged\
 	status/gpm-battery-empty\
+		status/unity-gpm-battery-empty\
 		status/notification-gpm-battery-empty\
 		status/notification-power-disconnected\
 		status/xfpm-primary-missing\
@@ -1754,9 +1859,12 @@ ICONS =\
 			status/xfpm-ups-missing\
 			status/notification-gpm-ups-missing\
 		status/gpm-battery-missing\
+			status/unity-gpm-battery-missing\
 			status/xfpm-battery-missing\
 		status/battery_empty\
+			status/unity-battery_empty\
 	status/gpm-battery-empty-blink_off\
+		status/unity-gpm-battery-empty-blink_off\
 		status/notification-gpm-battery-empty-blink_off\
 		status/notification-power-disconnected-blink_off\
 		status/xfpm-primary-missing-blink_off\
@@ -1765,8 +1873,10 @@ ICONS =\
 			status/xfpm-ups-missing-blink_off\
 			status/notification-gpm-ups-missing-blink_off\
 		status/gpm-battery-missing-blink_off\
+			status/unity-gpm-battery-missing-blink_off\
 			status/xfpm-battery-missing-blink_off\
 		status/battery_empty-blink_off\
+			status/unity-battery_empty-blink_off\
 	status/gpm-keyboard-charged\
 	status/gpm-keyboard-100-charging\
 	status/gpm-keyboard-090-charging\
@@ -2618,6 +2728,8 @@ ICONS =\
 		actions/transform-translate-vertical\
 			actions/translate-vertical\
 	actions/transform-rotate\
+		actions/image-rotate\
+		actions/freerotation\
 		actions/object-rotate\
 	actions/transform-scale-horizontal\
 	actions/transform-scale-vertical\
@@ -2731,10 +2843,14 @@ ICONS =\
 		actions/stock_zoom-page\
 		actions/zoom-page-fit\
 			actions/view-zoom-page-fit\
-	actions/zoom-half-size\
-		actions/view-zoom-half-size\
-	actions/zoom-double-size\
-		actions/view-zoom-double-size\
+	actions/zoom-1-to-2\
+		actions/view-zoom-1-to-2\
+		actions/zoom-half-size\
+			actions/view-zoom-half-size\
+	actions/zoom-2-to-1\
+		actions/view-zoom-2-to-1\
+		actions/zoom-double-size\
+			actions/view-zoom-double-size\
 	actions/transform-move\
 		actions/transform-translate\
 	actions/window-duplicate\
@@ -2771,6 +2887,7 @@ ICONS =\
 	actions/selection-top\
 	actions/stroke-to-path\
 	actions/tool-pointer\
+		actions/pointer\
 		actions/gimp-cursor\
 	actions/info\
 		actions/gtk-dialog-info\
@@ -2994,6 +3111,8 @@ ICONS =\
 			apps/dates\
 			actions/view-pim-calendar\
 			mimetypes/x-office-calendar\
+				mimetypes/text-vcalendar\
+				mimetypes/text-calendar\
 				mimetypes/gnome-mime-x-office-calendar\
 				mimetypes/vcalendar\
 					mimetypes/gnome-mime-text-x-vcalendar\
@@ -3253,6 +3372,7 @@ ICONS =\
 		actions/zoom-next-rtl\
 			actions/view-zoom-next-rtl\
 	actions/tab-new\
+		actions/gtk-tab-new\
 		actions/stock_new-tab\
 		actions/tab_new\
 		actions/tab-new-background\
@@ -3338,6 +3458,8 @@ ICONS =\
 	actions/focus-top-bar\
 	actions/focus-windows\
 	actions/font-select\
+		actions/font-face\
+		actions/gtk-select-font\
 	actions/image-crop\
 	actions/image-denoise\
 	actions/image-filter\
@@ -3353,16 +3475,20 @@ ICONS =\
 		actions/stock_stop\
 		actions/stop\
 	actions/object-flip-horizontal\
+		actions/image-flip-horizontal\
 		actions/stock_flip-horizontally\
 		actions/gimp-flip-horizontal\
 		actions/tool-mirror\
 	actions/object-flip-vertical\
+		actions/image-flip-vertical\
 		actions/stock_flip-vertically\
 		actions/gimp-flip-vertical\
 		actions/tool-flip\
 	actions/object-rotate-left\
+		actions/image-rotate-left\
 		actions/tool-rotate-270\
 	actions/object-rotate-right\
+		actions/image-rotate-right\
 		actions/tool-rotate-90\
 		actions/rotate\
 	actions/object-transpose\
@@ -3394,6 +3520,9 @@ ICONS =\
 		actions/remmina-scrolled-fullscreen\
 		actions/remmina-viewport-fullscreen\
 		actions/transform-scale\
+			categories/plugin-scale\
+				categories/plugin-scaleaddon\
+			actions/image-resize\
 	actions/view-mirror\
 	actions/view-pin\
 	actions/view-grid\
@@ -3802,6 +3931,7 @@ ICONS =\
 			status/media-seeking-backwards-rtl\
 				status/media-seeking-backward-rtl\
 	actions/media-skip-backward\
+		actions/initial_state\
 		actions/gtk-media-next-rtl\
 		actions/media-skip-foreward-rtl\
 		actions/gtk-media-previous\
@@ -3809,10 +3939,13 @@ ICONS =\
 		actions/stock_media-prev\
 		status/notification-audio-previous\
 		actions/media-skip-forward-rtl\
+			actions/end_state-rtl\
 	actions/media-skip-forward\
+		actions/end_state\
 		actions/gtk-media-next\
 		actions/gtk-media-previous-rtl\
 		actions/media-skip-backward-rtl\
+			actions/initial_state-rtl\
 		actions/player_end\
 		actions/stock_media-next\
 		status/notification-audio-next\
@@ -3853,6 +3986,8 @@ ICONS =\
 		categories/plugin-minimize\
 	actions/go-leftmost\
 		actions/go-first\
+			actions/go-first-view\
+				actions/go-last-view-rtl\
 			actions/gtk-goto-first\
 			actions/gtk-goto-last-rtl\
 			actions/start\
@@ -3863,6 +3998,8 @@ ICONS =\
 		actions/arrow-left-double\
 	actions/go-rightmost\
 		actions/go-last\
+			actions/go-last-view\
+				actions/go-first-view-rtl\
 			actions/finish\
 			actions/gtk-goto-first-rtl\
 			actions/gtk-goto-last\
@@ -3920,6 +4057,7 @@ ICONS =\
 	actions/dnd-multiple\
 		actions/gtk-dnd-multiple\
 	actions/system-switch-user\
+		actions/svn_switch\
 		actions/xfsm-switch-user\
 		actions/switch-user\
 		actions/session-switch\
@@ -3933,6 +4071,8 @@ ICONS =\
 		actions/session-shut-down\
 		actions/session-shutdown\
 		apps/kshutdown\
+			apps/gshutdown\
+			apps/xfsm-shutdown\
 		actions/session-halt\
 			actions/system-halt\
 			actions/halt\
@@ -4213,6 +4353,8 @@ ICONS =\
 						devices/gnome-dev-disk-dvd-rw\
 			apps/devede\
 		mimetypes/application-x-cd-image\
+			mimetypes/application-x-raw-disk-image\
+			mimetypes/application-x-iso\
 			mimetypes/gnome-mime-cd-image-template\
 			apps/gisomount\
 			apps/Ico_gmount\
@@ -4268,6 +4410,11 @@ ICONS =\
 		apps/wifi-radar\
 		devices/gnome-dev-wavelan\
 	devices/pda\
+		apps/palm-pilot\
+			apps/gnome-palm\
+				apps/gnome-palm-conduit\
+			apps/gpilotd\
+				apps/gpilotd-control-applet\
 		apps/visor\
 	devices/phone\
 		apps/phone-manager\
@@ -4463,6 +4610,7 @@ ICONS =\
 		places/folders-music\
 		places/folder-sound\
 	places/folder-pictures\
+		places/folder-picture\
 		places/folder-images\
 			places/user-images\
 			places/folder_images\
@@ -4473,6 +4621,7 @@ ICONS =\
 		places/user-pictures\
 	places/folder-publicshare\
 		places/folders-publicshare\
+		places/folder-public\
 	places/folder-templates\
 	places/folder-videos\
 		places/folder-video\
@@ -4700,7 +4849,7 @@ ICONS =\
 		mimetypes/audio\
 			mimetypes/gnome-mime-audio\
 			mimetypes/audio-x-flac+ogg\
-				mimetypes/audio-x-speex+org\
+				mimetypes/audio-x-speex+ogg\
 					mimetypes/audio-x-speex\
 				mimetypes/audio-x-vorbis+ogg\
 					mimetypes/application-ogg\
@@ -4750,6 +4899,7 @@ ICONS =\
 		mimetypes/image\
 			status/mode-image-edit\
 			mimetypes/image-bmp\
+				mimetypes/image-x-win-bmp\
 				mimetypes/image-x-portable-bitmap\
 				mimetypes/gnome-mime-image-x-portable-bitmap\
 				mimetypes/gnome-mime-image-bmp\
@@ -4757,6 +4907,7 @@ ICONS =\
 			mimetypes/image-gif\
 				mimetypes/gnome-mime-image-gif\
 			mimetypes/image-png\
+				categories/plugin-imgpng\
 				categories/plugin-png\
 				mimetypes/gnome-mime-image-png\
 			mimetypes/image-tiff\
@@ -4775,9 +4926,19 @@ ICONS =\
 			mimetypes/gnome-mime-image-x-tga\
 		mimetypes/media-image\
 	mimetypes/package-x-generic\
+		mimetypes/application-x-zstd\
+			mimetypes/gnome-mime-application-x-zstd\
+		mimetypes/application-x-xz\
+			mimetypes/gnome-mime-application-x-xz\
+		mimetypes/application-x-shar\
+			mimetypes/gnome-mime-application-x-shar\
+		mimetypes/application-x-rar\
+			mimetypes/rar\
 		mimetypes/gnome-mime-package-x-generic\
 		mimetypes/application-archive\
 		mimetypes/application-x-bzip\
+			mimetypes/application-x-bzip2\
+				mimetypes/gnome-mime-application-x-bzip2\
 			mimetypes/gnome-mime-application-x-bzip\
 		mimetypes/application-x-e-theme\
 			mimetypes/gnome-mime-application-x-e-theme\
@@ -4811,13 +4972,21 @@ ICONS =\
 			mimetypes/gnome-mime-application-x-gzip\
 			mimetypes/application-gzip\
 			mimetypes/application-x-compressed-tar\
+				mimetypes/application-x-zstd-compressed-tar\
+					mimetypes/gnome-mime-application-x-zstd-compressed-tar\
+				mimetypes/application-x-xz-compressed-tar\
+					mimetypes/gnome-mime-application-x-xz-compressed-tar\
 				mimetypes/gnome-mime-application-x-compressed-tar\
 				mimetypes/application-x-tar\
 					mimetypes/application-x-bzip-compressed-tar\
+						mimetypes/application-x-bzip2-compressed-tar\
+							mimetypes/gnome-mime-application-x-bzip2-compressed-tar\
 						mimetypes/gnome-mime-application-x-bzip-compressed-tar\
 					mimetypes/gnome-mime-application-x-tar\
 					mimetypes/tar\
 						mimetypes/tgz\
+							mimetypes/application-x-gzip-compressed-tar\
+								mimetypes/gnome-mime-application-x-gzip-compressed-tar\
 							mimetypes/application-x-tarz\
 								mimetypes/gnome-mime-application-x-tarz\
 		mimetypes/application-x-java-archive\
@@ -4921,6 +5090,7 @@ ICONS =\
 			mimetypes/application-x-class-file\
 				mimetypes/gnome-mime-application-x-class-file\
 			mimetypes/application-x-java\
+				mimetypes/application-x-java-applet\
 				mimetypes/application-java\
 				mimetypes/application-x-java-byte-code\
 					mimetypes/gnome-mime-application-x-java-byte-code\
@@ -4934,8 +5104,10 @@ ICONS =\
 			mimetypes/gnome-mime-text-x-makefile\
 			mimetypes/text-x-cmake\
 		mimetypes/text-x-authors\
+			mimetypes/authors\
 			mimetypes/gnome-mime-text-x-authors\
 			mimetypes/text-x-credits\
+				mimetypes/credits\
 				mimetypes/gnome-mime-text-x-credits\
 		mimetypes/text-xml\
 			mimetypes/application-xml\
@@ -4971,6 +5143,7 @@ ICONS =\
 			mimetypes/text-x-source\
 				mimetypes/gnome-mime-text-x-source\
 			mimetypes/text-x-csharp\
+				mimetypes/text-csharp\
 				mimetypes/text-x-csharpsrc\
 					mimetypes/gnome-mime-text-x-csharpsrc\
 				mimetypes/gnome-mime-text-x-csharp\
@@ -4982,6 +5155,14 @@ ICONS =\
 				mimetypes/gnome-mime-text-x-csrc\
 				mimetypes/text-x-c\
 					mimetypes/gnome-mime-text-x-c\
+			mimetypes/text-x-objcsrc\
+				mimetypes/text-x-objc++src\
+					mimetypes/gnome-mime-text-x-objc++src\
+					mimetypes/text-x-objc++\
+						mimetypes/gnome-mime-text-x-objc++\
+				mimetypes/gnome-mime-text-x-objcsrc\
+				mimetypes/text-x-objc\
+					mimetypes/gnome-mime-text-x-objc\
 			mimetypes/text-x-hdr\
 				mimetypes/text-x-c++hdr\
 					mimetypes/text-x-c++-header\
@@ -4991,6 +5172,14 @@ ICONS =\
 					mimetypes/text-x-c-header\
 						mimetypes/gnome-mime-text-x-c-header\
 					mimetypes/gnome-mime-text-x-chdr\
+				mimetypes/text-x-objchdr\
+					mimetypes/text-x-objc-header\
+						mimetypes/gnome-mime-text-x-objc-header\
+					mimetypes/gnome-mime-text-x-objchdr\
+					mimetypes/text-x-objc++hdr\
+						mimetypes/text-x-objc++-header\
+							mimetypes/gnome-mime-text-x-objc++-header\
+						mimetypes/gnome-mime-text-x-objc++hdr\
 		mimetypes/text-x-apport\
 			mimetypes/gnome-mime-text-x-apport\
 		mimetypes/application-x-desktop\
@@ -5193,6 +5382,7 @@ ICONS =\
 		mimetypes/document\
 		mimetypes/gnome-mime-application-msword\
 		mimetypes/gnome-mime-application-postscript\
+			mimetypes/application-postscript\
 		mimetypes/gnome-mime-application-x-abiword\
 		mimetypes/gnome-mime-application-x-gzpostscript\
 		mimetypes/gnome-mime-application-x-kword\
