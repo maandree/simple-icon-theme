@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+import sys
+
+if len(sys.argv) > 1:
+	print('usage: %s < icon-forest' % sys.argv[0], file = sys.stderr)
+	exit(1)
+
+standalone = set()
+pairs = []
+stack = []
+try:
+    while True:
+        line = input()
+        if not line.strip():
+            continue
+        indent = 0
+        while line.startswith('\t'):
+            indent += 1
+            line = line[1:]
+        assert not line.startswith(' ')
+        assert not line.endswith(' ')
+        assert '\t' not in line
+        assert indent <= len(stack)
+        stack = stack[:indent]
+        stack.append(line)
+        if indent == 0:
+            standalone.add(line)
+        else:
+            pairs.append((stack[indent - 1], line))
+except EOFError:
+    pass
+
+tree = {}
+retree = {}
+for parent, child in pairs:
+    if parent == child:
+        continue
+    if child in retree:
+        if retree[child] == parent:
+            continue
+        print('%s appears in the tree twice' % child, file = sys.stderr)
+        if parent in retree:
+            exit(1)
+        print('reversing with parent %s\n' % parent, file = sys.stderr)
+        (parent, child) = (child, parent)
+    if parent in tree:
+        tree[parent].append(child)
+    else:
+        tree[parent] = [child]
+    retree[child] = parent
+
+forest = {}
+printed = {}
+def printtree(this_tree, node, root, indent = ''):
+    if node in forest:
+        subtree = forest[node]
+        del forest[node]
+        this_tree.extend([(indent + subnode) for subnode in subtree])
+        return
+    if node in printed:
+        if indent:
+            this_tree.append(indent + node)
+        return
+    this_tree.append(indent + node)
+    printed[node] = root
+    indent = indent + '\t'
+    if node in tree:
+        for child in sorted(tree[node]):
+            if child != root:
+                printtree(this_tree, child, root, indent)
+defered = []
+for root in sorted(standalone):
+    if root in tree:
+        mytree = []
+        printtree(mytree, root, root)
+        forest[root] = mytree
+    else:
+        defered.append(root)
+
+for tree in sorted(forest):
+    for line in forest[tree]:
+        print(line)
+for stub in sorted(defered):
+    if stub not in printed:
+        print(stub)

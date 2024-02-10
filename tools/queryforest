@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+import sys, os
+
+args = sys.argv[1:]
+
+if len(args) == 0:
+	print('usage: %s (icon | file | directory) ... < icon-forest' % sys.argv[0], file = sys.stderr)
+	exit(1)
+
+forest = {}
+selected = {}
+
+try:
+	while True:
+		line = input()
+		if not line.strip():
+			continue
+		if not line.startswith('\t'):
+			tree = []
+		icon = line.strip()
+		tree.append(line)
+		if icon in forest:
+			print('duplicate entry of %s found' % icon, file = sys.stderr)
+		forest[icon] = (tree, len(tree) - 1)
+except EOFError:
+	pass
+
+basenames = {}
+for icon in forest:
+	iconbasename = icon.split('/')[-1]
+	icons = basenames.get(iconbasename, [])
+	icons.append(icon)
+	basenames[iconbasename] = icons
+
+def select(icon):
+	if icon in forest:
+		(tree, line) = forest[icon]
+		lines = selected.get(tree[0], {})
+		lines[line] = None
+		selected[tree[0]] = lines
+	elif icon.split('/')[-1] in basenames:
+		icondir = '/'.join(icon.split('/')[:-1])
+		for alticon in basenames[icon.split('/')[-1]]:
+			(tree, line) = forest[alticon]
+			lines = selected.get(tree[0], {})
+			if line not in lines:
+				lines[line] = [icondir]
+			elif lines[line] is None:
+				continue
+			else:
+				lines[line].append(icondir)
+			selected[tree[0]] = lines
+
+def visit(d):
+	for f in os.listdir(d):
+		f = d + '/' + f
+		if os.path.isfile(f):
+			icon = '/'.join('.'.join(f.split('.')[:-1]).split('/')[-2:])
+			select(icon)
+		elif os.path.isdir(f):
+			visit(f)
+
+for icon in args:
+	if os.path.isfile(icon) and '/' in icon and icon.endswith('.svg'):
+		icon = '/'.join(icon[:-4].split('/')[-2:])
+	elif os.path.isdir(icon):
+		visit(icon)
+		continue
+	select(icon)
+
+for tree in sorted(selected):
+	lines = selected[tree]
+	(tree, _) = forest[tree]
+	for i, line in enumerate(tree):
+		if i not in lines:
+			print(line)
+		elif lines[i] is None:
+			print('\033[1;31m%s\033[m' % line)
+		else:
+			print('\033[1;33m%s\033[;33m (%s)\033[m' % (line, ', '.join(sorted(lines[i]))))

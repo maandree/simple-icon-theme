@@ -1,0 +1,19 @@
+#!/bin/sh
+
+if test $# = 0; then
+	dir=.
+else
+	dir="$1"
+	shift 1
+fi
+
+dirlen="${#dir}"
+find "$dir" | xtest -L "$@" | colrm 1 $dirlen | sed 's/^\/*//' | while read f; do
+	L="$(printf '%s\n' "$f" | rev | cut -d . -f 2- | rev)"
+	T="$(dirname -- "$L")/$(readlink -- "$dir/$f" | rev | cut -d . -f 2- | rev)"
+	T="$(printf '%s\n' "$T" | sed 's:/\(./\)*:/:g')"
+	while printf '%s\n' "$T" | grep '/../' > /dev/null; do
+		T="$(printf '%s\n' "$T" | sed 's:[^/]*/\.\./::')"
+	done
+	printf '%s\n\t%s\n' "$T" "$L"
+done

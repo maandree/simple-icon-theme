@@ -1,0 +1,104 @@
+#!/bin/sh
+set -e
+
+target="$1"
+link="$2"
+
+if ! test $# = 2; then
+	printf 'usage: %s target link\n' "$0" >&2
+	exit 1
+fi
+
+if ! test -d scalable || ! test -r icons.mk; then
+	printf 'could not find both scalable/ and icons.mk the current working directory\n' >&2
+	exit 1
+fi
+
+T="$target"
+L="$link"
+while test $(printf '%s\n' "$T" "$L" | grep / | wc -l) = 2; do
+	Td="$(printf '%s\n' "$T" | cut -d / -f 1)"
+	Ld="$(printf '%s\n' "$L" | cut -d / -f 1)"
+	if test ! "$Td" = "$Ld"; then
+		break
+	fi
+	T="$(printf '%s\n' "$T" | cut -d / -f 2-)"
+	L="$(printf '%s\n' "$L" | cut -d / -f 2-)"
+done
+while printf '%s\n' "$L" | grep / > /dev/null; do
+	T="$(printf '../%s\n' "$T")"
+	L="$(printf '%s\n' "$L" | cut -d / -f 2-)"
+done
+expectedtarget="${T}.svg"
+
+if test -f "scalable/${link}.svg"; then
+	if test ! -L "scalable/${link}.svg"; then
+		currenttarget="not a symbolic link"
+	elif test "$(readlink "scalable/${link}.svg")" = "$expectedtarget"; then
+		currenttarget="links to $target"
+	else
+		currenttarget="symbolic link -> $target"
+	fi
+	printf '%s already exists (%s)\n' "scalable/${link}.svg" "$currenttarget" >&2
+	exit 1
+fi
+
+targetentry="$(grep '^[[:space:]]*'"$target"'\\$' < icons.mk)"
+test -n "$targetentry"
+test $(printf '%s\n' "$targetentry" | wc -l) = 1
+
+if grep '^[[:space:]]*'"$link"'\\$' < icons.mk > /dev/null; then
+	printf '%s is already listed in icons.mk, however its file does not exist\n' "$link" >&2
+	exit 1
+fi
+
+indent="$(sed -n 's:^\([[:space:]]*\)'"$target"'\\$:\1:p' < icons.mk)"
+targetentrysed="$(printf '^%s$\n' "$targetentry" | sed 's:[/\\]:\\&:g')"
+
+newiconsfile="$(sed /"$targetentrysed"/q < icons.mk && \
+                printf '%s\t%s\\\n' "$indent" "$link" && \
+                sed 1,/"$targetentrysed"/d < icons.mk)"
+
+test $(printf '%s\n' "$newiconsfile" | diff icons.mk - | wc -l) = 2
+
+( ! printf '%s\n' "$newiconsfile" | diff -U1 icons.mk - >&2 )
+
+T="$target"
+L="$link"
+while test $(printf '%s\n' "$T" "$L" | grep / | wc -l) = 2; do
+	Td="$(printf '%s\n' "$T" | cut -d / -f 1)"
+	Ld="$(printf '%s\n' "$L" | cut -d / -f 1)"
+	if test ! "$Td" = "$Ld"; then
+		break
+	fi
+	T="$(printf '%s\n' "$T" | cut -d / -f 2-)"
+	L="$(printf '%s\n' "$L" | cut -d / -f 2-)"
+done
+while printf '%s\n' "$L" | grep / > /dev/null; do
+	T="$(printf '../%s\n' "$T")"
+	L="$(printf '%s\n' "$L" | cut -d / -f 2-)"
+done
+
+target="$expectedtarget"
+link="scalable/${link}.svg"
+printf 'ln -s %s %s\n' "$target" "$link" >&2
+
+if ! cp icons.mk icons.mk~; then
+	printf 'failed to create backup of icons.mk\n' >&2
+	exit 1
+fi
+if ! ln -s "$target" "$link"; then
+	printf 'failed to create symbolic link %s -> %s\n' "$link" "$target" >&2
+	rm -f icons.mk~ >&2
+	exit 1
+fi
+if ! printf '%s\n' "$newiconsfile" > icons.mk; then
+	printf 'failed to insert entry into icons.mk\n' >&2
+	if ! unlink "$link" >&2; then
+		printf '\x1b[31mfailed to remove created symbolic link (%s)\x1b[m\n' "$link" >&2
+	fi
+	if ! mv icons.mk~ icons.mk >&2; then
+		printf '\x1b[1;31mfailed to restore icons.mk using icons.mk~\x1b[m\n' >&2
+	fi
+	exit 1
+fi

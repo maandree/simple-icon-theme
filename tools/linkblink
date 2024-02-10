@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if test $# = 0; then
+	printf 'usage: blink-on-icon ...' >&2
+	exit 1
+fi
+
+for n; do
+	of="${n}.svg"
+	nf="${n}-blink_off.svg"
+	ot="$(readlink -- "${of}")"
+	nt="$(printf '%s\n' "$ot" | sed 's/\.svg$/-blink_off&/')"
+	ln -s "$nt" "$nf"
+done
