@@ -2,7 +2,10 @@ ICONS =\
 	categories/plugin-showmouse\
 	categories/plugin-snow\
 	categories/plugin-unityshell\
+	categories/user\
+		categories/contact\
 	categories/preferences-desktop\
+		apps/systemsettings\
 		categories/preferences-side-pane\
 		categories/gnome-setting\
 		categories/gnome-desktop-config\
@@ -1228,6 +1231,7 @@ ICONS =\
 			apps/xfce4-taskbar\
 			apps/window-list\
 			actions/view-presentation\
+				actions/beamerframe\
 			actions/remmina-switch-page\
 		apps/taskbar\
 	apps/mate-panel-window-menu\
@@ -1629,15 +1633,29 @@ ICONS =\
 		status/stock_mail-replied\
 	status/mail-replied-rtl\
 		status/stock_mail-replied-rtl\
+	status/mail-forwarded\
+		status/stock_mail-forwarded\
+	status/mail-forwarded-rtl\
+		status/stock_mail-forwarded-rtl\
+	status/mail-replied-and-forwarded\
+		status/mail-forwarded-and-replied\
+			status/stock_mail-forwarded-and-replied\
+		status/stock_mail-replied-and-forwarded\
+	status/mail-replied-and-forwarded-rtl\
+		status/mail-forwarded-and-replied-rtl\
+			status/stock_mail-forwarded-and-replied-rtl\
+		status/stock_mail-replied-and-forwarded-rtl\
 	status/mail-signed\
 	status/mail-signed-verified\
 	status/mail-unread\
+		actions/mail-mark-unread\
 		status/stock_mail-unread\
 		status/indicator-messages\
 			status/no-new-messages\
 			status/xfce-nomail\
 			status/indicator-message\
 				status/xfce-newmail\
+	status/mail-important\
 	status/content-loading\
 		status/image-loading\
 			status/plugins-image_loading\
@@ -2306,6 +2324,38 @@ ICONS =\
 	status/folder-drag-accept-cyan\
 	status/folder-drag-accept-blue\
 	status/folder-drag-accept-magenta\
+	status/folder-open-important\
+		status/folder-important-open\
+	status/folder-open-important-red\
+		status/folder-important-open-red\
+	status/folder-open-important-orange\
+		status/folder-important-open-orange\
+	status/folder-open-important-yellow\
+		status/folder-important-open-yellow\
+	status/folder-open-important-green\
+		status/folder-important-open-green\
+	status/folder-open-important-cyan\
+		status/folder-important-open-cyan\
+	status/folder-open-important-blue\
+		status/folder-important-open-blue\
+	status/folder-open-important-magenta\
+		status/folder-important-open-magenta\
+	status/folder-drag-accept-important\
+		status/folder-important-drag-accept\
+	status/folder-drag-accept-important-red\
+		status/folder-important-drag-accept-red\
+	status/folder-drag-accept-important-orange\
+		status/folder-important-drag-accept-orange\
+	status/folder-drag-accept-important-yellow\
+		status/folder-important-drag-accept-yellow\
+	status/folder-drag-accept-important-green\
+		status/folder-important-drag-accept-green\
+	status/folder-drag-accept-important-cyan\
+		status/folder-important-drag-accept-cyan\
+	status/folder-drag-accept-important-blue\
+		status/folder-important-drag-accept-blue\
+	status/folder-drag-accept-important-magenta\
+		status/folder-important-drag-accept-magenta\
 	status/folder-visiting\
 		status/gnome-fs-directory-visiting\
 	status/folder-visiting-red\
@@ -2467,6 +2517,8 @@ ICONS =\
 	status/nm-signal-100-secure\
 	status/mail-attachment\
 		status/attach\
+			actions/attach\
+				actions/mail-attach\
 		status/gtk-attachment\
 		status/stock_attach\
 	status/media-playlist-consecutive\
@@ -2578,6 +2630,7 @@ ICONS =\
 		status/updates-notifier\
 		status/x-system-software-update-preferences\
 		status/system-upgrade\
+			apps/system-upgrade\
 		status/update-notifier\
 	status/software-update-urgent\
 	status/starred\
@@ -2989,9 +3042,11 @@ ICONS =\
 	actions/text_vert_kern\
 	actions/draw-calligraphic\
 	actions/draw-eraser\
+		actions/tool_eraser\
 		actions/tool-eraser\
 			actions/gimp-tool-eraser\
 	actions/draw-freehand\
+		actions/tool_pen\
 	actions/draw-path\
 		actions/tool-path\
 			actions/gimp-tool-path\
@@ -3131,14 +3186,22 @@ ICONS =\
 		actions/stock_mail-move\
 		apps/mail-move\
 	actions/mail-mark-read\
-	actions/mail-inbox\
-		actions/mail-folder-inbox\
-		actions/stock_inbox\
-		actions/mail-receive\
-			actions/stock_mail-receive\
-		apps/stock_mail-import\
-	actions/mail-outbox\
-		actions/mail-outbox-inbox\
+	places/mail-inbox-important-red\
+	places/mail-inbox-important\
+	places/mail-inbox-red\
+	places/mail-inbox\
+		actions/mail-inbox\
+			actions/mail-folder-inbox\
+			actions/stock_inbox\
+			actions/mail-receive\
+				actions/stock_mail-receive\
+			apps/stock_mail-import\
+	places/mail-outbox-important-red\
+	places/mail-outbox-important\
+	places/mail-outbox-red\
+	places/mail-outbox\
+		actions/mail-outbox\
+			actions/mail-outbox-inbox\
 	actions/webcamreceive\
 		apps/kamoso\
 	actions/webcamsend\
@@ -3337,6 +3400,8 @@ ICONS =\
 		actions/view-file-columns\
 	actions/view-list-filter\
 		actions/view-filter\
+			actions/gnumeric-autofilter\
+			actions/filter\
 	actions/view-list-tree\
 		actions/view-choose\
 			actions/view-group\
@@ -3365,6 +3430,8 @@ ICONS =\
 		places/user-recent\
 		categories/org.gnome.Settings-file-history\
 		actions/view-history\
+			actions/epiphany-history\
+			actions/history-view\
 	actions/document-print-preview\
 		actions/filequickprint\
 		actions/gtk-print-preview\
@@ -3455,6 +3522,7 @@ ICONS =\
 		actions/mail-delete\
 		actions/editdelete\
 		actions/gtk-delete\
+			actions/gtk-delete-full\
 		actions/stock_delete\
 		actions/draw-eraser-delete-objects\
 		actions/xml-attribute-delete\
@@ -3476,6 +3544,8 @@ ICONS =\
 			actions/gnome-searchtool\
 			actions/search\
 				actions/gtk-search\
+					actions/search_field\
+					actions/edit-web-search\
 					actions/page-zoom\
 				actions/file-search\
 			actions/remmina-scale\
@@ -3617,10 +3687,17 @@ ICONS =\
 		actions/stock_text_underlined\
 		actions/text_under\
 	actions/tools-check-spelling\
+		apps/spell\
+			apps/hunspell\
+			apps/hspell\
+			apps/ispell\
+			apps/aspell\
 		actions/annotations-squiggly\
 		actions/stock_spellcheck\
 		actions/gtk-spell-check\
 	actions/system-run\
+		apps/gnome-do\
+			apps/gnome-do-panel\
 		actions/exec\
 		actions/gnome-run\
 			status/application-running\
@@ -3668,6 +3745,8 @@ ICONS =\
 		actions/font-face\
 		actions/gtk-select-font\
 	actions/image-crop\
+		actions/ratiocrop\
+		actions/transform-crop\
 	actions/image-denoise\
 	actions/image-filter\
 	actions/insert-image\
@@ -3871,6 +3950,8 @@ ICONS =\
 	actions/boundingbox_top_right\
 	actions/boundingbox_top\
 	actions/draw-ellipse\
+		actions/ellipse-shape\
+		actions/tool_ellipse\
 	actions/draw-rectangle\
 	actions/draw-spiral\
 	actions/fill-rule-even-odd\
@@ -3931,6 +4012,7 @@ ICONS =\
 		actions/stock_zoom-page-height\
 	actions/help-about\
 		actions/stock_about\
+			actions/rabbitvcs-about\
 			apps/org.xfce.about\
 			actions/stock_navigator\
 			actions/gtk-about\
@@ -3988,6 +4070,7 @@ ICONS =\
 		actions/window_new\
 		actions/stock_new-window\
 	actions/folder-new\
+		actions/folder-add\
 		actions/folder_new\
 		actions/stock_new-dir\
 		actions/svn_branch\
@@ -4069,6 +4152,7 @@ ICONS =\
 		apps/ejecter\
 		status/notification-device-eject\
 	actions/media-playback-pause\
+		actions/kt-pause\
 		actions/gtk-media-pause\
 		actions/player_pause\
 		actions/stock_media-pause\
@@ -4078,6 +4162,8 @@ ICONS =\
 		status/media-playback-paused\
 			status/media-paused\
 	actions/media-playback-start\
+		actions/practice-start\
+		actions/kt-start\
 		actions/gtk-media-play\
 		actions/player_play\
 		actions/stock_media-play\
@@ -4100,6 +4186,8 @@ ICONS =\
 				status/media-playing-backwards\
 		actions/media-playback-start-backwards\
 	actions/media-playback-stop\
+		actions/practice-stop\
+		actions/kt-stop\
 		actions/gtk-media-stop\
 		actions/player_stop\
 		actions/stock_media-stop\
@@ -4264,6 +4352,7 @@ ICONS =\
 	actions/dnd-multiple\
 		actions/gtk-dnd-multiple\
 	actions/system-switch-user\
+		apps/system-switch-user-panel\
 		actions/svn_switch\
 		actions/xfsm-switch-user\
 		actions/switch-user\
@@ -4271,6 +4360,7 @@ ICONS =\
 			actions/switch-session\
 			actions/gnome-session-switch\
 	actions/system-shutdown\
+		apps/system-shutdown-panel\
 		actions/gshutdown\
 		actions/xfsm-shutdown\
 		actions/gnome-shutdown\
@@ -4285,6 +4375,7 @@ ICONS =\
 			actions/halt\
 			actions/gnome-session-halt\
 	actions/system-log-out\
+		apps/system-log-out-panel\
 		categories/plugin-loginout\
 		actions/xfsm-logout\
 		actions/computer-log-out\
@@ -4298,6 +4389,7 @@ ICONS =\
 			actions/lxde-logout\
 			actions/gnome-session-logout\
 	actions/system-lock-screen\
+		apps/system-lock-screen-panel\
 		categories/org.gnome.Settings-screen-lock\
 		actions/lock-small\
 		actions/lock-screen\
@@ -4308,10 +4400,12 @@ ICONS =\
 			apps/ikea\
 			apps/ike-qtgui\
 	actions/session-hibernate\
+		apps/session-hibernate-panel\
 		actions/hibernate\
 		actions/gnome-session-hibernate\
 		actions/system-hibernate\
 	actions/session-suspend\
+		apps/session-suspend-panel\
 		actions/suspend\
 		actions/gnome-session-suspend\
 		actions/system-suspend\
@@ -4319,11 +4413,14 @@ ICONS =\
 			actions/gnome-session-sleep\
 			actions/xfsm-suspend\
 	actions/session-reboot\
+		apps/session-reboot-panel\
 		actions/reboot\
 		actions/gnome-session-reboot\
 			actions/gnome-reboot\
 		actions/system-reboot\
 			actions/system-restart\
+				apps/system-restart-panel\
+					apps/system-shutdown-panel-restart\
 			actions/xfsm-reboot\
 	actions/share\
 	actions/edit-link\
@@ -4739,6 +4836,9 @@ ICONS =\
 		devices/drive-harddisk-usb-solidstate\
 	places/jamendo\
 	places/library-podcast\
+	places/mail-sent-important-red\
+	places/mail-sent-important\
+	places/mail-sent-red\
 	places/mail-sent\
 		places/stock_sent-mail\
 	places/magnatune\
@@ -4752,6 +4852,24 @@ ICONS =\
 	places/folder-saved-search\
 		mimetypes/application-x-gnome-saved-search\
 			mimetypes/gnome-mime-application-x-gnome-saved-search\
+	places/folder-important-red\
+	places/folder-important-green\
+	places/folder-important-orange\
+	places/folder-important-yellow\
+	places/folder-important-blue\
+	places/folder-important-magenta\
+	places/folder-important-cyan\
+	places/folder-important\
+	places/folder-drafts\
+	places/folder-drafts-important\
+	status/folder-drafts-open\
+	status/folder-drafts-open-important\
+		status/folder-drafts-important-open\
+	places/folder-drafts-red\
+	places/folder-drafts-important-red\
+	status/folder-drafts-open-red\
+	status/folder-drafts-open-important-red\
+		status/folder-drafts-important-open-red\
 	places/folder-red\
 	places/folder-green\
 	places/folder-orange\
@@ -4860,6 +4978,9 @@ ICONS =\
 		categories/plugins-desktop\
 			categories/plugin-showdesktop\
 			categories/plugin-fakedesktop\
+	places/user-trash-important-red\
+	places/user-trash-important\
+	places/user-trash-red\
 	places/user-trash\
 		places/stock_trash\
 		status/trash-empty\
@@ -5005,6 +5126,7 @@ ICONS =\
 		mimetypes/application-atom+xml\
 			mimetypes/gnome-mime-application-atom+xml\
 		apps/internet-feed-reader\
+			apps/quiterss\
 			apps/internet-news-reader\
 				apps/stock_news\
 				apps/gnome-news\
@@ -5133,6 +5255,12 @@ ICONS =\
 			mimetypes/gnome-mime-image-x-tga\
 		mimetypes/media-image\
 	mimetypes/package-x-generic\
+		mimetypes/application-vnd.ms-cab-compressed\
+		mimetypes/application-x-7zip\
+			mimetypes/gnome-mime-application-x-7zip\
+			mimetypes/application-7zip\
+		mimetypes/application-x-zoo\
+			mimetypes/gnome-mime-application-x-zoo\
 		mimetypes/application-x-zstd\
 			mimetypes/gnome-mime-application-x-zstd\
 		mimetypes/application-x-xz\
@@ -5140,6 +5268,7 @@ ICONS =\
 		mimetypes/application-x-shar\
 			mimetypes/gnome-mime-application-x-shar\
 		mimetypes/application-x-rar\
+			mimetypes/gnome-mime-application-x-rar\
 			mimetypes/rar\
 		mimetypes/gnome-mime-package-x-generic\
 		mimetypes/application-archive\
@@ -5155,8 +5284,8 @@ ICONS =\
 			mimetypes/gnome-mime-application-x-ar\
 		mimetypes/application-x-cpio\
 			mimetypes/gnome-mime-application-x-cpio\
-		mimetypes/application-x-cpio-compressed\
-			mimetypes/gnome-mime-application-x-cpio-compressed\
+			mimetypes/application-x-cpio-compressed\
+				mimetypes/gnome-mime-application-x-cpio-compressed\
 		mimetypes/archive\
 		mimetypes/folder-tar\
 			mimetypes/gnome-mime-folder-tar\
@@ -5179,6 +5308,8 @@ ICONS =\
 			mimetypes/gnome-mime-application-x-gzip\
 			mimetypes/application-gzip\
 			mimetypes/application-x-compressed-tar\
+				mimetypes/application-x-lzma-compressed-tar\
+					mimetypes/gnome-mime-application-x-lzma-compressed-tar\
 				mimetypes/application-x-zstd-compressed-tar\
 					mimetypes/gnome-mime-application-x-zstd-compressed-tar\
 				mimetypes/application-x-xz-compressed-tar\
@@ -5204,13 +5335,13 @@ ICONS =\
 			mimetypes/gnome-mime-application-x-lha\
 		mimetypes/application-x-lhz\
 			mimetypes/gnome-mime-application-x-lhz\
-		mimetypes/gnome-mime-application-x-lzma\
-		mimetypes/gnome-mime-application-x-lzma-compressed-tar\
-		mimetypes/gnome-mime-application-x-rar\
+		mimetypes/application-x-lzma\
+			mimetypes/gnome-mime-application-x-lzma\
 		mimetypes/rpm\
 			mimetypes/application-x-rpm\
 				mimetypes/gnome-mime-application-x-rpm\
-		mimetypes/gnome-mime-application-x-stuffit\
+		mimetypes/application-x-stuffit\
+			mimetypes/gnome-mime-application-x-stuffit\
 		mimetypes/zip\
 			mimetypes/application-x-zip\
 				mimetypes/application-archive-zip\
@@ -5451,6 +5582,8 @@ ICONS =\
 		mimetypes/extension\
 			mimetypes/opera-extension\
 		mimetypes/plugin\
+			actions/eom-plugin\
+			actions/puzzle-piece\
 			mimetypes/pluma-plugin\
 	mimetypes/application-x-firmware\
 		mimetypes/org.gnome.Firmware\
@@ -5525,9 +5658,11 @@ ICONS =\
 				actions/gimp-video\
 		apps/video-player\
 	mimetypes/x-office-database-template\
+		mimetypes/application-vnd.ms-access.template\
 		mimetypes/application-vnd.oasis.opendocument.database-template\
 			mimetypes/libreoffice-oasis-database-template\
 	mimetypes/x-office-database\
+		mimetypes/application-vnd.ms-access\
 		apps/libreoffice-base\
 			apps/libreoffice34-base\
 			apps/base\
@@ -5634,6 +5769,7 @@ ICONS =\
 			mimetypes/openofficeorg-oasis-drawing-template\
 				mimetypes/openofficeorg3-oasis-drawing-template\
 				mimetypes/libreoffice-oasis-drawing-template\
+					mimetypes/libreoffice-oasis-draw-template\
 					mimetypes/libreoffice3-oasis-drawing-template\
 						mimetypes/libreoffice34-oasis-drawing-template\
 	mimetypes/x-office-drawing\
@@ -5648,6 +5784,7 @@ ICONS =\
 			mimetypes/libreoffice34-drawing\
 			mimetypes/libreoffice3-drawing\
 		mimetypes/libreoffice-oasis-drawing\
+			mimetypes/libreoffice-oasis-draw\
 			mimetypes/libreoffice34-oasis-drawing\
 			mimetypes/libreoffice3-oasis-drawing\
 		mimetypes/openofficeorg3-drawing\
@@ -5671,6 +5808,8 @@ ICONS =\
 		mimetypes/svg\
 		mimetypes/vnd.oasis.opendocument.drawing\
 	mimetypes/x-office-presentation-template\
+		mimetypes/application-vnd.ms-powerpoint.template\
+			mimetypes/application-vnd.ms-powerpoint.template.macroenabled.12\
 		mimetypes/gnome-mime-application-vnd.oasis.opendocument.presentation-template\
 		mimetypes/gnome-mime-application-vnd.sun.xml.impress.template\
 		mimetypes/application-vnd.openxmlformats-officedocument.presentationml.template\
@@ -5693,8 +5832,10 @@ ICONS =\
 		apps/libreoffice-impress\
 			apps/libreoffice34-impress\
 			apps/impress\
-		mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12\
-			mimetypes/gnome-mime-application-vnd.ms-powerpoint.presentation.macroEnabled.12\
+		mimetypes/application-vnd.ms-powerpoint\
+			mimetypes/application-vnd.ms-powerpoint.addin.macroenabled.12\
+			mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12\
+				mimetypes/gnome-mime-application-vnd.ms-powerpoint.presentation.macroEnabled.12\
 		mimetypes/application-vnd.openxmlformats-officedocument.presentationml.presentation\
 			mimetypes/gnome-mime-application-vnd.openxmlformats-officedocument.presentationml.presentation\
 		mimetypes/gnome-mime-application-magicpoint\
@@ -5806,6 +5947,7 @@ ICONS =\
 			mimetypes/libreoffice3-formula\
 				mimetypes/libreoffice34-formula\
 		mimetypes/libreoffice-oasis-formula\
+			mimetypes/application-vnd.oasis.opendocument.formula\
 			mimetypes/libreoffice3-oasis-formula\
 				mimetypes/libreoffice34-oasis-formula\
 		apps/libreoffice-math\
@@ -5823,3 +5965,4 @@ ICONS =\
 
 #apps/mozo
 #	apps/alacarte
+#	apps/kmenuedit

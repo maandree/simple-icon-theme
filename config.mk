@@ -12,6 +12,7 @@ THEME_DIR    = simple
 BASE_COLOUR  = bebebe
 ALARM_RED    = ef2929
 ALARM_ORANGE = f57900
+VERIFIED     = 32a678
 RED          = cd656c
 ORANGE       = d69553
 YELLOW       = ccad47

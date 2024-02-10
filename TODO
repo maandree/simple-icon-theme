@@ -76,3 +76,7 @@ status/
 Make it easier to switch between LTR and RTL as the default direction
 DEVCHECK shall validate that emblems are not outside emblems/
 DEVCHECK shall validate links outside emblems/ are not emblems
+
+add .icon files for user-selectable emblems, these should contain
+	[Icon Data]
+	DisplayName=«Name»

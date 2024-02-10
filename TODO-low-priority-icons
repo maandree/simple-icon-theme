@@ -274,3 +274,5 @@ devices/input-3d_mouse
 apps/nautilus # exists but as an alias to a generic icon
 
 apps/thunar # exists but as an alias to a generic icon
+
+actions/stock_undelete[-rlt] # should have a trash can or actions/edit-delete in the background

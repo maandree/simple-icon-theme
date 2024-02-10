@@ -10,6 +10,7 @@ scalable-$(DIR_SUFFIX_)/%.svg: scalable/%.svg
 				-e 's/#[bB][eE][bB][eE][bB][eE]/#$(BASE_COLOUR)/g'\
 				-e 's/#[eE][fF]2929/#$(ALARM_RED)/g'\
 				-e 's/#[fF]57900/#$(ALARM_ORANGE)/g'\
+				-e 's/#32[aA]678/#$(VERIFIED)/g'\
 				-e 's/#[cC][dD]656[cC]/#$(RED)/g'\
 				-e 's/#[dD]69553/#$(ORANGE)/g'\
 				-e 's/#[cC][cC][aA][dD]47/#$(YELLOW)/g'\
