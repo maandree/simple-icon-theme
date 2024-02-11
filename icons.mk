@@ -1627,6 +1627,7 @@ ICONS =\
 			status/notification-gsm-edge-none\
 			status/notification-gsm-h-none\
 		status/notification-gsm-none\
+	status/mail-spam\
 	status/mail-read\
 		status/stock_mail-open\
 	status/mail-replied\
@@ -1646,7 +1647,16 @@ ICONS =\
 			status/stock_mail-forwarded-and-replied-rtl\
 		status/stock_mail-replied-and-forwarded-rtl\
 	status/mail-signed\
+	status/mail-signed-unknown\
 	status/mail-signed-verified\
+	status/mail-signed-warning\
+	status/mail-signed-invalid\
+	status/mail-unread-new-important\
+		status/mail-new-important\
+		status/mail-unread-important-new\
+			status/mail-important-new\
+	status/mail-unread-new\
+		status/mail-new\
 	status/mail-unread\
 		actions/mail-mark-unread\
 		status/stock_mail-unread\
@@ -2515,6 +2525,11 @@ ICONS =\
 	status/nm-signal-50-secure\
 	status/nm-signal-75-secure\
 	status/nm-signal-100-secure\
+	status/lock-expired\
+	status/lock-failed\
+	status/lock-unknown\
+	status/lock-validated\
+	status/lock-warn\
 	status/mail-attachment\
 		status/attach\
 			actions/attach\
@@ -3186,12 +3201,19 @@ ICONS =\
 		actions/stock_mail-move\
 		apps/mail-move\
 	actions/mail-mark-read\
+	places/mail-spam-important-red\
+		places/mail-folder-spam-important-red\
+	places/mail-spam-important\
+		places/mail-folder-spam-important\
+	places/mail-spam-red\
+		places/mail-folder-spam-red\
 	places/mail-inbox-important-red\
 	places/mail-inbox-important\
 	places/mail-inbox-red\
 	places/mail-inbox\
-		actions/mail-inbox\
+		places/mail-folder-inbox\
 			actions/mail-folder-inbox\
+		actions/mail-inbox\
 			actions/stock_inbox\
 			actions/mail-receive\
 				actions/stock_mail-receive\
@@ -3200,6 +3222,8 @@ ICONS =\
 	places/mail-outbox-important\
 	places/mail-outbox-red\
 	places/mail-outbox\
+		places/mail-folder-outbox\
+			actions/mail-folder-outbox\
 		actions/mail-outbox\
 			actions/mail-outbox-inbox\
 	actions/webcamreceive\
@@ -3354,7 +3378,6 @@ ICONS =\
 		actions/gnome-stock-mail-snd\
 		actions/mail_send\
 		actions/stock_mail-send\
-		actions/mail-folder-sent\
 		mimetypes/message\
 			mimetypes/message-rfc822\
 			mimetypes/application-mbox\
@@ -3365,6 +3388,7 @@ ICONS =\
 	actions/mail-send-receive\
 		actions/stock_mail-send-receive\
 	actions/mail-mark-important\
+		status/mail-unread-important\
 	actions/calibrate\
 		apps/kig\
 		apps/kruler\
@@ -4840,6 +4864,8 @@ ICONS =\
 	places/mail-sent-important\
 	places/mail-sent-red\
 	places/mail-sent\
+		places/mail-folder-sent\
+			actions/mail-folder-sent\
 		places/stock_sent-mail\
 	places/magnatune\
 	places/user-home\
@@ -5051,6 +5077,9 @@ ICONS =\
 	emotes/face-wink\
 		emotes/stock_smiley-3\
 	emotes/face-sad\
+		places/mail-spam\
+			status/mail-spam\
+			places/mail-folder-spam\
 		emotes/stock_smiley-4\
 	emotes/face-monkey\
 		emotes/stock_smiley-22\
