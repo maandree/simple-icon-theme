@@ -358,6 +358,90 @@ ICONS =\
 		apps/electron98\
 		apps/electron99\
 	apps/qemu\
+		apps/qemu-xtensaeb\
+		apps/qemu-xtensa\
+		apps/qemu-x86_64\
+		apps/qemu-sparc64\
+		apps/qemu-sparc32plus\
+		apps/qemu-sparc\
+		apps/qemu-sh5\
+		apps/qemu-sh4eb\
+		apps/qemu-sh4\
+		apps/qemu-s390x\
+		apps/qemu-rx\
+		apps/qemu-riscv64\
+		apps/qemu-riscv32\
+		apps/qemu-ppc64le\
+		apps/qemu-ppc64\
+		apps/qemu-ppc\
+		apps/qemu-or1k\
+		apps/qemu-nios2\
+		apps/qemu-mipsn32el\
+		apps/qemu-mipsn32\
+		apps/qemu-mips64el\
+		apps/qemu-mips64\
+		apps/qemu-mipsel\
+		apps/qemu-mips\
+		apps/qemu-microblazeel\
+		apps/qemu-microblaze\
+		apps/qemu-m68k\
+		apps/qemu-loongarch64\
+		apps/qemu-i386\
+		apps/qemu-hppa\
+		apps/qemu-hexagon\
+		apps/qemu-cris\
+		apps/qemu-avr\
+		apps/qemu-armeb\
+		apps/qemu-arm\
+		apps/qemu-alpha\
+		apps/qemu-aarch64_be\
+		apps/qemu-aarch64\
+		apps/qemu-system\
+			apps/qemu-keymap\
+			apps/qemu-edid\
+			apps/qemu-system-xtensaeb\
+			apps/qemu-system-xtensa\
+			apps/qemu-system-x86_64\
+			apps/qemu-system-sparc64\
+			apps/qemu-system-sparc32plus\
+			apps/qemu-system-sparc\
+			apps/qemu-system-sh5\
+			apps/qemu-system-sh4eb\
+			apps/qemu-system-sh4\
+			apps/qemu-system-s390x\
+			apps/qemu-system-rx\
+			apps/qemu-system-riscv64\
+			apps/qemu-system-riscv32\
+			apps/qemu-system-ppc64le\
+			apps/qemu-system-ppc64\
+			apps/qemu-system-ppc\
+			apps/qemu-system-or1k\
+			apps/qemu-system-nios2\
+			apps/qemu-system-mipsn32el\
+			apps/qemu-system-mipsn32\
+			apps/qemu-system-mips64el\
+			apps/qemu-system-mips64\
+			apps/qemu-system-mipsel\
+			apps/qemu-system-mips\
+			apps/qemu-system-microblazeel\
+			apps/qemu-system-microblaze\
+			apps/qemu-system-m68k\
+			apps/qemu-system-loongarch64\
+			apps/qemu-system-i386\
+			apps/qemu-system-hppa\
+			apps/qemu-system-hexagon\
+			apps/qemu-system-cris\
+			apps/qemu-system-armeb\
+			apps/qemu-system-aarch64_be\
+			apps/qemu-system-avr\
+			apps/qemu-system-arm\
+			apps/qemu-system-alpha\
+			apps/qemu-system-aarch64\
+		apps/qemu-pr-helper\
+		apps/qemu-storage-daemon\
+		apps/qemu-nbd\
+		apps/qemu-io\
+		apps/qemu-img\
 	apps/signal\
 	apps/mail-client\
 		apps/internet-mail\
@@ -1318,6 +1402,8 @@ ICONS =\
 	apps/vmware-workstation\
 	apps/wire-desktop\
 	apps/x\
+		apps/xinit\
+			apps/startx\
 		apps/X\
 		apps/xorg\
 			apps/Xorg\
@@ -1350,6 +1436,44 @@ ICONS =\
 				apps/kuickshow\
 			actions/photos-amarok\
 	apps/xmonad\
+		apps/xmonad-xtensaeb-linux\
+		apps/xmonad-xtensa-linux\
+		apps/xmonad-sparc64-linux\
+		apps/xmonad-sparc32plus-linux\
+		apps/xmonad-sparc-linux\
+		apps/xmonad-sh5-linux\
+		apps/xmonad-sh4eb-linux\
+		apps/xmonad-sh4-linux\
+		apps/xmonad-s390x-linux\
+		apps/xmonad-rx-linux\
+		apps/xmonad-riscv64-linux\
+		apps/xmonad-riscv32-linux\
+		apps/xmonad-ppc64le-linux\
+		apps/xmonad-ppc64-linux\
+		apps/xmonad-ppc-linux\
+		apps/xmonad-or1k-linux\
+		apps/xmonad-nios2-linux\
+		apps/xmonad-mipsn32el-linux\
+		apps/xmonad-mipsn32-linux\
+		apps/xmonad-mips64el-linux\
+		apps/xmonad-mips64-linux\
+		apps/xmonad-mipsel-linux\
+		apps/xmonad-mips-linux\
+		apps/xmonad-microblazeel-linux\
+		apps/xmonad-microblaze-linux\
+		apps/xmonad-m68k-linux\
+		apps/xmonad-loongarch64-linux\
+		apps/xmonad-i386-linux\
+		apps/xmonad-hppa-linux\
+		apps/xmonad-hexagon-linux\
+		apps/xmonad-cris-linux\
+		apps/xmonad-armeb-linux\
+		apps/xmonad-aarch64_be-linux\
+		apps/xmonad-avr-linux\
+		apps/xmonad-arm-linux\
+		apps/xmonad-alpha-linux\
+		apps/xmonad-aarch64-linux\
+		apps/xmonad-x86_64-linux\
 	apps/emacs\
 		apps/gnome-emacs\
 		apps/emacs23\
@@ -1451,6 +1575,7 @@ ICONS =\
 			mimetypes/gnome-mime-application-x-blender\
 	apps/preferences-system-privacy\
 	apps/preferences-desktop-keyboard-shortcuts\
+		apps/xkbdbind\
 		apps/xfce4-keys\
 		apps/khotkeys\
 		apps/preferences-web-browser-shortcuts\
@@ -1630,6 +1755,20 @@ ICONS =\
 	status/mail-spam\
 	status/mail-read\
 		status/stock_mail-open\
+	status/mail-read-offline\
+		status/mail-offline-read\
+	status/mail-unread-new-important-offline\
+		status/mail-offline-unread-new-important\
+		status/mail-unread-offline-new-important\
+		status/mail-unread-new-offline-important\
+	status/mail-unread-new-offline\
+		status/mail-offline-unread-new\
+		status/mail-unread-offline-new\
+	status/mail-unread-important-offline\
+		status/mail-offline-unread-important\
+		status/mail-unread-offline-important\
+	status/mail-unread-offline\
+		status/mail-offline-unread\
 	status/mail-replied\
 		status/stock_mail-replied\
 	status/mail-replied-rtl\
@@ -1649,7 +1788,7 @@ ICONS =\
 	status/mail-signed\
 	status/mail-signed-unknown\
 	status/mail-signed-verified\
-	status/mail-signed-warning\
+	status/mail-signed-warn\
 	status/mail-signed-invalid\
 	status/mail-unread-new-important\
 		status/mail-new-important\
@@ -3388,7 +3527,24 @@ ICONS =\
 	actions/mail-send-receive\
 		actions/stock_mail-send-receive\
 	actions/mail-mark-important\
-		status/mail-unread-important\
+	status/mail-unread-important\
+	actions/mail-unmark-important\
+	actions/mail-mark-junk\
+		actions/mail-mark-phising\
+		actions/mail-mark-spam\
+			actions/mail_spam\
+				actions/stock_spam\
+	actions/mail-mark-not_junk\
+		actions/mail-mark-ham\
+			actions/mail_ham\
+		actions/mail-mark-not-junk\
+			actions/mail-mark-not-phising\
+			actions/mail-mark-not-spam\
+	actions/mail-message-edit\
+	actions/mail-message-new\
+		actions/gnome-stock-mail-new\
+		actions/stock_mail-compose\
+		actions/mail_new\
 	actions/calibrate\
 		apps/kig\
 		apps/kruler\
@@ -5078,7 +5234,6 @@ ICONS =\
 		emotes/stock_smiley-3\
 	emotes/face-sad\
 		places/mail-spam\
-			status/mail-spam\
 			places/mail-folder-spam\
 		emotes/stock_smiley-4\
 	emotes/face-monkey\
@@ -5190,6 +5345,55 @@ ICONS =\
 			mimetypes/application-x-executable-sgid-libexec\
 				mimetypes/x-executable-sgid-libexec\
 	mimetypes/application-x-executable-daemon\
+		apps/xcman\
+		apps/xfconfd\
+		apps/polkitd\
+		apps/udisksd\
+		apps/colord\
+		apps/packagekitd\
+		apps/sshd\
+		apps/coopgammad\
+		apps/crond\
+		apps/irqbalance\
+		apps/scdaemon\
+		apps/gpg-agent\
+		apps/mate-settings-daemon\
+		apps/dconf-service\
+		apps/at-spi-bus-launcher\
+		apps/at-spi2-registryd\
+		apps/dbus-daemon\
+		apps/dirmngr\
+		apps/gvfsd\
+			apps/gvfsd-fuse\
+			apps/gvfsd-computer\
+			apps/gvfsd-dnssd\
+			apps/gvfsd-network\
+			apps/gvfsd-http\
+			apps/gvfsd-trash\
+			apps/gvfsd-recent\
+			apps/gvfs-udisks2-volume-monitor\
+			apps/gvfsd-metadata\
+		apps/reapd\
+		apps/systemd\
+			apps/systemd-tty-ask-password-agent\
+			apps/systemd-userdbd\
+			apps/systemd-timesyncd\
+			apps/systemd-timedated\
+			apps/systemd-socket-proxyd\
+			apps/systemd-resolved\
+			apps/systemd-portabled\
+			apps/systemd-oomd\
+			apps/systemd-networkd\
+			apps/systemd-machined\
+			apps/systemd-logind\
+			apps/systemd-localed\
+			apps/systemd-importd\
+			apps/systemd-hostnamed\
+			apps/systemd-homed\
+			apps/systemd-bsod\
+			apps/systemd-udevd\
+			apps/systemd-journald\
+				apps/systemd-journal-gatewayd\
 		mimetypes/x-executable-daemon\
 	mimetypes/application-x-sharedlib\
 		mimetypes/gnome-mime-application-x-sharedlib\
@@ -5982,15 +6186,6 @@ ICONS =\
 		apps/libreoffice-math\
 			apps/libreoffice34-math\
 			apps/math
-
-#actions/mail-message-new
-#	actions/mail_new
-#	actions/stock_mail-compose
-#	actions/gnome-stock-mail-new
-
-#actions/mail-mark-junk
-#	actions/mail_spam
-#	actions/stock_spam
 
 #apps/mozo
 #	apps/alacarte
