@@ -1,6 +1,7 @@
 .POSIX:
 
 DEVCHECK = @:
+UNIMPORTANT_CHECK =
 
 CONFIGFILE = config.mk
 include $(CONFIGFILE)
@@ -30,7 +31,11 @@ generated.mk: $(CONFIGFILE) icons.mk Makefile check-icon-listing
 check-icon-listing: check/check-icon-listing.c
 	$(CC) -o $@ $< $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
 
-check:
+check: check-icon-listing
+	$(UNIMPORTANT_CHECK) check/find-errors
+	$(UNIMPORTANT_CHECK) check/find-unlisted-icons
+	$(UNIMPORTANT_CHECK) check/find-duplicates
+	$(UNIMPORTANT_CHECK) ./check-icon-listing
 	+cd apps && $(MAKE) check
 
 clean:
