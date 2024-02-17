@@ -8,8 +8,8 @@ include $(CONFIGFILE)
 
 all:
 
-generated.mk: $(CONFIGFILE) icons.mk Makefile check-icon-listing
-	$(DEVCHECK) check/find-errors
+generated.mk: $(CONFIGFILE) icons.mk Makefile find-errors check-icon-listing
+	$(DEVCHECK) ./find-errors
 	$(DEVCHECK) check/find-unlisted-icons
 	$(DEVCHECK) check/find-duplicates
 	$(DEVCHECK) ./check-icon-listing
@@ -28,11 +28,14 @@ generated.mk: $(CONFIGFILE) icons.mk Makefile check-icon-listing
 	printf '\n' >> $@
 	@chmod -- a-w $@
 
+find-errors: check/find-errors.c
+	$(CC) -o $@ $< $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
+
 check-icon-listing: check/check-icon-listing.c
 	$(CC) -o $@ $< $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
 
-check: check-icon-listing
-	$(UNIMPORTANT_CHECK) check/find-errors
+check: find-errors check-icon-listing
+	$(UNIMPORTANT_CHECK) ./find-errors
 	$(UNIMPORTANT_CHECK) check/find-unlisted-icons
 	$(UNIMPORTANT_CHECK) check/find-duplicates
 	$(UNIMPORTANT_CHECK) ./check-icon-listing
@@ -40,7 +43,7 @@ check: check-icon-listing
 
 clean:
 	-rm -rf -- index.theme *.o *.su conv generated.mk scalable-"$(DIR_SUFFIX_)"
-	-rm -f -- check-icon-listing
+	-rm -f -- find-errors check-icon-listing
 	-for s in $(SIZES); do printf "$${s}x$${s}$(DIR_SUFFIX)\n"; done | xargs rm -rf --
 	-+cd apps && $(MAKE) clean
 

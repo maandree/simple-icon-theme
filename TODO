@@ -77,6 +77,8 @@ Make it easier to switch between LTR and RTL as the default direction
 DEVCHECK shall validate that emblems are not outside emblems/
 DEVCHECK shall validate links outside emblems/ are not emblems
 
+#000000 is not actually stored in the .svg files for the emblems, maybe use #000001 to make sure it shows up, and can be modified
+
 add .icon files for user-selectable emblems, these should contain
 	[Icon Data]
 	DisplayName=«Name»
