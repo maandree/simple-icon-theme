@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -e
+
+test $# = 2 || test $# = 3
+
+target="$1"
+link="$2"
+destdir="$3"
+
+test $(printf '%s\n' "$target" "$link" | grep '^/' | wc -l) = 2
+
+T="$target"
+L="$link"
+while test $(printf '%s\n' "$T" "$L" | grep / | wc -l) = 2; do
+	Td="$(printf '%s\n' "$T" | cut -d / -f 1)"
+	Ld="$(printf '%s\n' "$L" | cut -d / -f 1)"
+	if test ! "$Td" = "$Ld"; then
+		break
+	fi
+	T="$(printf '%s\n' "$T" | cut -d / -f 2-)"
+	L="$(printf '%s\n' "$L" | cut -d / -f 2-)"
+done
+while printf '%s\n' "$L" | grep / > /dev/null; do
+	T="$(printf '../%s\n' "$T")"
+	L="$(printf '%s\n' "$L" | cut -d / -f 2-)"
+done
+target="$T"
+
+ln -s -- "$target" "$destdir$link"

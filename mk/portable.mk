@@ -1,8 +1,21 @@
-all: index.theme $(ALL_PNG_ICONS)
+include mk/xdestdir.mk
 
-all-fast: index.theme all-fast-icons
+APPS_MAKE_FLAGS =\
+	DESTDIR="$(XDESTDIR)"\
+	PREFIX="$(PREFIX)"\
+	ICONPREFIX="$(ICONPREFIX)"\
+	THEME_NAME="$(THEME_NAME)"\
+	THEME_DESC="$(THEME_DESC)"\
+	THEME_DIR="$(THEME_DIR)"
 
-all-fast-icons: $(ICONS:=.x)
+all: index.theme $(ALL_PNG_ICONS) all-apps
+
+all-fast: index.theme all-fast-icons all-apps
+
+all-fast-icons: $(ICONS:=.x) all-apps
+
+all-apps:
+	+cd apps && $(MAKE) $(APPS_MAKE_FLAGS) all
 
 $(ICONS:=.x): conv
 	@+test -z "$(DIR_SUFFIX)" || $(MAKE) scalable$(DIR_SUFFIX)/$(@:.x=.svg)
@@ -75,12 +88,14 @@ install: index.theme $(ALL_PNG_ICONS)
 		cp -P -- "scalable$(DIR_SUFFIX)/$${i}.svg" "$(DESTDIR)$(ICONPREFIX)/$(THEME_DIR)/scalable/$${i}.svg";\
 	done
 	cp -- index.theme "$(DESTDIR)$(ICONPREFIX)/$(THEME_DIR)/index.theme"
+	+cd apps && $(MAKE) $(APPS_MAKE_FLAGS) install
 
 #`(sed ...) < icons.mk | while read i` is used instead of `for i in $(ICONS)` because $(ICONS) got too big for sh(1)
 #The 
 
 uninstall:
 	-rm -rf -- "$(DESTDIR)$(ICONPREFIX)/$(THEME_DIR)"
+	+cd apps && $(MAKE) $(APPS_MAKE_FLAGS) uninstall
 
 clean:
 	+@$(MAKE) -f Makefile clean

@@ -1682,6 +1682,7 @@ ICONS =\
 		apps/ZSTray\
 		apps/zstunnel\
 		apps/zsupdater\
+	status/no_icon\
 	status/birthday\
 	status/birthday-christian\
 	status/deathday\
@@ -1790,6 +1791,59 @@ ICONS =\
 	status/mail-signed-verified\
 	status/mail-signed-warn\
 	status/mail-signed-invalid\
+	status/mail-attachment-encrypted\
+		status/mail-encrypted-attachment\
+	status/mail-attachment-encrypted-signed\
+		status/mail-signed-attachment-encrypted\
+		status/mail-attachment-signed-encrypted\
+		status/mail-encrypted-attachment-signed\
+			status/mail-signed-encrypted-attachment\
+			status/mail-encrypted-signed-attachment\
+		status/mail-attachment-encrypted-signed-unknown\
+			status/mail-signed-unknown-attachment-encrypted\
+			status/mail-attachment-signed-unknown-encrypted\
+			status/mail-encrypted-attachment-signed-unknown\
+				status/mail-signed-unknown-encrypted-attachment\
+				status/mail-encrypted-signed-unknown-attachment\
+	status/mail-attachment-encrypted-signed-invalid\
+		status/mail-signed-invalid-attachment-encrypted\
+		status/mail-attachment-signed-invalid-encrypted\
+		status/mail-encrypted-attachment-signed-invalid\
+			status/mail-signed-invalid-encrypted-attachment\
+			status/mail-encrypted-signed-invalid-attachment\
+	status/mail-attachment-encrypted-signed-verified\
+		status/mail-signed-verified-attachment-encrypted\
+		status/mail-attachment-signed-verified-encrypted\
+		status/mail-encrypted-attachment-signed-verified\
+			status/mail-signed-verified-encrypted-attachment\
+			status/mail-encrypted-signed-verified-attachment\
+	status/mail-attachment-encrypted-signed-warn\
+		status/mail-signed-warn-attachment-encrypted\
+		status/mail-attachment-signed-warn-encrypted\
+		status/mail-encrypted-attachment-signed-warn\
+			status/mail-signed-warn-encrypted-attachment\
+			status/mail-encrypted-signed-warn-attachment\
+	status/mail-attachment-signed\
+		status/mail-signed-attachment\
+		status/mail-attachment-signed-unknown\
+			status/mail-signed-unknown-attachment\
+	status/mail-attachment-signed-invalid\
+		status/mail-signed-invalid-attachment\
+	status/mail-attachment-signed-verified\
+		status/mail-signed-verified-attachment\
+	status/mail-attachment-signed-warn\
+		status/mail-signed-warn-attachment\
+	status/mail-encrypted\
+	status/mail-encrypted-signed\
+		status/mail-signed-encrypted\
+		status/mail-encrypted-signed-unknown\
+			status/mail-signed-unknown-encrypted\
+	status/mail-encrypted-signed-invalid\
+		status/mail-signed-invalid-encrypted\
+	status/mail-encrypted-signed-verified\
+		status/mail-signed-verified-encrypted\
+	status/mail-encrypted-signed-warn\
+		status/mail-signed-warn-encrypted\
 	status/mail-unread-new-important\
 		status/mail-new-important\
 		status/mail-unread-important-new\

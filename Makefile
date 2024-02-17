@@ -30,17 +30,21 @@ generated.mk: $(CONFIGFILE) icons.mk Makefile check-icon-listing
 check-icon-listing: check/check-icon-listing.c
 	$(CC) -o $@ $< $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
 
+check:
+	+cd apps && $(MAKE) check
+
 clean:
 	-rm -rf -- index.theme *.o *.su conv generated.mk scalable-"$(DIR_SUFFIX_)"
 	-rm -f -- check-icon-listing
 	-for s in $(SIZES); do printf "$${s}x$${s}$(DIR_SUFFIX)\n"; done | xargs rm -rf --
+	-+cd apps && $(MAKE) clean
 
 # These are just added so autocompletion works with them
-all all-fast all-fast-icons install uninstall index.theme conv: generated.mk
+all all-fast all-fast-icons all-apps install uninstall index.theme conv: generated.mk
 	+@$(MAKE) -f mk/make-stage-2.mk $@
 
 .DEFAULT:
 	+@$(MAKE) generated.mk
 	+@$(MAKE) -f mk/make-stage-2.mk $@
 
-.PHONY: all all-fast all-fast-icons install uninstall clean
+.PHONY: all check all-fast all-fast-icons all-apps install uninstall clean
