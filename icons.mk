@@ -3706,6 +3706,8 @@ ICONS =\
 		actions/stock_save\
 		actions/download\
 			apps/wget\
+				apps/youtube-dl\
+					apps/yt-dlp\
 				apps/kget\
 			actions/browser-download\
 				actions/epiphany-download\
