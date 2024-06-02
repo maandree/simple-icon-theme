@@ -245,6 +245,9 @@ ICONS =\
 	apps/brackets\
 	apps/mumble\
 	apps/teams\
+		apps/teams-for-linux\
+			apps/teams_for_linux\
+				apps/com.github.IsmaelMartinez.teams_for_linux\
 	apps/alienarena\
 	apps/cmake\
 		apps/CMakeSetup\
