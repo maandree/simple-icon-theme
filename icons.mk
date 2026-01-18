@@ -723,6 +723,7 @@ ICONS =\
 				apps/kcolorchooser\
 		apps/gnome-color-browser\
 			apps/gnome-color-chooser\
+				apps/gfarben\
 		apps/mate-color-select\
 		actions/swatches\
 			actions/color-management\
@@ -789,6 +790,8 @@ ICONS =\
 		apps/gucharmap\
 		apps/mucharmap\
 		apps/kcharselect\
+		apps/gcmap\
+			apps/cmap\
 		actions/character-set\
 	apps/multimedia-volume-control\
 		apps/xfce-sound\
@@ -2607,6 +2610,14 @@ ICONS =\
 		status/gtk-dialog-authentication\
 			status/gtk-dialog-authentication-panel\
 			status/krb-valid-ticket\
+		apps/gasroot\
+			apps/gasroot-setuid\
+			apps/gasroot-gtk2\
+			apps/gasroot-gtk3\
+			apps/asroot\
+				apps/editasroot\
+				apps/sudo\
+				apps/doas\
 	status/display-brightness\
 		status/brightness-display\
 		status/xfpm-brightness-lcd\
@@ -4179,6 +4190,8 @@ ICONS =\
 		actions/stock_mark\
 		status/account-logged-in\
 		apps/running\
+		apps/gluhncheck\
+			apps/luhncheck\
 	actions/boundingbox_bottom_left\
 	actions/boundingbox_bottom_right\
 	actions/boundingbox_bottom\
@@ -4681,6 +4694,8 @@ ICONS =\
 		apps/gnusound\
 			apps/esd\
 		apps/system-config-soundcard\
+		apps/galsause\
+			apps/alsause\
 	devices/audio-headphones\
 		devices/headphones\
 		status/audio-headphones-enabled\
