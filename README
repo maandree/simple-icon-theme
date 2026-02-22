@@ -1,6 +1,6 @@
 A very simple icon theme designed to be distraction-free
 and look uniform. It has a small set of colours, with one
-one being regularly used. The colours are customisable via
+being regularly used. The colours are customisable via
 config.mk.
 
 Design:
@@ -28,12 +28,12 @@ Design:
 	not been reached, or an old state
 
 •	50% opaqueness is used to indicate that the
-	information is may be out of date
+	information may be out of date
 
 •	50% opaqueness is also used to indicate idle
 	but enabled state
 
-•	Status icons that may animated to blink have
+•	Status icons that may be animated to blink have
 	a version suffixed "-blink_off" where the
 	blinking part is set to have 20% opacity
 
@@ -53,7 +53,7 @@ Design:
 	•	Blue    = #2495beff
 	•	Magenta = #a46eb0ff
 
-•	Icons that can be overlayed, such as emblems,
+•	Icons that can be overlaid, such as emblems,
 	should have a 1 pixel black (#000000ff) outline
 
 •	SVG files should be cleaned up with `svgcleaner`
@@ -67,8 +67,8 @@ Icons with ad-hoc design choices:
 	emblems/emblem-urgent:
 		Uses #cd656cff (user red)
 
-	mimetypes/application-x-executable-suid (and alises):
+	mimetypes/application-x-executable-suid (and aliases):
 		Uses #cd656cff (user red)
 
-	mimetypes/application-x-executable-daemon (and alises):
+	mimetypes/application-x-executable-daemon (and aliases):
 		Uses 35% opacity
