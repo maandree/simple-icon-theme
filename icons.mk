@@ -1423,6 +1423,7 @@ ICONS =\
 		apps/ark\
 			apps/karchiver\
 	apps/eom\
+		apps/gbild\
 		apps/feh\
 		apps/eog\
 			apps/mirage\
