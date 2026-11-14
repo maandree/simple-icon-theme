@@ -239,6 +239,7 @@ ICONS =\
 	apps/ffmulticonverter\
 	apps/mendeleydesktop\
 	apps/telegram\
+		apps/Telegram\
 	apps/viber\
 	apps/xmind\
 	apps/bomi\
