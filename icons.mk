@@ -240,6 +240,7 @@ ICONS =\
 	apps/mendeleydesktop\
 	apps/telegram\
 		apps/Telegram\
+		apps/org.telegram.desktop\
 	apps/viber\
 	apps/xmind\
 	apps/bomi\
@@ -5448,7 +5449,12 @@ ICONS =\
 			apps/gvfsd-trash\
 			apps/gvfsd-recent\
 			apps/gvfs-udisks2-volume-monitor\
+			apps/gvfs-afc-volume-monitor\
+			apps/gvfs-gphoto2-volume-monitor\
+			apps/gvfs-mpt-volume-monitor\
 			apps/gvfsd-metadata\
+		apps/gnome-keyring-daemon\
+		apps/mate-notification-daemon\
 		apps/reapd\
 		apps/systemd\
 			apps/systemd-tty-ask-password-agent\
